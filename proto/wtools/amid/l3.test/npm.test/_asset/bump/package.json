@@ -1,0 +1,6 @@
+{
+  "name" : "test package.json",
+  "version" : "1.0.0",
+  "dependencies" : { "package1" : "1.1.1" },
+  "devDependencies" : { "package2" : "2.2.2" }
+}

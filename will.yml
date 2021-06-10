@@ -16,7 +16,7 @@ about:
     - chrome >= 60.0.0
     - firefox >= 60.0.0
   npm.scripts:
-    test: wtest .run 'proto/**' rapidity:-1
+    test: wtest .run 'proto/wtools/abase/**' rapidity:-1
     docgen: wdocgen .build proto
 build:
   module.build:
