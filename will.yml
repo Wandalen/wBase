@@ -23,6 +23,7 @@ build:
     criterion:
       build: 1
     steps:
+      - 'submodules.clean'
       - 'step::clean.proto*=1'
       - 'submodules.download'
       - 'step::reflect.proto.base*=1'
@@ -168,11 +169,11 @@ path:
     - proto/node_modules/wselector
 reflector:
   reflect.proto.base:
-    inherit: predefined.*
+    inherit: predefined.debug.v1
     criterion:
       build: 1
     filePath:
-      'submodule::*/exported::*=1/path::proto=1': '{path::proto}'
+      'submodule::*/path::proto' : 'path::proto'
   reflect.proto:
     inherit: predefined.*
     criterion:
@@ -339,9 +340,6 @@ submodule:
   wLooker:
     path: 'git+https:///github.com/Wandalen/wLooker.git'
     enabled: 1
-  BufferFromFile:
-    path: 'git+https:///github.com/Wandalen/BufferFromFile.git'
-    enabled: 1
   wEqualer:
     path: 'git+https:///github.com/Wandalen/wEqualer.git'
     enabled: 1
@@ -420,13 +418,13 @@ submodule:
   wIntrospectorBasic:
     path: 'git+https:///github.com/Wandalen/wIntrospectorBasic.git'
     enabled: 1
-  wTesting:
-    path: 'npm:///wTesting'
-    enabled: 0
-    criterion:
-      development: 1
-  eslint:
-    path: 'npm:///eslint#7.1.0'
-    enabled: 0
-    criterion:
-      development: 1
+  # wTesting:
+  #   path: 'npm:///wTesting'
+  #   enabled: 0
+  #   criterion:
+  #     development: 1
+  # eslint:
+  #   path: 'npm:///eslint#7.1.0'
+  #   enabled: 0
+  #   criterion:
+  #     development: 1
