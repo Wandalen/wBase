@@ -1685,7 +1685,7 @@ function resolve( test )
   test.identical( got, 'complex+protocol://www.site.com:13//path/name?query=here&and=here#anchor' )
 
   var got = _.weburi.resolve( 'https://web.archive.org/web/*\/http://www.heritage.org/index/ranking', '../../../a.com' );
-  test.identical( got, 'https://web.archive.org//web/*\/http://a.com' )
+  test.identical( got, 'https://web.archive.org/web/*\/http://a.com' );
 
   var got = _.weburi.resolve( '127.0.0.1:61726', '../path' );
   test.identical( got, 'path' );

@@ -521,10 +521,8 @@ function exportStructure( test )
     {
       src : o.src,
       dst : o.dst,
-      // onSrcChanged,
       srcChanged,
       ascend,
-      // onAscend,
     }
 
     o.dst = _.replicate( o2 );
@@ -537,9 +535,7 @@ function exportStructure( test )
     function srcChanged()
     {
       let it = this;
-
       it.Seeker.srcChanged.call( it );
-
       if( !it.iterable )
       if( _.instanceIs( it.src ) )
       {
@@ -549,16 +545,15 @@ function exportStructure( test )
           it.iterable = _.replicator.Seeker.ContainerType.aux;
         }
       }
-
     }
 
     function ascend()
     {
       let it = this;
-
       if( !it.iterable && _.instanceIs( it.src ) )
       {
         it.dst = _.routineCallButOnly( it.src, 'exportStructure', o, [ 'src', 'dst' ] );
+        it.dstMaking = false;
       }
       else
       {
@@ -569,6 +564,36 @@ function exportStructure( test )
   }
 
 }
+
+//
+
+function firstIterationDstMaking( test )
+{
+
+  /* */
+
+  test.case = 'basic';
+
+  var src = [ 1, 2, 3 ];
+  var dst = [];
+  var opts =
+  {
+    src,
+    dst,
+  }
+  var got = _.replicate( opts );
+
+  test.true( opts.dst === dst );
+  test.true( got === dst );
+
+  /* */
+
+}
+
+firstIterationDstMaking.description =
+`
+- dstMaking of the first iteration prototype should be set to false if dst is specified
+`
 
 //
 
@@ -640,6 +665,7 @@ const Proto =
     replicateHashMap,
     replaceOfSrc,
     exportStructure,
+    firstIterationDstMaking,
     iteratorContinue,
 
   }
