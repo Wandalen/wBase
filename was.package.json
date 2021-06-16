@@ -1,21 +1,18 @@
 {
   "name" : "wbase",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Aggregates other base modules in single module.",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
   "license" : "MIT",
   "main" : "proto/node_modules/Tools",
   "files" : [ "proto/wtools/abase", "out", "proto/node_modules", "proto/node_modules/Tools" ],
-  "scripts" : { "test" : "wtest .run 'proto/wtools/abase/**' rapidity:-1", "docgen" : "wdocgen proto" },
-  "repository" :
+  "scripts" :
   {
-    "type" : "git",
-    "url" : "https://github.com/Wandalen/wBase.git"
+    "test" : "wtest .run 'proto/wtools/abase/**' rapidity:-1",
+    "docgen" : "wdocgen proto"
   },
-  "bugs" :
-  {
-    "url" : "https://github.com/Wandalen/wBase/issues"
-  },
+  "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wBase.git" },
+  "bugs" : { "url" : "https://github.com/Wandalen/wBase/issues" },
   "dependencies" : {},
   "devDependencies" : { "wTesting" : "", "eslint" : "7.1.0" },
   "keywords" : [ "wTools" ]
