@@ -451,6 +451,9 @@ submodule:
   wVerbal:
     path: 'git+https:///github.com/Wandalen/wVerbal.git'
     enabled: 1
+  wBase:
+    path: 'git+https:///github.com/Wandalen/wBase.git'
+    enabled: 1
   # wTesting:
   #   path: 'npm:///wTesting'
   #   enabled: 0
