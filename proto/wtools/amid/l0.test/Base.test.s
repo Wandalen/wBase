@@ -20,6 +20,8 @@ function onSuiteBegin()
 {
   let self = this;
 
+  self.suiteTempPath = __.path.tempOpen( __.path.join( __dirname, '../..' ), 'wBase' );
+
   __.process.start
   ({
     currentPath : __.path.join( __dirname, '../../../../' ),
@@ -33,6 +35,7 @@ function onSuiteBegin()
 function onSuiteEnd()
 {
   let self = this;
+  _.path.tempClose( _.path.join( __dirname, '../..' ), 'wBase' );
 }
 
 // --
