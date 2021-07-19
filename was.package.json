@@ -9,7 +9,8 @@
   "scripts" :
   {
     "pretest" : "will .build module.build",
-    "test" : "wtest .run 'proto/wtools/**' rapidity:-1",
+    "test" : "wtest .run 'build/wtools/abase/**' rapidity:-1",
+    "posttest" : "will .build module.clean",
     "docgen" : "wdocgen proto"
   },
   "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wBase.git" },
