@@ -8,6 +8,7 @@
   "files" : [ "proto/wtools/abase", "out", "proto/node_modules", "proto/node_modules/Tools", "proto/wtools/amid" ],
   "scripts" :
   {
+    "pretest" : "will .build module.build",
     "test" : "wtest .run 'proto/wtools/**' rapidity:-1",
     "docgen" : "wdocgen proto"
   },

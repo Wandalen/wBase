@@ -16,6 +16,7 @@ about:
     - chrome >= 60.0.0
     - firefox >= 60.0.0
   npm.scripts:
+    pretest : will .build module.build,
     test: wtest .run 'proto/wtools/abase/**' rapidity:-1
     docgen: wdocgen .build proto
 build:
@@ -307,105 +308,106 @@ step:
       content: prime
       debug: release
 submodule:
-  wTools:
-    path: 'git+https:///github.com/Wandalen/wTools.git'
-    enabled: 1
-  wPathBasic:
-    path: 'git+https:///github.com/Wandalen/wPathBasic.git'
-    enabled: 1
-  wTraverser:
-    path: 'git+https:///github.com/Wandalen/wTraverser.git'
-    enabled: 1
-  wProcedure:
-    path: 'git+https:///github.com/Wandalen/wProcedure.git'
-    enabled: 1
-  wResolver:
-    path: 'git+https:///github.com/Wandalen/wResolver.git'
-    enabled: 1
-  wStringer:
-    path: 'git+https:///github.com/Wandalen/wStringer.git'
-    enabled: 1
-  wPathTools:
-    path: 'git+https:///github.com/Wandalen/wPathTools.git'
-    enabled: 1
-  wPath:
-    path: 'git+https:///github.com/Wandalen/wPath.git'
-    enabled: 1
-  wCloner:
-    path: 'git+https:///github.com/Wandalen/wCloner.git'
-    enabled: 1
-  wInstancing:
-    path: 'git+https:///github.com/Wandalen/wInstancing.git'
-    enabled: 1
-  wLooker:
-    path: 'git+https:///github.com/Wandalen/wLooker.git'
-    enabled: 1
-  wEqualer:
-    path: 'git+https:///github.com/Wandalen/wEqualer.git'
-    enabled: 1
-  wLogger:
-    path: 'git+https:///github.com/Wandalen/wLogger.git'
-    enabled: 1
-  wUriBasic:
-    path: 'git+https:///github.com/Wandalen/wUriBasic.git'
-    enabled: 1
-  wtools_:
-    path: 'git+https:///github.com/Wandalen/wtools_.git'
-    enabled: 1
-  wResolverExtra:
-    path: 'git+https:///github.com/Wandalen/wResolverExtra.git'
-    enabled: 1
-  wStringsExtra:
-    path: 'git+https:///github.com/Wandalen/wStringsExtra.git'
-    enabled: 1
-  wProcessWatcher:
-    path: 'git+https:///github.com/Wandalen/wProcessWatcher.git'
-    enabled: 1
-  wBlueprint:
-    path: 'git+https:///github.com/Wandalen/wBlueprint.git'
-    enabled: 1
-  wUri:
-    path: 'git+https:///github.com/Wandalen/wUri.git'
-    enabled: 1
-  wEventHandler:
-    path: 'git+https:///github.com/Wandalen/wEventHandler.git'
-    enabled: 1
-  wArraySorted:
-    path: 'git+https:///github.com/Wandalen/wArraySorted.git'
-    enabled: 1
-  wProto:
-    path: 'git+https:///github.com/Wandalen/wProto.git'
-    enabled: 1
-  wWebUriBasic:
-    path: 'git+https:///github.com/Wandalen/wWebUriBasic.git'
-    enabled: 1
-  wFieldsStack:
-    path: 'git+https:///github.com/Wandalen/wFieldsStack.git'
-    enabled: 1
-  wReplicator:
-    path: 'git+https:///github.com/Wandalen/wReplicator.git'
-    enabled: 1
-  wProcess:
-    path: 'git+https:///github.com/Wandalen/wProcess.git'
-    enabled: 1
-  wCopyable:
-    path: 'git+https:///github.com/Wandalen/wCopyable.git'
-    enabled: 1
-  wSelector:
-    path: 'git+https:///github.com/Wandalen/wSelector.git'
-    enabled: 1
-  wLookerExtra:
-    path: 'git+https:///github.com/Wandalen/wLookerExtra.git'
-    enabled: 1
-  wAppBasic:
-    path: 'git+https:///github.com/Wandalen/wAppBasic.git'
-    enabled: 1
-  wNjsCppBasic:
-    path: 'git+https:///github.com/Wandalen/wNjsCppBasic.git'
-    enabled: 1
-  wArraySparse:
-    path: 'git+https:///github.com/Wandalen/wArraySparse.git'
-    enabled: 1
+  # wTools:
+  #   path: 'git+https:///github.com/Wandalen/wTools.git'
+  #   enabled: 1
+  # wPathBasic:
+  #   path: 'git+https:///github.com/Wandalen/wPathBasic.git'
+  #   enabled: 1
+  # wTraverser:
+  #   path: 'git+https:///github.com/Wandalen/wTraverser.git'
+  #   enabled: 1
+  # wProcedure:
+  #   path: 'git+https:///github.com/Wandalen/wProcedure.git'
+  #   enabled: 1
+  # wResolver:
+  #   path: 'git+https:///github.com/Wandalen/wResolver.git'
+  #   enabled: 1
+  # wStringer:
+  #   path: 'git+https:///github.com/Wandalen/wStringer.git'
+  #   enabled: 1
+  # wPathTools:
+  #   path: 'git+https:///github.com/Wandalen/wPathTools.git'
+  #   enabled: 1
+  # wPath:
+  #   path: 'git+https:///github.com/Wandalen/wPath.git'
+  #   enabled: 1
+  # wCloner:
+  #   path: 'git+https:///github.com/Wandalen/wCloner.git'
+  #   enabled: 1
+  # wInstancing:
+  #   path: 'git+https:///github.com/Wandalen/wInstancing.git'
+  #   enabled: 1
+  # wLooker:
+  #   path: 'git+https:///github.com/Wandalen/wLooker.git'
+  #   enabled: 1
+  # wEqualer:
+  #   path: 'git+https:///github.com/Wandalen/wEqualer.git'
+  #   enabled: 1
+  # wLogger:
+  #   path: 'git+https:///github.com/Wandalen/wLogger.git'
+  #   enabled: 1
+  # wUriBasic:
+  #   path: 'git+https:///github.com/Wandalen/wUriBasic.git'
+  #   enabled: 1
+  # wtools_:
+  #   path: 'git+https:///github.com/Wandalen/wtools_.git'
+  #   enabled: 1
+  # wResolverExtra:
+  #   path: 'git+https:///github.com/Wandalen/wResolverExtra.git'
+  #   enabled: 1
+  # wStringsExtra:
+  #   path: 'git+https:///github.com/Wandalen/wStringsExtra.git'
+  #   enabled: 1
+  # wProcessWatcher:
+  #   path: 'git+https:///github.com/Wandalen/wProcessWatcher.git'
+  #   enabled: 1
+  # wBlueprint:
+  #   path: 'git+https:///github.com/Wandalen/wBlueprint.git'
+  #   enabled: 1
+  # wUri:
+  #   path: 'git+https:///github.com/Wandalen/wUri.git'
+  #   enabled: 1
+  # wEventHandler:
+  #   path: 'git+https:///github.com/Wandalen/wEventHandler.git'
+  #   enabled: 1
+  # wArraySorted:
+  #   path: 'git+https:///github.com/Wandalen/wArraySorted.git'
+  #   enabled: 1
+  # wProto:
+  #   path: 'git+https:///github.com/Wandalen/wProto.git'
+  #   enabled: 1
+  # wWebUriBasic:
+  #   path: 'git+https:///github.com/Wandalen/wWebUriBasic.git'
+  #   enabled: 1
+  # wFieldsStack:
+  #   path: 'git+https:///github.com/Wandalen/wFieldsStack.git'
+  #   enabled: 1
+  # wReplicator:
+  #   path: 'git+https:///github.com/Wandalen/wReplicator.git'
+  #   enabled: 1
+  # wProcess:
+  #   path: 'git+https:///github.com/Wandalen/wProcess.git'
+  #   enabled: 1
+  # wCopyable:
+  #   path: 'git+https:///github.com/Wandalen/wCopyable.git'
+  #   enabled: 1
+  # wSelector:
+  #   path: 'git+https:///github.com/Wandalen/wSelector.git'
+  #   enabled: 1
+  # wLookerExtra:
+  #   path: 'git+https:///github.com/Wandalen/wLookerExtra.git'
+  #   enabled: 1
+  # wAppBasic:
+  #   path: 'git+https:///github.com/Wandalen/wAppBasic.git'
+  #   enabled: 1
+  # wNjsCppBasic:
+  #   path: 'git+https:///github.com/Wandalen/wNjsCppBasic.git'
+  #   enabled: 1
+  # wArraySparse:
+  #   path: 'git+https:///github.com/Wandalen/wArraySparse.git'
+  #   enabled: 1
+
   wSelectorExtra:
     path: 'git+https:///github.com/Wandalen/wSelectorExtra.git'
     enabled: 1
