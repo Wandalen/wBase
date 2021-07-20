@@ -16,7 +16,9 @@ about:
     - chrome >= 60.0.0
     - firefox >= 60.0.0
   npm.scripts:
+    pretest : will .build module.build,
     test: wtest .run 'proto/wtools/abase/**' rapidity:-1
+    posttest : will .build module.clean,
     docgen: wdocgen .build proto
 build:
   module.build:
@@ -24,9 +26,14 @@ build:
       build: 1
     steps:
       - 'submodules.clean'
-      - 'step::clean.proto*=1'
+      - 'step::clean.build*=1'
       - 'submodules.download'
-      - 'step::reflect.proto.base*=1'
+      - 'step::reflect.build.base*=1'
+  module.clean:
+    criterion:
+      build : 1
+    steps :
+      - clean.build*=1
   proto.export:
     criterion:
       content: proto
@@ -114,6 +121,7 @@ path:
     - package.json
     - node_modules
   proto: ./proto
+  build: ./build
   export: '{path::proto}/**'
   doc: ./doc
   out.raw.debug:
@@ -168,12 +176,12 @@ path:
     - proto/wtools/abase/l5/Selector.s
     - proto/node_modules/wselector
 reflector:
-  reflect.proto.base:
+  reflect.build.base:
     inherit: predefined.debug.v1
     criterion:
       build: 1
     filePath:
-      'submodule::*/path::proto' : 'path::proto'
+      'submodule::*/path::proto' : 'path::build'
   reflect.proto:
     inherit: predefined.*
     criterion:
@@ -292,6 +300,11 @@ step:
       raw: compiled
       tests: no.tests
       content: npm
+  clean.build:
+    inherit: files.delete
+    filePath: 'path::build'
+    criterion:
+      build: 1
   tst.proto:
     shell: 'tst {path::proto}'
     criterion:
@@ -439,6 +452,9 @@ submodule:
   wFiles:
     path: 'git+https:///github.com/Wandalen/wFiles.git'
     enabled: 1
+  wFilesBasic:
+    path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+    enabled: 1
   wFilesArchive:
     path: 'git+https:///github.com/Wandalen/wFilesArchive.git'
     enabled: 1
@@ -451,6 +467,9 @@ submodule:
   wVerbal:
     path: 'git+https:///github.com/Wandalen/wVerbal.git'
     enabled: 1
+  # wBase:
+  #   path: 'git+https:///github.com/Wandalen/wBase.git'
+  #   enabled: 1
   # wTesting:
   #   path: 'npm:///wTesting'
   #   enabled: 0
