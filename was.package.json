@@ -5,10 +5,12 @@
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
   "license" : "MIT",
   "main" : "proto/node_modules/Tools",
-  "files" : [ "proto/wtools/abase", "out", "proto/node_modules", "proto/node_modules/Tools" ],
+  "files" : [ "proto/wtools/abase", "out", "proto/node_modules", "proto/node_modules/Tools", "proto/wtools/amid" ],
   "scripts" :
   {
-    "test" : "wtest .run 'proto/wtools/abase/**' rapidity:-1",
+    "pretest" : "will .build module.build",
+    "test" : "wtest .run 'build/wtools/abase/**' rapidity:-1",
+    "posttest" : "will .build module.clean",
     "docgen" : "wdocgen proto"
   },
   "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wBase.git" },

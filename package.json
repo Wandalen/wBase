@@ -8,7 +8,7 @@
   "files" : [ "proto/wtools/abase", "out", "proto/node_modules", "proto/node_modules/Tools" ],
   "scripts" :
   {
-    "test" : "wtest .run 'proto/wtools/abase/**' rapidity:-1",
+    "test" : "wtest .run 'proto/wtools/**' rapidity:-1",
     "docgen" : "wdocgen proto"
   },
   "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wBase.git" },
