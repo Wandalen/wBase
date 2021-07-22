@@ -3,14 +3,14 @@ root:
   - wBase.out
 consistency:
   ../will.yml: &ref_0
-    hash: 8b27d4f31bf7349f61be7b8ac267869d
-    size: 11006
+    hash: c365ff4d36f886a6136e5e867910d7f3
+    size: 11461
   ../.module/wTools/will.yml: &ref_5
     hash: 49d60e99d766568ac75be89f019d9d99
     size: 7048
   ../.module/wTools/out/wTools.out.will.yml: &ref_6
-    hash: 5b30f6b7b4f0fc750f5fc6a871a50290
-    size: 60113
+    hash: f1d877f3181d511327660bf7bbb86ec9
+    size: 60238
   ../.module/wPathBasic/will.yml: &ref_7
     hash: 8a488ed804fc07447ec74d4e1bf69ba5
     size: 6981
@@ -162,11 +162,11 @@ consistency:
     hash: 89af481d943de09127973e7ff8835a7b
     size: 38471
   ../.module/wProcess/will.yml: &ref_57
-    hash: b4d5a6dac6460da1caec77d9dd5ac175
-    size: 7472
+    hash: fec98460f0e37023ee51f8eff2b349a8
+    size: 7482
   ../.module/wProcess/out/wProcess.out.will.yml: &ref_58
-    hash: 5f89fa2c5911bcd7fdfb73c5519c1935
-    size: 41896
+    hash: 8e73bf7148b3d771dbfed7bfb865f659
+    size: 41916
   ../.module/wCopyable/will.yml: &ref_59
     hash: 70720b7cb27d0ca1a25fc5766a7ece1b
     size: 6992
@@ -186,11 +186,11 @@ consistency:
     hash: 23d6b0b2711a2c9c1ecbc1033a2f8cbb
     size: 38540
   ../.module/wAppBasic/will.yml: &ref_65
-    hash: b4d5a6dac6460da1caec77d9dd5ac175
-    size: 7472
+    hash: fec98460f0e37023ee51f8eff2b349a8
+    size: 7482
   ../.module/wAppBasic/out/wProcess.out.will.yml: &ref_66
-    hash: 5f89fa2c5911bcd7fdfb73c5519c1935
-    size: 41896
+    hash: 8e73bf7148b3d771dbfed7bfb865f659
+    size: 41916
   ../.module/wNjsCppBasic/will.yml: &ref_67
     hash: 831bb3c3ca2f2265db15e5ceb9ee3037
     size: 6581
@@ -222,11 +222,11 @@ consistency:
     hash: 9eaa9a7bf3495d8dcae4fc747e16d6a7
     size: 41978
   ../.module/wIntrospectorBasic/will.yml: &ref_77
-    hash: 770badb472d34404b0a06a47aa3db0f2
-    size: 6764
+    hash: 94f625359a654d174534c9ef9c46f812
+    size: 6774
   ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml: &ref_78
-    hash: 0264240e6e2a56256896bc699346c35f
-    size: 39478
+    hash: c8bb07f5f4a9eff0cc42eb259822a116
+    size: 39498
   ../.module/wColor/will.yml: &ref_79
     hash: 0b7571a1b00a791cd6239a7356ef7313
     size: 7030
@@ -240,57 +240,63 @@ consistency:
     hash: b5280e6aa5a42f9b3bd7acac52793036
     size: 39493
   ../.module/wGdf/will.yml: &ref_83
-    hash: 9e33de10fa5a38f34539bc3a50ee62a2
-    size: 7552
+    hash: f57ea7f55d17bb641af3b9ef673e6b4a
+    size: 7477
   ../.module/wGdf/out/wGdf.out.will.yml: &ref_84
-    hash: b14e1f064c468d65fedbdac662a49cc6
-    size: 42760
+    hash: 76a8b19feebbc2ea657a5554b9bb4ed7
+    size: 42536
   ../.module/wNpmTools/will.yml: &ref_85
-    hash: ae7811bf3d5a5f34a45b4d09da50972f
-    size: 6558
+    hash: f1077ae6d55bb84dc14a51c6cb30058d
+    size: 6568
   ../.module/wNpmTools/out/wNpmTools.out.will.yml: &ref_86
-    hash: 962c151a592c4ab1d18479036172bf2f
-    size: 40497
+    hash: 46dae718536bb4ff21a5aa766a5a26e9
+    size: 40517
   ../.module/wGitTools/will.yml: &ref_87
-    hash: 06c43e267fe1aca5454ee8738b910279
-    size: 6828
+    hash: f2f7d23f273cccb5d414e806c2efad3d
+    size: 6891
   ../.module/wGitTools/out/wGitTools.out.will.yml: &ref_88
-    hash: 8bfa60de05fba0168ee3c613480af67e
-    size: 40443
+    hash: b6abf8211f733e355b21b8c26d0c001e
+    size: 40643
   ../.module/wHttp/will.yml: &ref_89
-    hash: aa9086dcb26340d02f819b32754c5e24
-    size: 6132
+    hash: 3593d34e7ff062f4553f506815d576ca
+    size: 6432
   ../.module/wHttp/out/wHttp.out.will.yml: &ref_90
-    hash: 6cf7e4470c599503eeff85f5c36ec291
-    size: 37419
+    hash: 02124163247a5fdf0afee1e25b26f5c4
+    size: 38347
   ../.module/wFiles/will.yml: &ref_91
-    hash: 3e68fc77327ccf0ba915bb3b74266efc
-    size: 9330
+    hash: d9e57b21cc8ec8f173c18f3f2c5c93f2
+    size: 8192
   ../.module/wFiles/out/wFiles.out.will.yml: &ref_92
-    hash: 0f504b0afc137a246a76c3bd21da27c3
-    size: 50824
-  ../.module/wFilesArchive/will.yml: &ref_93
+    hash: a77d90a19fa2797cc6f5bb848613112c
+    size: 43782
+  ../.module/wFilesBasic/will.yml: &ref_93
+    hash: 0bbe20d4f3d4c1b98effe336facfbcc0
+    size: 7595
+  ../.module/wFilesBasic/out/wFilesBasic.out.will.yml: &ref_94
+    hash: a4be15ddbeabbf1684319951b6739c71
+    size: 44158
+  ../.module/wFilesArchive/will.yml: &ref_95
     hash: e7226e40ee9707bd2a816bda28d3f816
     size: 7057
-  ../.module/wFilesArchive/out/wFilesArchive.out.will.yml: &ref_94
+  ../.module/wFilesArchive/out/wFilesArchive.out.will.yml: &ref_96
     hash: d7481d71801257b6c9d683140741d5c2
     size: 42578
-  ../.module/wStateStorage/will.yml: &ref_95
+  ../.module/wStateStorage/will.yml: &ref_97
     hash: 99f66eb7ef60917639a984cbea94450b
     size: 6990
-  ../.module/wStateStorage/out/wStateStorage.out.will.yml: &ref_96
+  ../.module/wStateStorage/out/wStateStorage.out.will.yml: &ref_98
     hash: d4114d13fe04898e34245ca617ebd0f0
     size: 39386
-  ../.module/wRegexpObject/will.yml: &ref_97
+  ../.module/wRegexpObject/will.yml: &ref_99
     hash: 9707816f61463baa357b15d9a18363e7
     size: 7138
-  ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: &ref_98
+  ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: &ref_100
     hash: 44b99b8019dadd9a864ad254831e52f6
     size: 39486
-  ../.module/wVerbal/will.yml: &ref_99
+  ../.module/wVerbal/will.yml: &ref_101
     hash: 860cdd30455975029cbb1b35ddbe1af4
     size: 6700
-  ../.module/wVerbal/out/wVerbal.out.will.yml: &ref_100
+  ../.module/wVerbal/out/wVerbal.out.will.yml: &ref_102
     hash: 878ffae0ec86f9ad7e95800315687261
     size: 38645
 module:
@@ -314,7 +320,9 @@ module:
         - chrome >= 60.0.0
         - firefox >= 60.0.0
       npm.scripts: &ref_4
+        pretest: 'will .build module.build,'
         test: 'wtest .run ''proto/wtools/abase/**'' rapidity:-1'
+        posttest: 'will .build module.clean,'
         docgen: wdocgen .build proto
     path:
       module.willfiles:
@@ -361,6 +369,8 @@ module:
           - ../node_modules
       proto:
         path: ../proto
+      build:
+        path: ../build
       export:
         path: '{path::proto}/**'
       doc:
@@ -438,893 +448,6 @@ module:
           export: 1
         path:
           - ../proto
-          - ../proto/Integration.test.ss
-          - ../proto/node_modules
-          - ../proto/node_modules/Tools
-          - ../proto/node_modules/warraysorted
-          - ../proto/node_modules/warraysparse
-          - ../proto/node_modules/wbasenodejscpp
-          - ../proto/node_modules/wblueprint
-          - ../proto/node_modules/wcloner
-          - ../proto/node_modules/wColor
-          - ../proto/node_modules/wColor256
-          - ../proto/node_modules/wConsequence
-          - ../proto/node_modules/wCopyable
-          - ../proto/node_modules/wentitybasic
-          - ../proto/node_modules/wequaler
-          - ../proto/node_modules/wEventHandler
-          - ../proto/node_modules/wfieldsstack
-          - ../proto/node_modules/wFiles
-          - ../proto/node_modules/wfilesarchive
-          - ../proto/node_modules/wgdf
-          - ../proto/node_modules/wgittools
-          - ../proto/node_modules/whttp
-          - ../proto/node_modules/winstancing
-          - ../proto/node_modules/wintrospectorbasic
-          - ../proto/node_modules/wLogger
-          - ../proto/node_modules/wlooker
-          - ../proto/node_modules/wlookerextra
-          - ../proto/node_modules/wnpmtools
-          - ../proto/node_modules/wpath
-          - ../proto/node_modules/wpathbasic
-          - ../proto/node_modules/wpathtools
-          - ../proto/node_modules/wprocedure
-          - ../proto/node_modules/wprocess
-          - ../proto/node_modules/wprocesswatcher
-          - ../proto/node_modules/wProto
-          - ../proto/node_modules/wRegexpObject
-          - ../proto/node_modules/wreplicator
-          - ../proto/node_modules/wresolver
-          - ../proto/node_modules/wresolverextra
-          - ../proto/node_modules/wselector
-          - ../proto/node_modules/wselectorextra
-          - ../proto/node_modules/wstatestorage
-          - ../proto/node_modules/wstringer
-          - ../proto/node_modules/wstringsextra
-          - ../proto/node_modules/wTools
-          - ../proto/node_modules/wtools
-          - ../proto/node_modules/wtraverser
-          - ../proto/node_modules/wuri
-          - ../proto/node_modules/wuribasic
-          - ../proto/node_modules/wverbal
-          - ../proto/node_modules/wweburibasic
-          - ../proto/wtools
-          - ../proto/wtools/abase
-          - ../proto/wtools/abase/l0
-          - ../proto/wtools/abase/l0/Include.s
-          - ../proto/wtools/abase/l0/Include1.s
-          - ../proto/wtools/abase/l0/Include3.s
-          - ../proto/wtools/abase/l0/Include5.s
-          - ../proto/wtools/abase/l0/Include7.s
-          - ../proto/wtools/abase/l0/l0
-          - ../proto/wtools/abase/l0/l0/l0
-          - ../proto/wtools/abase/l0/l0/l0/Global.s
-          - ../proto/wtools/abase/l0/l0/l3
-          - ../proto/wtools/abase/l0/l0/l3/Config.s
-          - ../proto/wtools/abase/l0/l0/l3/Predefined.s
-          - ../proto/wtools/abase/l0/l0/l5
-          - ../proto/wtools/abase/l0/l0/l5/Setup.s
-          - ../proto/wtools/abase/l0/l1
-          - ../proto/wtools/abase/l0/l1/1Diagnostic.s
-          - ../proto/wtools/abase/l0/l1/2Long.s
-          - ../proto/wtools/abase/l0/l1/2Props.s
-          - ../proto/wtools/abase/l0/l1/3Blank.s
-          - ../proto/wtools/abase/l0/l1/5ArgumentsArray.s
-          - ../proto/wtools/abase/l0/l1/5BufferTyped.s
-          - ../proto/wtools/abase/l0/l1/Array.s
-          - ../proto/wtools/abase/l0/l1/ArraySet.s
-          - ../proto/wtools/abase/l0/l1/Auxiliary.s
-          - ../proto/wtools/abase/l0/l1/BigInt.s
-          - ../proto/wtools/abase/l0/l1/Bool.s
-          - ../proto/wtools/abase/l0/l1/Buffer.s
-          - ../proto/wtools/abase/l0/l1/BufferBytes.s
-          - ../proto/wtools/abase/l0/l1/BufferNode.s
-          - ../proto/wtools/abase/l0/l1/BufferRaw.s
-          - ../proto/wtools/abase/l0/l1/BuffersTyped.s
-          - ../proto/wtools/abase/l0/l1/BufferView.s
-          - ../proto/wtools/abase/l0/l1/Class.s
-          - ../proto/wtools/abase/l0/l1/Constructible.s
-          - ../proto/wtools/abase/l0/l1/Container.s
-          - ../proto/wtools/abase/l0/l1/ContainerAdapter.s
-          - ../proto/wtools/abase/l0/l1/Countable.s
-          - ../proto/wtools/abase/l0/l1/Ct.s
-          - ../proto/wtools/abase/l0/l1/Date.s
-          - ../proto/wtools/abase/l0/l1/Entity.s
-          - ../proto/wtools/abase/l0/l1/Escape.s
-          - ../proto/wtools/abase/l0/l1/Event.s
-          - ../proto/wtools/abase/l0/l1/Functional.s
-          - ../proto/wtools/abase/l0/l1/Functor.s
-          - ../proto/wtools/abase/l0/l1/Fuzzy.s
-          - ../proto/wtools/abase/l0/l1/Global.s
-          - ../proto/wtools/abase/l0/l1/HashMap.s
-          - ../proto/wtools/abase/l0/l1/Interval.s
-          - ../proto/wtools/abase/l0/l1/Intervalc.s
-          - ../proto/wtools/abase/l0/l1/Intervall.s
-          - ../proto/wtools/abase/l0/l1/Intervalo.s
-          - ../proto/wtools/abase/l0/l1/Introspector.s
-          - ../proto/wtools/abase/l0/l1/Itself.s
-          - ../proto/wtools/abase/l0/l1/Logger.s
-          - ../proto/wtools/abase/l0/l1/Logic.s
-          - ../proto/wtools/abase/l0/l1/LogicNode.s
-          - ../proto/wtools/abase/l0/l1/Map.s
-          - ../proto/wtools/abase/l0/l1/Module.s
-          - ../proto/wtools/abase/l0/l1/Number.s
-          - ../proto/wtools/abase/l0/l1/Object.s
-          - ../proto/wtools/abase/l0/l1/Pair.s
-          - ../proto/wtools/abase/l0/l1/Path.s
-          - ../proto/wtools/abase/l0/l1/Primitive.s
-          - ../proto/wtools/abase/l0/l1/Printer.s
-          - ../proto/wtools/abase/l0/l1/Process.s
-          - ../proto/wtools/abase/l0/l1/PropertyTransformer.s
-          - ../proto/wtools/abase/l0/l1/Prototype.s
-          - ../proto/wtools/abase/l0/l1/Regexp.s
-          - ../proto/wtools/abase/l0/l1/Routine.s
-          - ../proto/wtools/abase/l0/l1/Seeker.s
-          - ../proto/wtools/abase/l0/l1/Set.s
-          - ../proto/wtools/abase/l0/l1/Sorted.s
-          - ../proto/wtools/abase/l0/l1/Str.s
-          - ../proto/wtools/abase/l0/l1/Stringer.s
-          - ../proto/wtools/abase/l0/l1/Symbol.s
-          - ../proto/wtools/abase/l0/l1/Time.s
-          - ../proto/wtools/abase/l0/l1/Type.s
-          - ../proto/wtools/abase/l0/l1/Units.s
-          - ../proto/wtools/abase/l0/l1/Unroll.s
-          - ../proto/wtools/abase/l0/l1/Vector.s
-          - ../proto/wtools/abase/l0/l1/Wrap.s
-          - ../proto/wtools/abase/l0/l1/zErr.s
-          - ../proto/wtools/abase/l0/l1.test
-          - ../proto/wtools/abase/l0/l1.test/ArgumentsArray.test.s
-          - ../proto/wtools/abase/l0/l1.test/Array.test.s
-          - ../proto/wtools/abase/l0/l1.test/Auxiliary.test.s
-          - ../proto/wtools/abase/l0/l1.test/Blank.test.s
-          - ../proto/wtools/abase/l0/l1.test/Bool.test.s
-          - ../proto/wtools/abase/l0/l1.test/Buffer.test.s
-          - ../proto/wtools/abase/l0/l1.test/BufferTyped.test.s
-          - ../proto/wtools/abase/l0/l1.test/Class.test.s
-          - ../proto/wtools/abase/l0/l1.test/Container.test.s
-          - ../proto/wtools/abase/l0/l1.test/ContainerAdapter.test.s
-          - ../proto/wtools/abase/l0/l1.test/Countable.test.s
-          - ../proto/wtools/abase/l0/l1.test/Diagnostic.test.s
-          - ../proto/wtools/abase/l0/l1.test/Entity.test.s
-          - ../proto/wtools/abase/l0/l1.test/Err.test.s
-          - ../proto/wtools/abase/l0/l1.test/HashMap.test.s
-          - ../proto/wtools/abase/l0/l1.test/Introspector.test.s
-          - ../proto/wtools/abase/l0/l1.test/Itself.test.s
-          - ../proto/wtools/abase/l0/l1.test/Logic.test.s
-          - ../proto/wtools/abase/l0/l1.test/Long.test.s
-          - ../proto/wtools/abase/l0/l1.test/Map.test.s
-          - ../proto/wtools/abase/l0/l1.test/Module.test.s
-          - ../proto/wtools/abase/l0/l1.test/Number.test.s
-          - ../proto/wtools/abase/l0/l1.test/Object.test.s
-          - ../proto/wtools/abase/l0/l1.test/Primitive.test.s
-          - ../proto/wtools/abase/l0/l1.test/Props.test.s
-          - ../proto/wtools/abase/l0/l1.test/Regexp.test.s
-          - ../proto/wtools/abase/l0/l1.test/Routine.test.s
-          - ../proto/wtools/abase/l0/l1.test/Seeker.test.s
-          - ../proto/wtools/abase/l0/l1.test/Set.test.s
-          - ../proto/wtools/abase/l0/l1.test/Str.test.s
-          - ../proto/wtools/abase/l0/l1.test/Stringer.test.s
-          - ../proto/wtools/abase/l0/l1.test/StrLines.test.s
-          - ../proto/wtools/abase/l0/l1.test/Time.test.s
-          - ../proto/wtools/abase/l0/l1.test/Unroll.test.s
-          - ../proto/wtools/abase/l0/l3
-          - ../proto/wtools/abase/l0/l3/1LogicNode.s
-          - ../proto/wtools/abase/l0/l3/1Wrap.s
-          - ../proto/wtools/abase/l0/l3/2Props.s
-          - ../proto/wtools/abase/l0/l3/3Blank.s
-          - ../proto/wtools/abase/l0/l3/3Long.s
-          - ../proto/wtools/abase/l0/l3/3Path.s
-          - ../proto/wtools/abase/l0/l3/ArgumentsArray.s
-          - ../proto/wtools/abase/l0/l3/Array.s
-          - ../proto/wtools/abase/l0/l3/ArraySet.s
-          - ../proto/wtools/abase/l0/l3/Auxiliary.s
-          - ../proto/wtools/abase/l0/l3/Bool.s
-          - ../proto/wtools/abase/l0/l3/Buffer.s
-          - ../proto/wtools/abase/l0/l3/BuffersTyped.s
-          - ../proto/wtools/abase/l0/l3/BufferTyped.s
-          - ../proto/wtools/abase/l0/l3/Container.s
-          - ../proto/wtools/abase/l0/l3/ContainerAdapter.s
-          - ../proto/wtools/abase/l0/l3/Countable.s
-          - ../proto/wtools/abase/l0/l3/Diagnostic.s
-          - ../proto/wtools/abase/l0/l3/Entity.s
-          - ../proto/wtools/abase/l0/l3/Escape.s
-          - ../proto/wtools/abase/l0/l3/Event.s
-          - ../proto/wtools/abase/l0/l3/HashMap.s
-          - ../proto/wtools/abase/l0/l3/Itself.s
-          - ../proto/wtools/abase/l0/l3/Logic.s
-          - ../proto/wtools/abase/l0/l3/Map.s
-          - ../proto/wtools/abase/l0/l3/Module.s
-          - ../proto/wtools/abase/l0/l3/Number.s
-          - ../proto/wtools/abase/l0/l3/Object.s
-          - ../proto/wtools/abase/l0/l3/Primitive.s
-          - ../proto/wtools/abase/l0/l3/Process.s
-          - ../proto/wtools/abase/l0/l3/Regexp.s
-          - ../proto/wtools/abase/l0/l3/Routine.s
-          - ../proto/wtools/abase/l0/l3/Seeker.s
-          - ../proto/wtools/abase/l0/l3/Set.s
-          - ../proto/wtools/abase/l0/l3/Str.s
-          - ../proto/wtools/abase/l0/l3/Stringer.s
-          - ../proto/wtools/abase/l0/l3/Time.s
-          - ../proto/wtools/abase/l0/l3/Unroll.s
-          - ../proto/wtools/abase/l0/l3/Vector.s
-          - ../proto/wtools/abase/l0/l3/zErr.s
-          - ../proto/wtools/abase/l0/l3.test
-          - ../proto/wtools/abase/l0/l3.test/ArgumentsArray.test.s
-          - ../proto/wtools/abase/l0/l3.test/Array.test.s
-          - ../proto/wtools/abase/l0/l3.test/Auxiliary.test.s
-          - ../proto/wtools/abase/l0/l3.test/Blank.test.s
-          - ../proto/wtools/abase/l0/l3.test/Bool.test.s
-          - ../proto/wtools/abase/l0/l3.test/Buffer.test.s
-          - ../proto/wtools/abase/l0/l3.test/Class.test.s
-          - ../proto/wtools/abase/l0/l3.test/Container.test.s
-          - ../proto/wtools/abase/l0/l3.test/Countable.test.s
-          - ../proto/wtools/abase/l0/l3.test/Entity.test.s
-          - ../proto/wtools/abase/l0/l3.test/Err.test.s
-          - ../proto/wtools/abase/l0/l3.test/HashMap.test.s
-          - ../proto/wtools/abase/l0/l3.test/Introspector.test.s
-          - ../proto/wtools/abase/l0/l3.test/Itself.test.s
-          - ../proto/wtools/abase/l0/l3.test/Logic.test.s
-          - ../proto/wtools/abase/l0/l3.test/Long.test.s
-          - ../proto/wtools/abase/l0/l3.test/Map.test.s
-          - ../proto/wtools/abase/l0/l3.test/Module.test.s
-          - ../proto/wtools/abase/l0/l3.test/Number.test.s
-          - ../proto/wtools/abase/l0/l3.test/Object.test.s
-          - ../proto/wtools/abase/l0/l3.test/Path.test.s
-          - ../proto/wtools/abase/l0/l3.test/Primitive.test.s
-          - ../proto/wtools/abase/l0/l3.test/Props.test.s
-          - ../proto/wtools/abase/l0/l3.test/Regexp.test.s
-          - ../proto/wtools/abase/l0/l3.test/Routine.test.s
-          - ../proto/wtools/abase/l0/l3.test/Seeker.test.s
-          - ../proto/wtools/abase/l0/l3.test/Set.test.s
-          - ../proto/wtools/abase/l0/l3.test/Str.test.s
-          - ../proto/wtools/abase/l0/l3.test/Stringer.test.s
-          - ../proto/wtools/abase/l0/l3.test/Time.test.s
-          - ../proto/wtools/abase/l0/l3.test/Unroll.test.s
-          - ../proto/wtools/abase/l0/l5
-          - ../proto/wtools/abase/l0/l5/1Seeker.s
-          - ../proto/wtools/abase/l0/l5/ArgumentsArray.s
-          - ../proto/wtools/abase/l0/l5/Array.s
-          - ../proto/wtools/abase/l0/l5/ArraySet.s
-          - ../proto/wtools/abase/l0/l5/Auxiliary.s
-          - ../proto/wtools/abase/l0/l5/BigInt.s
-          - ../proto/wtools/abase/l0/l5/Blank.s
-          - ../proto/wtools/abase/l0/l5/Bool.s
-          - ../proto/wtools/abase/l0/l5/Buffer.s
-          - ../proto/wtools/abase/l0/l5/Constructible.s
-          - ../proto/wtools/abase/l0/l5/Container.s
-          - ../proto/wtools/abase/l0/l5/Countable.s
-          - ../proto/wtools/abase/l0/l5/Ct.s
-          - ../proto/wtools/abase/l0/l5/Date.s
-          - ../proto/wtools/abase/l0/l5/Diagnostic.s
-          - ../proto/wtools/abase/l0/l5/Entity.s
-          - ../proto/wtools/abase/l0/l5/Err.s
-          - ../proto/wtools/abase/l0/l5/Escape.s
-          - ../proto/wtools/abase/l0/l5/Event.s
-          - ../proto/wtools/abase/l0/l5/Functional.s
-          - ../proto/wtools/abase/l0/l5/Fuzzy.s
-          - ../proto/wtools/abase/l0/l5/Global.s
-          - ../proto/wtools/abase/l0/l5/HashMap.s
-          - ../proto/wtools/abase/l0/l5/Interval.s
-          - ../proto/wtools/abase/l0/l5/Intervalc.s
-          - ../proto/wtools/abase/l0/l5/Intervall.s
-          - ../proto/wtools/abase/l0/l5/Intervalo.s
-          - ../proto/wtools/abase/l0/l5/Introspector.s
-          - ../proto/wtools/abase/l0/l5/Itself.s
-          - ../proto/wtools/abase/l0/l5/Logic.s
-          - ../proto/wtools/abase/l0/l5/Long.s
-          - ../proto/wtools/abase/l0/l5/Map.s
-          - ../proto/wtools/abase/l0/l5/Module.s
-          - ../proto/wtools/abase/l0/l5/Number.s
-          - ../proto/wtools/abase/l0/l5/Object.s
-          - ../proto/wtools/abase/l0/l5/Pair.s
-          - ../proto/wtools/abase/l0/l5/Path.s
-          - ../proto/wtools/abase/l0/l5/Permutation.s
-          - ../proto/wtools/abase/l0/l5/Primitive.s
-          - ../proto/wtools/abase/l0/l5/Printer.s
-          - ../proto/wtools/abase/l0/l5/Process.s
-          - ../proto/wtools/abase/l0/l5/PropertyTransformer.s
-          - ../proto/wtools/abase/l0/l5/Props.s
-          - ../proto/wtools/abase/l0/l5/Prototype.s
-          - ../proto/wtools/abase/l0/l5/Regexp.s
-          - ../proto/wtools/abase/l0/l5/Routine.s
-          - ../proto/wtools/abase/l0/l5/Set.s
-          - ../proto/wtools/abase/l0/l5/Sorted.s
-          - ../proto/wtools/abase/l0/l5/Str.s
-          - ../proto/wtools/abase/l0/l5/Stringer.s
-          - ../proto/wtools/abase/l0/l5/Symbol.s
-          - ../proto/wtools/abase/l0/l5/Time.s
-          - ../proto/wtools/abase/l0/l5/Type.s
-          - ../proto/wtools/abase/l0/l5/Units.s
-          - ../proto/wtools/abase/l0/l5/Unroll.s
-          - ../proto/wtools/abase/l0/l5/Vector.s
-          - ../proto/wtools/abase/l0/l6
-          - ../proto/wtools/abase/l0/l6/Compose.s
-          - ../proto/wtools/abase/l0/l6/PropertyTransformers.s
-          - ../proto/wtools/abase/l0/l7
-          - ../proto/wtools/abase/l0/l7/ArgumentsArray.s
-          - ../proto/wtools/abase/l0/l7/Array.s
-          - ../proto/wtools/abase/l0/l7/ArraySet.s
-          - ../proto/wtools/abase/l0/l7/Auxiliary.s
-          - ../proto/wtools/abase/l0/l7/BigInt.s
-          - ../proto/wtools/abase/l0/l7/Bool.s
-          - ../proto/wtools/abase/l0/l7/Buffer.s
-          - ../proto/wtools/abase/l0/l7/Constructible.s
-          - ../proto/wtools/abase/l0/l7/Container.s
-          - ../proto/wtools/abase/l0/l7/Countable.s
-          - ../proto/wtools/abase/l0/l7/Ct.s
-          - ../proto/wtools/abase/l0/l7/Date.s
-          - ../proto/wtools/abase/l0/l7/Diagnostic.s
-          - ../proto/wtools/abase/l0/l7/Entity.s
-          - ../proto/wtools/abase/l0/l7/Err.s
-          - ../proto/wtools/abase/l0/l7/Escape.s
-          - ../proto/wtools/abase/l0/l7/Event.s
-          - ../proto/wtools/abase/l0/l7/Functional.s
-          - ../proto/wtools/abase/l0/l7/Fuzzy.s
-          - ../proto/wtools/abase/l0/l7/Global.s
-          - ../proto/wtools/abase/l0/l7/HashMap.s
-          - ../proto/wtools/abase/l0/l7/Interval.s
-          - ../proto/wtools/abase/l0/l7/Intervalc.s
-          - ../proto/wtools/abase/l0/l7/Intervall.s
-          - ../proto/wtools/abase/l0/l7/Intervalo.s
-          - ../proto/wtools/abase/l0/l7/Introspector.s
-          - ../proto/wtools/abase/l0/l7/Logic.s
-          - ../proto/wtools/abase/l0/l7/Long.s
-          - ../proto/wtools/abase/l0/l7/Map.s
-          - ../proto/wtools/abase/l0/l7/Module.s
-          - ../proto/wtools/abase/l0/l7/Number.s
-          - ../proto/wtools/abase/l0/l7/Object.s
-          - ../proto/wtools/abase/l0/l7/Pair.s
-          - ../proto/wtools/abase/l0/l7/Path.s
-          - ../proto/wtools/abase/l0/l7/Primitive.s
-          - ../proto/wtools/abase/l0/l7/Printer.s
-          - ../proto/wtools/abase/l0/l7/Process.s
-          - ../proto/wtools/abase/l0/l7/PropertyTransformer.s
-          - ../proto/wtools/abase/l0/l7/Props.s
-          - ../proto/wtools/abase/l0/l7/Prototype.s
-          - ../proto/wtools/abase/l0/l7/Regexp.s
-          - ../proto/wtools/abase/l0/l7/Routine.s
-          - ../proto/wtools/abase/l0/l7/Seeker.s
-          - ../proto/wtools/abase/l0/l7/Set.s
-          - ../proto/wtools/abase/l0/l7/Sorted.s
-          - ../proto/wtools/abase/l0/l7/Str.s
-          - ../proto/wtools/abase/l0/l7/Stringer.s
-          - ../proto/wtools/abase/l0/l7/Symbol.s
-          - ../proto/wtools/abase/l0/l7/Time.s
-          - ../proto/wtools/abase/l0/l7/Type.s
-          - ../proto/wtools/abase/l0/l7/Units.s
-          - ../proto/wtools/abase/l0/l7/Unroll.s
-          - ../proto/wtools/abase/l0/l7/Vector.s
-          - ../proto/wtools/abase/l0/l8
-          - ../proto/wtools/abase/l0/l8/Setup.s
-          - ../proto/wtools/abase/l0/l9.test
-          - ../proto/wtools/abase/l0/l9.test/App.test.s
-          - ../proto/wtools/abase/l0/l9.test/ArgumentsArray.test.s
-          - ../proto/wtools/abase/l0/l9.test/Array.test.s
-          - ../proto/wtools/abase/l0/l9.test/ArraySet.test.s
-          - ../proto/wtools/abase/l0/l9.test/Auxiliary.test.s
-          - ../proto/wtools/abase/l0/l9.test/BigInt.test.s
-          - ../proto/wtools/abase/l0/l9.test/Blank.test.s
-          - ../proto/wtools/abase/l0/l9.test/Bool.test.s
-          - ../proto/wtools/abase/l0/l9.test/Buffer.test.s
-          - ../proto/wtools/abase/l0/l9.test/Class.test.s
-          - ../proto/wtools/abase/l0/l9.test/Constructible.test.s
-          - ../proto/wtools/abase/l0/l9.test/Container.test.s
-          - ../proto/wtools/abase/l0/l9.test/Countable.test.s
-          - ../proto/wtools/abase/l0/l9.test/Ct.test.s
-          - ../proto/wtools/abase/l0/l9.test/Date.test.s
-          - ../proto/wtools/abase/l0/l9.test/Diagnostic.test.s
-          - ../proto/wtools/abase/l0/l9.test/Entity.test.s
-          - ../proto/wtools/abase/l0/l9.test/Err.test.s
-          - ../proto/wtools/abase/l0/l9.test/Escape.test.s
-          - ../proto/wtools/abase/l0/l9.test/Event.test.s
-          - ../proto/wtools/abase/l0/l9.test/Functional.test.s
-          - ../proto/wtools/abase/l0/l9.test/Functor.test.s
-          - ../proto/wtools/abase/l0/l9.test/Fuzzy.test.s
-          - ../proto/wtools/abase/l0/l9.test/Global.test.s
-          - ../proto/wtools/abase/l0/l9.test/HashMap.test.s
-          - ../proto/wtools/abase/l0/l9.test/Interval.test.s
-          - ../proto/wtools/abase/l0/l9.test/Introspector.test.s
-          - ../proto/wtools/abase/l0/l9.test/Itself.test.s
-          - ../proto/wtools/abase/l0/l9.test/Logger.test.s
-          - ../proto/wtools/abase/l0/l9.test/Logic.test.s
-          - ../proto/wtools/abase/l0/l9.test/Long.test.s
-          - ../proto/wtools/abase/l0/l9.test/LongDescriptor.test.s
-          - ../proto/wtools/abase/l0/l9.test/Map.test.s
-          - ../proto/wtools/abase/l0/l9.test/Module.test.s
-          - ../proto/wtools/abase/l0/l9.test/Number.test.s
-          - ../proto/wtools/abase/l0/l9.test/Object.test.s
-          - ../proto/wtools/abase/l0/l9.test/Pair.test.s
-          - ../proto/wtools/abase/l0/l9.test/Path.test.s
-          - ../proto/wtools/abase/l0/l9.test/Permutation.test.s
-          - ../proto/wtools/abase/l0/l9.test/Primitive.test.s
-          - ../proto/wtools/abase/l0/l9.test/Printer.test.s
-          - ../proto/wtools/abase/l0/l9.test/Process.test.s
-          - ../proto/wtools/abase/l0/l9.test/PropertyTransformer.test.s
-          - ../proto/wtools/abase/l0/l9.test/Props.test.s
-          - ../proto/wtools/abase/l0/l9.test/Prototype.test.s
-          - ../proto/wtools/abase/l0/l9.test/Regexp.test.s
-          - ../proto/wtools/abase/l0/l9.test/Routine.test.s
-          - ../proto/wtools/abase/l0/l9.test/Seeker.test.s
-          - ../proto/wtools/abase/l0/l9.test/Set.test.s
-          - ../proto/wtools/abase/l0/l9.test/Sorted.test.s
-          - ../proto/wtools/abase/l0/l9.test/Str.test.s
-          - ../proto/wtools/abase/l0/l9.test/Stringer.test.s
-          - ../proto/wtools/abase/l0/l9.test/Symbol.test.s
-          - ../proto/wtools/abase/l0/l9.test/Time.test.s
-          - ../proto/wtools/abase/l0/l9.test/Typing.test.s
-          - ../proto/wtools/abase/l0/l9.test/Units.test.s
-          - ../proto/wtools/abase/l0/l9.test/Unroll.test.s
-          - ../proto/wtools/abase/l0/l9.test/Vector.test.s
-          - ../proto/wtools/abase/l1
-          - ../proto/wtools/abase/l1/Include.s
-          - ../proto/wtools/abase/l1/l1
-          - ../proto/wtools/abase/l1/l1/Collection.s
-          - ../proto/wtools/abase/l1/l1/ContainerAdapter.s
-          - ../proto/wtools/abase/l1/l1/ContainerAdapterArray.s
-          - ../proto/wtools/abase/l1/l1/ContainerAdapterSet.s
-          - ../proto/wtools/abase/l1/l1/NameTools.s
-          - ../proto/wtools/abase/l1/l1/StrBasic.s
-          - ../proto/wtools/abase/l1/l1/TreeMap.s
-          - ../proto/wtools/abase/l1/l1/Trie.s
-          - ../proto/wtools/abase/l1.test
-          - ../proto/wtools/abase/l1.test/Collection.test.s
-          - ../proto/wtools/abase/l1.test/ContainerAdapter.test.s
-          - ../proto/wtools/abase/l1.test/ContainerAdapterRelated.test.s
-          - ../proto/wtools/abase/l1.test/Str.test.s
-          - ../proto/wtools/abase/l1.test/TreeMap.test.s
-          - ../proto/wtools/abase/l1.test/Trie.test.s
-          - ../proto/wtools/abase/l2
-          - ../proto/wtools/abase/l2/EntityBasic.s
-          - ../proto/wtools/abase/l2/Include.s
-          - ../proto/wtools/abase/l2/Looker.s
-          - ../proto/wtools/abase/l2/PathBasic.s
-          - ../proto/wtools/abase/l2.test
-          - ../proto/wtools/abase/l2.test/EntityBasic.test.s
-          - ../proto/wtools/abase/l2.test/Looker.test.s
-          - ../proto/wtools/abase/l2.test/Path.test.html
-          - ../proto/wtools/abase/l2.test/PathBasic.test.s
-          - ../proto/wtools/abase/l2.test/Tools.test.s
-          - ../proto/wtools/abase/l2_blueprint
-          - ../proto/wtools/abase/l2_blueprint/Include.s
-          - ../proto/wtools/abase/l2_blueprint/l1
-          - ../proto/wtools/abase/l2_blueprint/l1/Class.s
-          - ../proto/wtools/abase/l2_blueprint/l1/Property.s
-          - ../proto/wtools/abase/l2_blueprint/l1/PropertyTransformers.s
-          - ../proto/wtools/abase/l2_blueprint/l1/Proto.s
-          - ../proto/wtools/abase/l2_blueprint/l2
-          - ../proto/wtools/abase/l2_blueprint/l2/Accessor.s
-          - ../proto/wtools/abase/l2_blueprint/l2/Definition.s
-          - ../proto/wtools/abase/l2_blueprint/l2/Types.s
-          - ../proto/wtools/abase/l2_blueprint/l3
-          - ../proto/wtools/abase/l2_blueprint/l3/Blueprint.s
-          - ../proto/wtools/abase/l2_blueprint/l3/Construction.s
-          - ../proto/wtools/abase/l2_blueprint/l3/Definitions.s
-          - ../proto/wtools/abase/l2_blueprint/l3/Traits.s
-          - ../proto/wtools/abase/l2_blueprint.test
-          - ../proto/wtools/abase/l2_blueprint.test/Accessor.test.s
-          - ../proto/wtools/abase/l2_blueprint.test/Blueprint.test.s
-          - ../proto/wtools/abase/l2_blueprint.test/Definition.test.s
-          - ../proto/wtools/abase/l2_blueprint.test/Etc.test.s
-          - ../proto/wtools/abase/l2_blueprint.test/Property.test.s
-          - ../proto/wtools/abase/l2_blueprint.test/Trait.test.s
-          - ../proto/wtools/abase/l2_introspector
-          - ../proto/wtools/abase/l2_introspector/Include.s
-          - ../proto/wtools/abase/l2_introspector/l3
-          - ../proto/wtools/abase/l2_introspector/l3/Introspector.s
-          - ../proto/wtools/abase/l2_introspector/l3/Node.s
-          - ../proto/wtools/abase/l2_introspector/l3/Program.s
-          - ../proto/wtools/abase/l2_introspector/l3/Tools.s
-          - ../proto/wtools/abase/l2_introspector.test
-          - ../proto/wtools/abase/l2_introspector.test/Common.test.s
-          - ../proto/wtools/abase/l2_introspector.test/Export.test.s
-          - ../proto/wtools/abase/l2_introspector.test/Program.test.s
-          - ../proto/wtools/abase/l3
-          - ../proto/wtools/abase/l3/PathsBasic.s
-          - ../proto/wtools/abase/l3/Stringer.s
-          - ../proto/wtools/abase/l3.test
-          - ../proto/wtools/abase/l3.test/Paths.test.s
-          - ../proto/wtools/abase/l3.test/Stringer.test.s
-          - ../proto/wtools/abase/l3.test/StrJson.test.s
-          - ../proto/wtools/abase/l3.test/_asset
-          - ../proto/wtools/abase/l3.test/_asset/file
-          - ../proto/wtools/abase/l3.test/_asset/file/file1
-          - ../proto/wtools/abase/l3.test/_asset/file/file2
-          - ../proto/wtools/abase/l3.test/_asset/file/file3
-          - ../proto/wtools/abase/l3.test/_asset/file/file4.pdf
-          - ../proto/wtools/abase/l3.test/_asset/file/small
-          - ../proto/wtools/abase/l3.test/_asset/file/small2
-          - ../proto/wtools/abase/l3.test/_asset/file/small3
-          - ../proto/wtools/abase/l3.test/_asset/file/small4
-          - ../proto/wtools/abase/l3.test/_asset/file/small5
-          - ../proto/wtools/abase/l3.test/_asset/file/small6
-          - ../proto/wtools/abase/l3.test/_asset/file/small7
-          - ../proto/wtools/abase/l3.test/_asset/file/test.exe
-          - ../proto/wtools/abase/l3_proto
-          - ../proto/wtools/abase/l3_proto/Include.s
-          - ../proto/wtools/abase/l3_proto/l1
-          - ../proto/wtools/abase/l3_proto/l1/Define.s
-          - ../proto/wtools/abase/l3_proto/l1/Proto.s
-          - ../proto/wtools/abase/l3_proto/l1/Workpiece.s
-          - ../proto/wtools/abase/l3_proto/l3
-          - ../proto/wtools/abase/l3_proto/l3/Accessor.s
-          - ../proto/wtools/abase/l3_proto/l5
-          - ../proto/wtools/abase/l3_proto/l5/Class.s
-          - ../proto/wtools/abase/l3_proto/l5/Collection.s
-          - ../proto/wtools/abase/l3_proto/l5/Like.s
-          - ../proto/wtools/abase/l3_proto.test
-          - ../proto/wtools/abase/l3_proto.test/Accessor.test.s
-          - ../proto/wtools/abase/l3_proto.test/Blueprint.test.s
-          - ../proto/wtools/abase/l3_proto.test/Class.test.s
-          - ../proto/wtools/abase/l3_proto.test/Like.test.s
-          - ../proto/wtools/abase/l3_proto.test/Workpiece.test.s
-          - ../proto/wtools/abase/l4
-          - ../proto/wtools/abase/l4/ArraySorted.s
-          - ../proto/wtools/abase/l4/ArraySparse.s
-          - ../proto/wtools/abase/l4/LookerExtra.s
-          - ../proto/wtools/abase/l4/Replicator.s
-          - ../proto/wtools/abase/l4/Traverser.s
-          - ../proto/wtools/abase/l4/Uri.s
-          - ../proto/wtools/abase/l4/UriOld.s
-          - ../proto/wtools/abase/l4.test
-          - ../proto/wtools/abase/l4.test/ArraySorted.test.s
-          - ../proto/wtools/abase/l4.test/ArraySparse.test.s
-          - ../proto/wtools/abase/l4.test/LookerExtra.test.s
-          - ../proto/wtools/abase/l4.test/Replicator.test.s
-          - ../proto/wtools/abase/l4.test/Traverser.test.s
-          - ../proto/wtools/abase/l4.test/Uri.test.s
-          - ../proto/wtools/abase/l4.test/UriOld.test.s
-          - ../proto/wtools/abase/l4_process
-          - ../proto/wtools/abase/l4_process/include
-          - ../proto/wtools/abase/l4_process/include/Basic.s
-          - ../proto/wtools/abase/l4_process/include/Mid.s
-          - ../proto/wtools/abase/l4_process/l1
-          - ../proto/wtools/abase/l4_process/l1/Basic.s
-          - ../proto/wtools/abase/l4_process/l2
-          - ../proto/wtools/abase/l4_process/l2/Process.s
-          - ../proto/wtools/abase/l4_process/l3
-          - ../proto/wtools/abase/l4_process/l3/Execution.s
-          - ../proto/wtools/abase/l4_process/l3/Io.s
-          - ../proto/wtools/abase/l4_process/module
-          - ../proto/wtools/abase/l4_process/module/Process.s
-          - ../proto/wtools/abase/l4_process/module/ProcessBasic.s
-          - ../proto/wtools/abase/l4_process.test
-          - ../proto/wtools/abase/l4_process.test/Basic.test.s
-          - ../proto/wtools/abase/l4_process.test/Execution.test.s
-          - ../proto/wtools/abase/l4_process.test/Io.test.s
-          - ../proto/wtools/abase/l4_process.test/_asset
-          - ../proto/wtools/abase/l4_process.test/_asset/systemEntry
-          - ../proto/wtools/abase/l4_process.test/_asset/systemEntry/dir
-          - >-
-            ../proto/wtools/abase/l4_process.test/_asset/systemEntry/dir/file.txt
-          - >-
-            ../proto/wtools/abase/l4_process.test/_asset/systemEntry/dir/Index.js
-          - ../proto/wtools/abase/l5
-          - ../proto/wtools/abase/l5/Cloner.s
-          - ../proto/wtools/abase/l5/Dissector.s
-          - ../proto/wtools/abase/l5/Glob.s
-          - ../proto/wtools/abase/l5/PathTools.s
-          - ../proto/wtools/abase/l5/ProcessWatcher.s
-          - ../proto/wtools/abase/l5/Selector.s
-          - ../proto/wtools/abase/l5/StringTools.s
-          - ../proto/wtools/abase/l5/Uris.s
-          - ../proto/wtools/abase/l5/WebUri.s
-          - ../proto/wtools/abase/l5.test
-          - ../proto/wtools/abase/l5.test/Cloner.test.s
-          - ../proto/wtools/abase/l5.test/Dissector.test.s
-          - ../proto/wtools/abase/l5.test/Glob.test.s
-          - ../proto/wtools/abase/l5.test/PathTools.test.s
-          - ../proto/wtools/abase/l5.test/ProcessWatcher.test.s
-          - ../proto/wtools/abase/l5.test/Selector.test.s
-          - ../proto/wtools/abase/l5.test/StringTools.test.s
-          - ../proto/wtools/abase/l5.test/Uris.test.s
-          - ../proto/wtools/abase/l5.test/WebUri.test.s
-          - ../proto/wtools/abase/l6
-          - ../proto/wtools/abase/l6/Equaler.s
-          - ../proto/wtools/abase/l6/Include.s
-          - ../proto/wtools/abase/l6/Path.s
-          - ../proto/wtools/abase/l6/Resolver.s
-          - ../proto/wtools/abase/l6/SelectorExtra.s
-          - ../proto/wtools/abase/l6.test
-          - ../proto/wtools/abase/l6.test/Equaler.test.s
-          - ../proto/wtools/abase/l6.test/Path.test.s
-          - ../proto/wtools/abase/l6.test/Resolver.test.s
-          - ../proto/wtools/abase/l6.test/SelectorExtra.test.s
-          - ../proto/wtools/abase/l6.test/Uri.test.s
-          - ../proto/wtools/abase/l7
-          - ../proto/wtools/abase/l7/ResolverExtra.s
-          - ../proto/wtools/abase/l7.test
-          - ../proto/wtools/abase/l7.test/ResolverExtra.test.s
-          - ../proto/wtools/abase/l7_mixin
-          - ../proto/wtools/abase/l7_mixin/Copyable.s
-          - ../proto/wtools/abase/l7_mixin/EventHandler.s
-          - ../proto/wtools/abase/l7_mixin/FieldsStack.s
-          - ../proto/wtools/abase/l7_mixin/Instancing.s
-          - ../proto/wtools/abase/l7_mixin.test
-          - ../proto/wtools/abase/l7_mixin.test/Copyable.test.s
-          - ../proto/wtools/abase/l7_mixin.test/EventHandler.test.s
-          - ../proto/wtools/abase/l7_mixin.test/FieldsStack.test.s
-          - ../proto/wtools/abase/l7_mixin.test/Instancing.test.s
-          - ../proto/wtools/abase/l8.test
-          - ../proto/wtools/abase/l8.test/Event.test.s
-          - ../proto/wtools/abase/l8.test/Procedure.test.s
-          - ../proto/wtools/abase/l8.test/Time.test.s
-          - ../proto/wtools/abase/l8_procedure
-          - ../proto/wtools/abase/l8_procedure/Include.s
-          - ../proto/wtools/abase/l8_procedure/Namespace.s
-          - ../proto/wtools/abase/l8_procedure/Procedure.s
-          - ../proto/wtools/abase/l9
-          - ../proto/wtools/abase/l9/consequence
-          - ../proto/wtools/abase/l9/consequence/Consequence.s
-          - ../proto/wtools/abase/l9/consequence/Namespace.s
-          - ../proto/wtools/abase/l9/logger
-          - ../proto/wtools/abase/l9/logger/entry
-          - ../proto/wtools/abase/l9/logger/entry/Logger.s
-          - ../proto/wtools/abase/l9/logger/include
-          - ../proto/wtools/abase/l9/logger/include/Basic.s
-          - ../proto/wtools/abase/l9/logger/include/Mid.s
-          - ../proto/wtools/abase/l9/logger/l1
-          - ../proto/wtools/abase/l9/logger/l1/LoggerBasic.s
-          - ../proto/wtools/abase/l9/logger/l3
-          - ../proto/wtools/abase/l9/logger/l3/Chainer.s
-          - ../proto/wtools/abase/l9/logger/l3/ChainingMixin.s
-          - ../proto/wtools/abase/l9/logger/l3/ColoredMixin.s
-          - ../proto/wtools/abase/l9/logger/l3/LoggerMid.s
-          - ../proto/wtools/abase/l9/logger/l5
-          - ../proto/wtools/abase/l9/logger/l5/Logger.s
-          - ../proto/wtools/abase/l9/logger/l7
-          - ../proto/wtools/abase/l9/logger/l7/LoggerPrime.s
-          - ../proto/wtools/abase/l9/logger/l7/ToLayeredHtml.s
-          - ../proto/wtools/abase/l9/logger/l7/ToString.s
-          - ../proto/wtools/abase/l9.test
-          - ../proto/wtools/abase/l9.test/consequence
-          - ../proto/wtools/abase/l9.test/consequence/Consequence.test.s
-          - ../proto/wtools/abase/l9.test/consequence/Ext.test.s
-          - ../proto/wtools/abase/l9.test/consequence/Process.test.s
-          - ../proto/wtools/abase/l9.test/consequence/Time.test.s
-          - ../proto/wtools/abase/l9.test/logger
-          - ../proto/wtools/abase/l9.test/logger/Backend.test.ss
-          - ../proto/wtools/abase/l9.test/logger/Basic.test.s
-          - ../proto/wtools/abase/l9.test/logger/Browser.test.html
-          - ../proto/wtools/abase/l9.test/logger/Browser.test.js
-          - ../proto/wtools/abase/l9.test/logger/Chaining.test.s
-          - ../proto/wtools/abase/l9.test/logger/ChainingWithProcess.test.ss
-          - ../proto/wtools/abase/l9.test/logger/ChainingWithStream.test.ss
-          - ../proto/wtools/abase/l9.test/logger/Color.test.js
-          - ../proto/wtools/abase/l9.test/logger/Color.test.ss
-          - ../proto/wtools/abase/l9.test/logger/ColorTable.ss
-          - ../proto/wtools/abase/l9.test/logger/ColorTableBad.ss
-          - ../proto/wtools/abase/l9.test/logger/ColorTableGood.ss
-          - ../proto/wtools/abase/l9.test/logger/Namespaces.test.s
-          - ../proto/wtools/abase/l9.test/logger/Other.test.s
-          - ../proto/wtools/abase/l9.test/logger/ToString.test.s
-          - ../proto/wtools/amid
-          - ../proto/wtools/amid/amixin
-          - ../proto/wtools/amid/amixin/aStateStorage.s
-          - ../proto/wtools/amid/amixin/Verbal.s
-          - ../proto/wtools/amid/l1
-          - ../proto/wtools/amid/l1/color
-          - ../proto/wtools/amid/l1/color/entry
-          - ../proto/wtools/amid/l1/color/entry/Color256.s
-          - ../proto/wtools/amid/l1/color/entry/ColorBasic.s
-          - ../proto/wtools/amid/l1/color/include
-          - ../proto/wtools/amid/l1/color/include/Basic.s
-          - ../proto/wtools/amid/l1/color/include/Color256.s
-          - ../proto/wtools/amid/l1/color/include/Mid.s
-          - ../proto/wtools/amid/l1/color/l3
-          - ../proto/wtools/amid/l1/color/l3/Cmyk.s
-          - ../proto/wtools/amid/l1/color/l3/Cmyka.s
-          - ../proto/wtools/amid/l1/color/l3/Color.s
-          - ../proto/wtools/amid/l1/color/l3/Hsl.s
-          - ../proto/wtools/amid/l1/color/l3/Hsla.s
-          - ../proto/wtools/amid/l1/color/l3/Hwb.s
-          - ../proto/wtools/amid/l1/color/l3/Hwba.s
-          - ../proto/wtools/amid/l1/color/l3/Rgb.s
-          - ../proto/wtools/amid/l1/color/l3/Rgba.s
-          - ../proto/wtools/amid/l1/color/l3/Xyz.s
-          - ../proto/wtools/amid/l1/color/l3/Xyza.s
-          - ../proto/wtools/amid/l1/color/l5
-          - ../proto/wtools/amid/l1/color/l5/Color256.s
-          - ../proto/wtools/amid/l1/gdf
-          - ../proto/wtools/amid/l1/gdf/entry
-          - ../proto/wtools/amid/l1/gdf/entry/Gdf.s
-          - ../proto/wtools/amid/l1/gdf/include
-          - ../proto/wtools/amid/l1/gdf/include/Basic.s
-          - ../proto/wtools/amid/l1/gdf/include/Mid.s
-          - ../proto/wtools/amid/l1/gdf/l1
-          - ../proto/wtools/amid/l1/gdf/l1/Namespace.s
-          - ../proto/wtools/amid/l1/gdf/l2
-          - ../proto/wtools/amid/l1/gdf/l2/Encoder.s
-          - ../proto/wtools/amid/l1/gdf/l3
-          - ../proto/wtools/amid/l1/gdf/l3/Context.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Base64.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Bson.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Cbor.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Coffee.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Json.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/JsStructure.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/MsgpackLite.s
-          - ../proto/wtools/amid/l1/gdf/l5_strategy/Yml.s
-          - ../proto/wtools/amid/l1/gdf.test
-          - ../proto/wtools/amid/l1/gdf.test/Base64.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Bson.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Cbor.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Cson.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Gdf.test.s
-          - ../proto/wtools/amid/l1/gdf.test/GdfPerfomance.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Js.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Json.test.s
-          - ../proto/wtools/amid/l1/gdf.test/JsonFine.test.s
-          - ../proto/wtools/amid/l1/gdf.test/JsonMin.test.s
-          - ../proto/wtools/amid/l1/gdf.test/MsgpackLite.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Utf8.test.s
-          - ../proto/wtools/amid/l1/gdf.test/Yml.test.s
-          - ../proto/wtools/amid/l1/http
-          - ../proto/wtools/amid/l1/http/Include.s
-          - ../proto/wtools/amid/l1/http/include
-          - ../proto/wtools/amid/l1/http/include/Basic.s
-          - ../proto/wtools/amid/l1/http/include/Mid.s
-          - ../proto/wtools/amid/l1/http/l1
-          - ../proto/wtools/amid/l1/http/l1/Basic.s
-          - ../proto/wtools/amid/l1/regexp
-          - ../proto/wtools/amid/l1/regexp/RegexpObject.s
-          - ../proto/wtools/amid/l1/regexp.test
-          - ../proto/wtools/amid/l1/regexp.test/RegexpObject.test.s
-          - ../proto/wtools/amid/l3
-          - ../proto/wtools/amid/l3/git
-          - ../proto/wtools/amid/l3/git/entry
-          - ../proto/wtools/amid/l3/git/entry/GitTools.ss
-          - ../proto/wtools/amid/l3/git/include
-          - ../proto/wtools/amid/l3/git/include/Basic.ss
-          - ../proto/wtools/amid/l3/git/include/Mid.ss
-          - ../proto/wtools/amid/l3/git/l1
-          - ../proto/wtools/amid/l3/git/l1/Git.ss
-          - ../proto/wtools/amid/l3/git/l1/Md.s
-          - ../proto/wtools/amid/l3/git/l1/Path.ss
-          - ../proto/wtools/amid/l3/git/l1/Repo.s
-          - ../proto/wtools/amid/l3/git/l3_provider
-          - ../proto/wtools/amid/l3/git/l3_provider/Git.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Github.s
-          - ../proto/wtools/amid/l3/git/l3_provider/HardDrive.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Http.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Npm.s
-          - ../proto/wtools/amid/l3/git.test
-          - ../proto/wtools/amid/l3/git.test/GitTools.test.ss
-          - ../proto/wtools/amid/l3/git.test/Md.test.s
-          - ../proto/wtools/amid/l3/git.test/Path.test.ss
-          - ../proto/wtools/amid/l3/git.test/Repo.test.ss
-          - ../proto/wtools/amid/l3/git.test/_asset
-          - ../proto/wtools/amid/l3/git.test/_asset/basic
-          - ../proto/wtools/amid/l3/git.test/_asset/basic/File.txt
-          - ../proto/wtools/amid/l3/npm
-          - ../proto/wtools/amid/l3/npm/Include.ss
-          - ../proto/wtools/amid/l3/npm/include
-          - ../proto/wtools/amid/l3/npm/include/Basic.ss
-          - ../proto/wtools/amid/l3/npm/include/Mid.ss
-          - ../proto/wtools/amid/l3/npm/l1
-          - ../proto/wtools/amid/l3/npm/l1/Basic.ss
-          - ../proto/wtools/amid/l3/npm/l1/Path.ss
-          - ../proto/wtools/amid/l3.test
-          - ../proto/wtools/amid/l3.test/npm.test
-          - ../proto/wtools/amid/l3.test/npm.test/NpmTools.test.ss
-          - ../proto/wtools/amid/l3.test/npm.test/Path.test.ss
-          - ../proto/wtools/amid/l3.test/npm.test/_asset
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/bump
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/bump/package.json
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/fixate
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/fixate/fixateEmptyVersions
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/fixate/fixateEmptyVersions/package.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/fixate/fixateNotEmptyVersions
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/fixate/fixateNotEmptyVersions/package.json
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/format
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/bundledDependencies.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/dependencies.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/devDependencies.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/optionalDependencies.json
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/format/package.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/peerDependencies.json
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/format/peerDependenciesMeta.json
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/install
-          - >-
-            ../proto/wtools/amid/l3.test/npm.test/_asset/install/package-lock.json
-          - ../proto/wtools/amid/l3.test/npm.test/_asset/install/package.json
-          - ../proto/wtools/amid/l4_files
-          - ../proto/wtools/amid/l4_files/entry
-          - ../proto/wtools/amid/l4_files/entry/Archive.s
-          - ../proto/wtools/amid/l4_files/entry/Basic.s
-          - ../proto/wtools/amid/l4_files/entry/Extract.s
-          - ../proto/wtools/amid/l4_files/entry/Files.s
-          - ../proto/wtools/amid/l4_files/entry/Git.ss
-          - ../proto/wtools/amid/l4_files/entry/HardDrive.ss
-          - ../proto/wtools/amid/l4_files/entry/Http.s
-          - ../proto/wtools/amid/l4_files/entry/Imap.ss
-          - ../proto/wtools/amid/l4_files/entry/Npm.ss
-          - ../proto/wtools/amid/l4_files/entry/Reroot.s
-          - ../proto/wtools/amid/l4_files/include
-          - ../proto/wtools/amid/l4_files/include/Archive.s
-          - ../proto/wtools/amid/l4_files/include/Basic.s
-          - ../proto/wtools/amid/l4_files/include/Extract.s
-          - ../proto/wtools/amid/l4_files/include/Git.ss
-          - ../proto/wtools/amid/l4_files/include/HardDrive.ss
-          - ../proto/wtools/amid/l4_files/include/Http.s
-          - ../proto/wtools/amid/l4_files/include/Imap.ss
-          - ../proto/wtools/amid/l4_files/include/Mid.s
-          - ../proto/wtools/amid/l4_files/include/MixinConfig.s
-          - ../proto/wtools/amid/l4_files/include/MixinFind.s
-          - ../proto/wtools/amid/l4_files/include/MixinSecondary.s
-          - ../proto/wtools/amid/l4_files/include/MixinTemp.s
-          - ../proto/wtools/amid/l4_files/include/Npm.ss
-          - ../proto/wtools/amid/l4_files/include/Operator.s
-          - ../proto/wtools/amid/l4_files/include/Reroot.s
-          - ../proto/wtools/amid/l4_files/include/Top.s
-          - ../proto/wtools/amid/l4_files/l1
-          - ../proto/wtools/amid/l4_files/l1/Namespace.s
-          - ../proto/wtools/amid/l4_files/l2
-          - ../proto/wtools/amid/l4_files/l2/Encoder.s
-          - ../proto/wtools/amid/l4_files/l2/Encoders.s
-          - ../proto/wtools/amid/l4_files/l2/Linker.s
-          - ../proto/wtools/amid/l4_files/l2/RecordContext.s
-          - ../proto/wtools/amid/l4_files/l3
-          - ../proto/wtools/amid/l4_files/l3/Path.s
-          - ../proto/wtools/amid/l4_files/l3/Path.ss
-          - ../proto/wtools/amid/l4_files/l3/Record.s
-          - ../proto/wtools/amid/l4_files/l3/RecordFactory.s
-          - ../proto/wtools/amid/l4_files/l3/RecordFilter.s
-          - ../proto/wtools/amid/l4_files/l3/StatClass.s
-          - ../proto/wtools/amid/l4_files/l3/StatNamespace.s
-          - ../proto/wtools/amid/l4_files/l4
-          - ../proto/wtools/amid/l4_files/l4/Abstract.s
-          - ../proto/wtools/amid/l4_files/l4/ArchiveRecord.s
-          - ../proto/wtools/amid/l4_files/l4/ArchiveRecordFactory.s
-          - ../proto/wtools/amid/l4_files/l4/Carriage.s
-          - ../proto/wtools/amid/l4_files/l4/Carrier.s
-          - ../proto/wtools/amid/l4_files/l5
-          - ../proto/wtools/amid/l4_files/l5/Partial.s
-          - ../proto/wtools/amid/l4_files/l6
-          - ../proto/wtools/amid/l4_files/l6/FindMixin.s
-          - ../proto/wtools/amid/l4_files/l6/System.s
-          - ../proto/wtools/amid/l4_files/l7
-          - ../proto/wtools/amid/l4_files/l7/ConfigMixin.s
-          - ../proto/wtools/amid/l4_files/l7/SecondaryMixin.s
-          - ../proto/wtools/amid/l4_files/l7/TempMixin.s
-          - ../proto/wtools/amid/l4_files/l7_operator
-          - ../proto/wtools/amid/l4_files/l7_operator/l1
-          - ../proto/wtools/amid/l4_files/l7_operator/l1/Namespace.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l3
-          - ../proto/wtools/amid/l4_files/l7_operator/l3/AbstractResource.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l3/Operator.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l5
-          - ../proto/wtools/amid/l4_files/l7_operator/l5/Deed.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l5/File.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l5/FileUsage.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l5/Mission.s
-          - ../proto/wtools/amid/l4_files/l7_operator/l5/Operation.s
-          - ../proto/wtools/amid/l4_files/l7_provider
-          - ../proto/wtools/amid/l4_files/l7_provider/Extract.s
-          - ../proto/wtools/amid/l4_files/l7_provider/Git.ss
-          - ../proto/wtools/amid/l4_files/l7_provider/HardDrive.ss
-          - ../proto/wtools/amid/l4_files/l7_provider/Http.js
-          - ../proto/wtools/amid/l4_files/l7_provider/Http.ss
-          - ../proto/wtools/amid/l4_files/l7_provider/Imap.ss
-          - ../proto/wtools/amid/l4_files/l7_provider/Npm.ss
-          - ../proto/wtools/amid/l4_files/l8_filter
-          - ../proto/wtools/amid/l4_files/l8_filter/Archive.s
-          - ../proto/wtools/amid/l4_files/l8_filter/Image.s
-          - ../proto/wtools/amid/l4_files/l8_filter/Reroot.s
-          - ../proto/wtools/amid/l4_files/l9
-          - ../proto/wtools/amid/l4_files/l9/Archive.s
-          - ../proto/wtools/amid/l4_files/l9/GraphArchive.s
-          - ../proto/wtools/amid/l4_files/l9/Namespace.s
     submodule:
       wTools:
         path: 'git+https:///github.com/Wandalen/wTools.git'
@@ -1502,6 +625,10 @@ module:
         path: 'git+https:///github.com/Wandalen/wFiles.git'
         autoExporting: 0
         enabled: 1
+      wFilesBasic:
+        path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+        autoExporting: 0
+        enabled: 1
       wFilesArchive:
         path: 'git+https:///github.com/Wandalen/wFilesArchive.git'
         autoExporting: 0
@@ -1519,10 +646,10 @@ module:
         autoExporting: 0
         enabled: 1
     reflector:
-      reflect.proto.base:
+      reflect.build.base:
         src:
           filePath:
-            'submodule::*/path::proto': 'path::proto'
+            'submodule::*/path::proto': 'path::build'
           prefixPath: ''
         dst:
           prefixPath: ''
@@ -1930,6 +1057,13 @@ module:
           content: npm
         inherit:
           - files.delete
+      clean.build:
+        opts:
+          filePath: 'path::build'
+        criterion:
+          build: 1
+        inherit:
+          - files.delete
       tst.proto:
         opts:
           shell: 'tst {path::proto}'
@@ -1947,9 +1081,9 @@ module:
         criterion:
           content: prime
           debug: release
-      reflect.proto.base:
+      reflect.build.base:
         opts:
-          filePath: 'reflector::reflect.proto.base'
+          filePath: 'reflector::reflect.build.base'
         criterion:
           build: 1
         inherit:
@@ -2054,9 +1188,14 @@ module:
       module.build:
         steps:
           - submodules.clean
-          - 'step::clean.proto*=1'
+          - 'step::clean.build*=1'
           - submodules.download
-          - 'step::reflect.proto.base*=1'
+          - 'step::reflect.build.base*=1'
+        criterion:
+          build: 1
+      module.clean:
+        steps:
+          - clean.build*=1
         criterion:
           build: 1
       proto.export:
@@ -2206,6 +1345,8 @@ module:
           - node_modules
       proto:
         path: proto
+      build:
+        path: build
       export:
         path: '{path::proto}/**'
       doc:
@@ -2447,6 +1588,10 @@ module:
         path: 'git+https:///github.com/Wandalen/wFiles.git'
         autoExporting: 0
         enabled: 1
+      wFilesBasic:
+        path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+        autoExporting: 0
+        enabled: 1
       wFilesArchive:
         path: 'git+https:///github.com/Wandalen/wFilesArchive.git'
         autoExporting: 0
@@ -2464,10 +1609,10 @@ module:
         autoExporting: 0
         enabled: 1
     reflector:
-      reflect.proto.base:
+      reflect.build.base:
         src:
           filePath:
-            'submodule::*/path::proto': 'path::proto'
+            'submodule::*/path::proto': 'path::build'
         criterion:
           build: 1
         inherit:
@@ -2821,6 +1966,13 @@ module:
           content: npm
         inherit:
           - files.delete
+      clean.build:
+        opts:
+          filePath: 'path::build'
+        criterion:
+          build: 1
+        inherit:
+          - files.delete
       tst.proto:
         opts:
           shell: 'tst {path::proto}'
@@ -2838,9 +1990,9 @@ module:
         criterion:
           content: prime
           debug: release
-      reflect.proto.base:
+      reflect.build.base:
         opts:
-          filePath: 'reflector::reflect.proto.base'
+          filePath: 'reflector::reflect.build.base'
         criterion:
           build: 1
         inherit:
@@ -2945,9 +2097,14 @@ module:
       module.build:
         steps:
           - submodules.clean
-          - 'step::clean.proto*=1'
+          - 'step::clean.build*=1'
           - submodules.download
-          - 'step::reflect.proto.base*=1'
+          - 'step::reflect.build.base*=1'
+        criterion:
+          build: 1
+      module.clean:
+        steps:
+          - clean.build*=1
         criterion:
           build: 1
       proto.export:
@@ -3025,8 +2182,8 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 8b27d4f31bf7349f61be7b8ac267869d
-        size: 11006
+        hash: c365ff4d36f886a6136e5e867910d7f3
+        size: 11461
   ../.module/wTools/:
     about:
       name: wTools
@@ -4092,6 +3249,7 @@ module:
           - ../proto/wtools/abase/l0/l3.test/Countable.test.s
           - ../proto/wtools/abase/l0/l3.test/Entity.test.s
           - ../proto/wtools/abase/l0/l3.test/Err.test.s
+          - ../proto/wtools/abase/l0/l3.test/Event.test.s
           - ../proto/wtools/abase/l0/l3.test/HashMap.test.s
           - ../proto/wtools/abase/l0/l3.test/Introspector.test.s
           - ../proto/wtools/abase/l0/l3.test/Itself.test.s
@@ -4145,7 +3303,6 @@ module:
           - ../proto/wtools/abase/l0/l5/Logic.s
           - ../proto/wtools/abase/l0/l5/Long.s
           - ../proto/wtools/abase/l0/l5/Map.s
-          - ../proto/wtools/abase/l0/l5/Module.s
           - ../proto/wtools/abase/l0/l5/Number.s
           - ../proto/wtools/abase/l0/l5/Object.s
           - ../proto/wtools/abase/l0/l5/Pair.s
@@ -4169,6 +3326,7 @@ module:
           - ../proto/wtools/abase/l0/l5/Units.s
           - ../proto/wtools/abase/l0/l5/Unroll.s
           - ../proto/wtools/abase/l0/l5/Vector.s
+          - ../proto/wtools/abase/l0/l5/zModule.s
           - ../proto/wtools/abase/l0/l6
           - ../proto/wtools/abase/l0/l6/Compose.s
           - ../proto/wtools/abase/l0/l6/PropertyTransformers.s
@@ -4263,6 +3421,7 @@ module:
           - ../proto/wtools/abase/l0/l9.test/LongDescriptor.test.s
           - ../proto/wtools/abase/l0/l9.test/Map.test.s
           - ../proto/wtools/abase/l0/l9.test/Module.test.s
+          - ../proto/wtools/abase/l0/l9.test/ModuleTesting.test.s
           - ../proto/wtools/abase/l0/l9.test/Number.test.s
           - ../proto/wtools/abase/l0/l9.test/Object.test.s
           - ../proto/wtools/abase/l0/l9.test/Pair.test.s
@@ -4969,8 +4128,8 @@ module:
           export: 1
     consistency:
       ../.module/wTools/out/wTools.out.will.yml:
-        hash: 5b30f6b7b4f0fc750f5fc6a871a50290
-        size: 60113
+        hash: f1d877f3181d511327660bf7bbb86ec9
+        size: 60238
       ../.module/wTools/will.yml:
         hash: 49d60e99d766568ac75be89f019d9d99
         size: 7048
@@ -42955,8 +42114,8 @@ module:
         path: 'npm:///wgdf'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wConsequence:
@@ -43731,8 +42890,8 @@ module:
         path: 'npm:///wgdf'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wConsequence:
@@ -44381,11 +43540,11 @@ module:
           export: 1
     consistency:
       ../.module/wProcess/out/wProcess.out.will.yml:
-        hash: 5f89fa2c5911bcd7fdfb73c5519c1935
-        size: 41896
+        hash: 8e73bf7148b3d771dbfed7bfb865f659
+        size: 41916
       ../.module/wProcess/will.yml:
-        hash: b4d5a6dac6460da1caec77d9dd5ac175
-        size: 7472
+        hash: fec98460f0e37023ee51f8eff2b349a8
+        size: 7482
   ../.module/wCopyable/:
     about:
       name: wCopyable
@@ -49108,8 +48267,8 @@ module:
         path: 'npm:///wgdf'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wConsequence:
@@ -49884,8 +49043,8 @@ module:
         path: 'npm:///wgdf'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wConsequence:
@@ -50534,11 +49693,11 @@ module:
           export: 1
     consistency:
       ../.module/wAppBasic/out/wProcess.out.will.yml:
-        hash: 5f89fa2c5911bcd7fdfb73c5519c1935
-        size: 41896
+        hash: 8e73bf7148b3d771dbfed7bfb865f659
+        size: 41916
       ../.module/wAppBasic/will.yml:
-        hash: b4d5a6dac6460da1caec77d9dd5ac175
-        size: 7472
+        hash: fec98460f0e37023ee51f8eff2b349a8
+        size: 7482
   ../.module/wNjsCppBasic/:
     about:
       name: wNjsCppBasic
@@ -58354,8 +57513,8 @@ module:
         path: 'npm:///wstringer'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wintrospectorbasic:
@@ -59086,8 +58245,8 @@ module:
         path: 'npm:///wstringer'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wintrospectorbasic:
@@ -59722,11 +58881,11 @@ module:
           export: 1
     consistency:
       ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml:
-        hash: 0264240e6e2a56256896bc699346c35f
-        size: 39478
+        hash: c8bb07f5f4a9eff0cc42eb259822a116
+        size: 39498
       ../.module/wIntrospectorBasic/will.yml:
-        hash: 770badb472d34404b0a06a47aa3db0f2
-        size: 6764
+        hash: 94f625359a654d174534c9ef9c46f812
+        size: 6774
   ../.module/wColor/:
     about:
       name: wColor
@@ -62934,22 +62093,6 @@ module:
         path: 'npm:///wCopyable'
         autoExporting: 0
         enabled: 0
-      wintrospectorbasic:
-        path: 'npm:///wintrospectorbasic'
-        autoExporting: 0
-        enabled: 0
-      wgdf:
-        path: 'hd://.'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
-      wTesting:
-        path: 'npm:///wTesting'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       bson:
         path: 'npm:///bson#4.0.4'
         autoExporting: 0
@@ -62986,6 +62129,18 @@ module:
         enabled: 0
         criterion:
           external: 1
+      wgdf:
+        path: 'hd://.'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
       eslint:
         path: 'npm:///eslint#7.1.0'
         autoExporting: 0
@@ -63729,22 +62884,6 @@ module:
         path: 'npm:///wCopyable'
         autoExporting: 0
         enabled: 0
-      wintrospectorbasic:
-        path: 'npm:///wintrospectorbasic'
-        autoExporting: 0
-        enabled: 0
-      wgdf:
-        path: 'hd://..'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
-      wTesting:
-        path: 'npm:///wTesting'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       bson:
         path: 'npm:///bson#4.0.4'
         autoExporting: 0
@@ -63781,6 +62920,18 @@ module:
         enabled: 0
         criterion:
           external: 1
+      wgdf:
+        path: 'hd://..'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
       eslint:
         path: 'npm:///eslint#7.1.0'
         autoExporting: 0
@@ -64402,11 +63553,11 @@ module:
           export: 1
     consistency:
       ../.module/wGdf/out/wGdf.out.will.yml:
-        hash: b14e1f064c468d65fedbdac662a49cc6
-        size: 42760
+        hash: 76a8b19feebbc2ea657a5554b9bb4ed7
+        size: 42536
       ../.module/wGdf/will.yml:
-        hash: 9e33de10fa5a38f34539bc3a50ee62a2
-        size: 7552
+        hash: f57ea7f55d17bb641af3b9ef673e6b4a
+        size: 7477
   ../.module/wNpmTools/:
     about:
       name: wNpmTools
@@ -64544,8 +63695,8 @@ module:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wprocess:
@@ -65302,8 +64453,8 @@ module:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wprocess:
@@ -65940,11 +65091,11 @@ module:
           export: 1
     consistency:
       ../.module/wNpmTools/out/wNpmTools.out.will.yml:
-        hash: 962c151a592c4ab1d18479036172bf2f
-        size: 40497
+        hash: 46dae718536bb4ff21a5aa766a5a26e9
+        size: 40517
       ../.module/wNpmTools/will.yml:
-        hash: ae7811bf3d5a5f34a45b4d09da50972f
-        size: 6558
+        hash: f1077ae6d55bb84dc14a51c6cb30058d
+        size: 6568
   ../.module/wGitTools/:
     about:
       name: wGitTools
@@ -66085,8 +65236,8 @@ module:
         path: 'npm:///wCopyable'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wfilesarchive:
@@ -66095,6 +65246,10 @@ module:
         enabled: 0
       wprocess:
         path: 'npm:///wprocess'
+        autoExporting: 0
+        enabled: 0
+      wremote:
+        path: 'npm:///wremote'
         autoExporting: 0
         enabled: 0
       ini:
@@ -66843,8 +65998,8 @@ module:
         path: 'npm:///wCopyable'
         autoExporting: 0
         enabled: 0
-      wFiles:
-        path: 'npm:///wFiles'
+      wFilesBasic:
+        path: 'npm:///wfilesbasic'
         autoExporting: 0
         enabled: 0
       wfilesarchive:
@@ -66853,6 +66008,10 @@ module:
         enabled: 0
       wprocess:
         path: 'npm:///wprocess'
+        autoExporting: 0
+        enabled: 0
+      wremote:
+        path: 'npm:///wremote'
         autoExporting: 0
         enabled: 0
       ini:
@@ -67495,11 +66654,11 @@ module:
           export: 1
     consistency:
       ../.module/wGitTools/out/wGitTools.out.will.yml:
-        hash: 8bfa60de05fba0168ee3c613480af67e
-        size: 40443
+        hash: b6abf8211f733e355b21b8c26d0c001e
+        size: 40643
       ../.module/wGitTools/will.yml:
-        hash: 06c43e267fe1aca5454ee8738b910279
-        size: 6828
+        hash: f2f7d23f273cccb5d414e806c2efad3d
+        size: 6891
   ../.module/wHttp/:
     about:
       name: wHttp
@@ -67632,10 +66791,30 @@ module:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
+      wConsequence:
+        path: 'npm:///wConsequence'
+        autoExporting: 0
+        enabled: 0
+      wRemote:
+        path: 'npm:///wRemote'
+        autoExporting: 0
+        enabled: 0
       needle:
         path: 'npm:///needle#2.5.0'
         autoExporting: 0
         enabled: 0
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
     reflector:
       reflect.proto.debug.raw:
         src:
@@ -68332,10 +67511,30 @@ module:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
+      wConsequence:
+        path: 'npm:///wConsequence'
+        autoExporting: 0
+        enabled: 0
+      wRemote:
+        path: 'npm:///wRemote'
+        autoExporting: 0
+        enabled: 0
       needle:
         path: 'npm:///needle#2.5.0'
         autoExporting: 0
         enabled: 0
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
     reflector:
       reflect.proto.debug.raw:
         src:
@@ -68950,11 +68149,11 @@ module:
           export: 1
     consistency:
       ../.module/wHttp/out/wHttp.out.will.yml:
-        hash: 6cf7e4470c599503eeff85f5c36ec291
-        size: 37419
+        hash: 02124163247a5fdf0afee1e25b26f5c4
+        size: 38347
       ../.module/wHttp/will.yml:
-        hash: aa9086dcb26340d02f819b32754c5e24
-        size: 6132
+        hash: 3593d34e7ff062f4553f506815d576ca
+        size: 6432
   ../.module/wFiles/:
     about:
       name: wFiles
@@ -68998,7 +68197,7 @@ module:
         - chrome >= 60.0.0
         - firefox >= 60.0.0
       npm.scripts:
-        test: wtest .run proto/**
+        test: 'wtest .run "proto/**" rapidity:-3'
         test2: >-
           wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
           routine : linkHardSyncRunner
@@ -69120,68 +68319,8 @@ module:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
-      wstringer:
-        path: 'npm:///wstringer'
-        autoExporting: 0
-        enabled: 0
-      wstringsextra:
-        path: 'npm:///wstringsextra'
-        autoExporting: 0
-        enabled: 0
-      wConsequence:
-        path: 'npm:///wConsequence'
-        autoExporting: 0
-        enabled: 0
-      wCopyable:
-        path: 'npm:///wCopyable'
-        autoExporting: 0
-        enabled: 0
-      wgdf:
-        path: 'npm:///wgdf'
-        autoExporting: 0
-        enabled: 0
-      wintrospectorbasic:
-        path: 'npm:///wintrospectorbasic'
-        autoExporting: 0
-        enabled: 0
-      wpathbasic:
-        path: 'npm:///wpathbasic'
-        autoExporting: 0
-        enabled: 0
-      wpathtools:
-        path: 'npm:///wpathtools'
-        autoExporting: 0
-        enabled: 0
-      wuribasic:
-        path: 'npm:///wuribasic'
-        autoExporting: 0
-        enabled: 0
-      wweburibasic:
-        path: 'npm:///wweburibasic'
-        autoExporting: 0
-        enabled: 0
-      wprocess:
-        path: 'npm:///wprocess'
-        autoExporting: 0
-        enabled: 0
-      wfieldsstack:
-        path: 'npm:///wfieldsstack'
-        autoExporting: 0
-        enabled: 0
-      wRegexpObject:
-        path: 'npm:///wRegexpObject'
-        autoExporting: 0
-        enabled: 0
-      wselector:
-        path: 'npm:///wselector'
-        autoExporting: 0
-        enabled: 0
-      wverbal:
-        path: 'npm:///wverbal'
-        autoExporting: 0
-        enabled: 0
-      wLogger:
-        path: 'npm:///wLogger'
+      wfilesimap:
+        path: 'npm:///wfilesimap'
         autoExporting: 0
         enabled: 0
       wgittools:
@@ -69192,24 +68331,6 @@ module:
         path: 'npm:///wnpmtools'
         autoExporting: 0
         enabled: 0
-      tar:
-        path: 'npm:///tar#6.0.2'
-        autoExporting: 0
-        enabled: 0
-      proper-lockfile:
-        path: 'npm:///proper-lockfile#4.1.1'
-        autoExporting: 0
-        enabled: 0
-      needle:
-        path: 'npm:///needle#2.5.0'
-        autoExporting: 0
-        enabled: 0
-      wFiles:
-        path: 'hd://.'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       eslint:
         path: 'npm:///eslint#7.1.0'
         autoExporting: 0
@@ -69798,7 +68919,7 @@ module:
         - chrome >= 60.0.0
         - firefox >= 60.0.0
       npm.scripts:
-        test: wtest .run proto/**
+        test: 'wtest .run "proto/**" rapidity:-3'
         test2: >-
           wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
           routine : linkHardSyncRunner
@@ -69937,59 +69058,21 @@ module:
           - ../proto/wtools/amid
           - ../proto/wtools/amid/l4_files
           - ../proto/wtools/amid/l4_files/entry
-          - ../proto/wtools/amid/l4_files/entry/Basic.s
-          - ../proto/wtools/amid/l4_files/entry/Extract.s
+          - ../proto/wtools/amid/l4_files/entry/-Basic.s
           - ../proto/wtools/amid/l4_files/entry/Files.s
           - ../proto/wtools/amid/l4_files/entry/Git.ss
-          - ../proto/wtools/amid/l4_files/entry/HardDrive.ss
           - ../proto/wtools/amid/l4_files/entry/Http.s
           - ../proto/wtools/amid/l4_files/entry/Imap.ss
           - ../proto/wtools/amid/l4_files/entry/Npm.ss
           - ../proto/wtools/amid/l4_files/entry/Reroot.s
           - ../proto/wtools/amid/l4_files/include
-          - ../proto/wtools/amid/l4_files/include/Basic.s
-          - ../proto/wtools/amid/l4_files/include/Extract.s
           - ../proto/wtools/amid/l4_files/include/Git.ss
-          - ../proto/wtools/amid/l4_files/include/HardDrive.ss
           - ../proto/wtools/amid/l4_files/include/Http.s
           - ../proto/wtools/amid/l4_files/include/Imap.ss
-          - ../proto/wtools/amid/l4_files/include/Mid.s
-          - ../proto/wtools/amid/l4_files/include/MixinConfig.s
-          - ../proto/wtools/amid/l4_files/include/MixinFind.s
-          - ../proto/wtools/amid/l4_files/include/MixinSecondary.s
-          - ../proto/wtools/amid/l4_files/include/MixinTemp.s
           - ../proto/wtools/amid/l4_files/include/Npm.ss
           - ../proto/wtools/amid/l4_files/include/Operator.s
           - ../proto/wtools/amid/l4_files/include/Reroot.s
           - ../proto/wtools/amid/l4_files/include/Top.s
-          - ../proto/wtools/amid/l4_files/l1
-          - ../proto/wtools/amid/l4_files/l1/Namespace.s
-          - ../proto/wtools/amid/l4_files/l2
-          - ../proto/wtools/amid/l4_files/l2/Encoder.s
-          - ../proto/wtools/amid/l4_files/l2/Encoders.s
-          - ../proto/wtools/amid/l4_files/l2/Linker.s
-          - ../proto/wtools/amid/l4_files/l2/RecordContext.s
-          - ../proto/wtools/amid/l4_files/l3
-          - ../proto/wtools/amid/l4_files/l3/Path.s
-          - ../proto/wtools/amid/l4_files/l3/Path.ss
-          - ../proto/wtools/amid/l4_files/l3/Record.s
-          - ../proto/wtools/amid/l4_files/l3/RecordFactory.s
-          - ../proto/wtools/amid/l4_files/l3/RecordFilter.s
-          - ../proto/wtools/amid/l4_files/l3/StatClass.s
-          - ../proto/wtools/amid/l4_files/l3/StatNamespace.s
-          - ../proto/wtools/amid/l4_files/l4
-          - ../proto/wtools/amid/l4_files/l4/Abstract.s
-          - ../proto/wtools/amid/l4_files/l4/Carriage.s
-          - ../proto/wtools/amid/l4_files/l4/Carrier.s
-          - ../proto/wtools/amid/l4_files/l5
-          - ../proto/wtools/amid/l4_files/l5/Partial.s
-          - ../proto/wtools/amid/l4_files/l6
-          - ../proto/wtools/amid/l4_files/l6/FindMixin.s
-          - ../proto/wtools/amid/l4_files/l6/System.s
-          - ../proto/wtools/amid/l4_files/l7
-          - ../proto/wtools/amid/l4_files/l7/ConfigMixin.s
-          - ../proto/wtools/amid/l4_files/l7/SecondaryMixin.s
-          - ../proto/wtools/amid/l4_files/l7/TempMixin.s
           - ../proto/wtools/amid/l4_files/l7_operator
           - ../proto/wtools/amid/l4_files/l7_operator/l1
           - ../proto/wtools/amid/l4_files/l7_operator/l1/Namespace.s
@@ -70003,9 +69086,7 @@ module:
           - ../proto/wtools/amid/l4_files/l7_operator/l5/Mission.s
           - ../proto/wtools/amid/l4_files/l7_operator/l5/Operation.s
           - ../proto/wtools/amid/l4_files/l7_provider
-          - ../proto/wtools/amid/l4_files/l7_provider/Extract.s
           - ../proto/wtools/amid/l4_files/l7_provider/Git.ss
-          - ../proto/wtools/amid/l4_files/l7_provider/HardDrive.ss
           - ../proto/wtools/amid/l4_files/l7_provider/Http.js
           - ../proto/wtools/amid/l4_files/l7_provider/Http.ss
           - ../proto/wtools/amid/l4_files/l7_provider/Imap.ss
@@ -70016,93 +69097,17 @@ module:
           - ../proto/wtools/amid/l4_files/l9
           - ../proto/wtools/amid/l4_files/l9/Namespace.s
           - ../proto/wtools/amid/l4_files.test
-          - ../proto/wtools/amid/l4_files.test/aFileProvider.test.s
-          - ../proto/wtools/amid/l4_files.test/aFileProviderSystemDefault.test.s
-          - ../proto/wtools/amid/l4_files.test/aFilesFind.test.s
-          - ../proto/wtools/amid/l4_files.test/Extract.html
-          - ../proto/wtools/amid/l4_files.test/Extract.test.s
-          - ../proto/wtools/amid/l4_files.test/FilesFind.Extract.test.s
-          - ../proto/wtools/amid/l4_files.test/FilesFind.HardDrive.test.ss
-          - ../proto/wtools/amid/l4_files.test/FilesGraph.test.s
           - ../proto/wtools/amid/l4_files.test/Git.test.ss
-          - ../proto/wtools/amid/l4_files.test/HardDrive.test.ss
           - ../proto/wtools/amid/l4_files.test/Http.test.ss
           - ../proto/wtools/amid/l4_files.test/Npm.test.ss
-          - ../proto/wtools/amid/l4_files.test/Path.test.ss
-          - ../proto/wtools/amid/l4_files.test/Record.test.s
-          - ../proto/wtools/amid/l4_files.test/RecordFilter.test.s
-          - ../proto/wtools/amid/l4_files.test/Secondary.test.s
-          - ../proto/wtools/amid/l4_files.test/Secondary.test.ss
-          - ../proto/wtools/amid/l4_files.test/SystemDefaultExtract.test.s
-          - ../proto/wtools/amid/l4_files.test/SystemDefaultHardDrive.test.ss
           - ../proto/wtools/atop
     submodule:
       wTools:
         path: 'npm:///wTools'
         autoExporting: 0
         enabled: 0
-      wstringer:
-        path: 'npm:///wstringer'
-        autoExporting: 0
-        enabled: 0
-      wstringsextra:
-        path: 'npm:///wstringsextra'
-        autoExporting: 0
-        enabled: 0
-      wConsequence:
-        path: 'npm:///wConsequence'
-        autoExporting: 0
-        enabled: 0
-      wCopyable:
-        path: 'npm:///wCopyable'
-        autoExporting: 0
-        enabled: 0
-      wgdf:
-        path: 'npm:///wgdf'
-        autoExporting: 0
-        enabled: 0
-      wintrospectorbasic:
-        path: 'npm:///wintrospectorbasic'
-        autoExporting: 0
-        enabled: 0
-      wpathbasic:
-        path: 'npm:///wpathbasic'
-        autoExporting: 0
-        enabled: 0
-      wpathtools:
-        path: 'npm:///wpathtools'
-        autoExporting: 0
-        enabled: 0
-      wuribasic:
-        path: 'npm:///wuribasic'
-        autoExporting: 0
-        enabled: 0
-      wweburibasic:
-        path: 'npm:///wweburibasic'
-        autoExporting: 0
-        enabled: 0
-      wprocess:
-        path: 'npm:///wprocess'
-        autoExporting: 0
-        enabled: 0
-      wfieldsstack:
-        path: 'npm:///wfieldsstack'
-        autoExporting: 0
-        enabled: 0
-      wRegexpObject:
-        path: 'npm:///wRegexpObject'
-        autoExporting: 0
-        enabled: 0
-      wselector:
-        path: 'npm:///wselector'
-        autoExporting: 0
-        enabled: 0
-      wverbal:
-        path: 'npm:///wverbal'
-        autoExporting: 0
-        enabled: 0
-      wLogger:
-        path: 'npm:///wLogger'
+      wfilesimap:
+        path: 'npm:///wfilesimap'
         autoExporting: 0
         enabled: 0
       wgittools:
@@ -70113,24 +69118,6 @@ module:
         path: 'npm:///wnpmtools'
         autoExporting: 0
         enabled: 0
-      tar:
-        path: 'npm:///tar#6.0.2'
-        autoExporting: 0
-        enabled: 0
-      proper-lockfile:
-        path: 'npm:///proper-lockfile#4.1.1'
-        autoExporting: 0
-        enabled: 0
-      needle:
-        path: 'npm:///needle#2.5.0'
-        autoExporting: 0
-        enabled: 0
-      wFiles:
-        path: 'hd://..'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
       eslint:
         path: 'npm:///eslint#7.1.0'
         autoExporting: 0
@@ -70757,11 +69744,1659 @@ module:
           export: 1
     consistency:
       ../.module/wFiles/out/wFiles.out.will.yml:
-        hash: 0f504b0afc137a246a76c3bd21da27c3
-        size: 50824
+        hash: a77d90a19fa2797cc6f5bb848613112c
+        size: 43782
       ../.module/wFiles/will.yml:
-        hash: 3e68fc77327ccf0ba915bb3b74266efc
-        size: 9330
+        hash: d9e57b21cc8ec8f173c18f3f2c5c93f2
+        size: 8192
+  ../.module/wFilesBasic/:
+    about:
+      name: wFilesBasic
+      org: noorg
+      description: >-
+        Collection of basic classes to abstract files systems and partly good
+        defined API for general algorithms on files.
+      enabled: 1
+      version: 0.3.0
+      license: MIT
+      npm.name: wfilesbasic
+      author: Kostiantyn Wandalen <wanalen@01.school>
+      keywords:
+        - wTools
+        - wFiles
+        - file
+        - standardized abstract interface
+      contributors:
+        - Kostiantyn Wandalen <wanalen@01.school>
+        - Volodymyr M. <volodymyr.migdal@gmail.com>
+        - Ihor O. <iostashvxi@gmail.com>
+        - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
+      interpreters:
+        - njs >= 10.0.0
+        - chrome >= 60.0.0
+        - firefox >= 60.0.0
+      npm.scripts:
+        test: wtest .run proto/**
+        test2: >-
+          wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
+          routine : linkHardSyncRunner
+        test3: >-
+          wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
+          routine : linkHardAsyncRunner
+        docgen: wdocgen .build proto
+    path:
+      module.willfiles:
+        criterion:
+          predefined: 1
+        path: will.yml
+      module.original.willfiles:
+        criterion:
+          predefined: 1
+        path: will.yml
+      module.peer.willfiles:
+        criterion:
+          predefined: 1
+        path: out/wFilesBasic.out.will.yml
+      module.peer.in:
+        criterion:
+          predefined: 1
+        path: out
+      module.common:
+        criterion:
+          predefined: 1
+        path: ./
+      download:
+        criterion:
+          predefined: 1
+        path: .
+      repository:
+        path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+      origins:
+        path:
+          - 'git+https:///github.com/Wandalen/wFilesBasic.git'
+          - 'npm:///wFilesBasic'
+      bugtracker:
+        path: 'https:///github.com/Wandalen/wFilesBasic/issues'
+      in:
+        path: .
+      out:
+        path: out
+      temp:
+        path:
+          - 'path::out'
+          - package-lock.json
+          - package.json
+          - node_modules
+      proto:
+        path: proto
+      export:
+        path: '{path::proto}/**'
+      doc:
+        path: doc
+      out.raw.debug:
+        criterion:
+          debug: debug
+          raw: raw
+          content: prime
+        path: '{path::out}/debug'
+      out.compiled.debug:
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+        path: '{path::out}/compiled.debug'
+      out.raw.release:
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+        path: '{path::out}/raw.release'
+      out.compiled.release:
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+        path: '{path::out}/release'
+      entry.proto.no.tests:
+        criterion:
+          tests: no.tests
+        path: proto/wtools/amid/l4_files/entry/Basic.s
+      entry.proto.only.tests:
+        criterion:
+          tests: only.tests
+        path: proto/**/*.test.s
+      entry.out.raw.debug.debug:
+        criterion:
+          debug: debug
+          raw: raw
+          content: prime
+        path: '{path::out.*=1}/source/wtools/amid/l4_files/entry/Basic.s'
+      entry.out.raw.debug.release:
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+        path: '{path::out.*=1}/source/wtools/amid/l4_files/entry/Basic.s'
+      entry.out.compiled.debug.debug:
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+        path: '{path::out.*=}/source/Index.s'
+      entry.out.compiled.debug.release:
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+        path: '{path::out.*=}/source/Index.s'
+      npm.proto.entry:
+        path:
+          - proto/wtools/amid/l4_files/entry/Basic.s
+          - proto/node_modules/wfilesbasic
+    submodule:
+      wTools:
+        path: 'npm:///wTools'
+        autoExporting: 0
+        enabled: 0
+      wuribasic:
+        path: 'npm:///wuribasic'
+        autoExporting: 0
+        enabled: 0
+      wweburibasic:
+        path: 'npm:///wweburibasic'
+        autoExporting: 0
+        enabled: 0
+      wselector:
+        path: 'npm:///wselector'
+        autoExporting: 0
+        enabled: 0
+      wRegexpObject:
+        path: 'npm:///wRegexpObject'
+        autoExporting: 0
+        enabled: 0
+      wfieldsstack:
+        path: 'npm:///wfieldsstack'
+        autoExporting: 0
+        enabled: 0
+      wprocess:
+        path: 'npm:///wprocess'
+        autoExporting: 0
+        enabled: 0
+      wintrospectorbasic:
+        path: 'npm:///wintrospectorbasic'
+        autoExporting: 0
+        enabled: 0
+      wverbal:
+        path: 'npm:///wverbal'
+        autoExporting: 0
+        enabled: 0
+      wLogger:
+        path: 'npm:///wLogger'
+        autoExporting: 0
+        enabled: 0
+      proper-lockfile:
+        path: 'npm:///proper-lockfile#4.1.1'
+        autoExporting: 0
+        enabled: 0
+      wFiles:
+        path: 'hd://.'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+    reflector:
+      reflect.proto.debug.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: raw
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.release.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: raw
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.debug.compiled:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: compiled
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.release.compiled:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: compiled
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.raw.release}'
+        criterion:
+          raw: raw
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.no.tests.compiled.debug:
+        src:
+          filePath:
+            '**.test*': 0
+            '**.test/**': 0
+            'path::proto': '{path::out.*=1}/Main.s'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.no.tests.compiled.release:
+        src:
+          filePath:
+            '**.test*': 0
+            '**.test/**': 0
+            'path::proto': '{path::out.*=1}/Main.s'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.only.tests.compiled.debug:
+        src:
+          filePath:
+            '**.test*': 1
+            'path::proto': '{path::out.*=1}/Tests.test.s'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.only.tests.compiled.release:
+        src:
+          filePath:
+            '**.test*': 1
+            'path::proto': '{path::out.*=1}/Tests.test.s'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+    step:
+      proto.export:
+        opts:
+          export: 'path::export'
+          tar: 0
+        criterion:
+          content: proto
+        inherit:
+          - module.export
+      doc.export:
+        opts:
+          export: 'path::doc'
+          tar: 0
+        criterion:
+          content: doc
+        inherit:
+          - module.export
+      npm.export:
+        opts:
+          export: out.npm
+          tar: 0
+        criterion:
+          content: npm
+        inherit:
+          - module.export
+      npm.publish:
+        opts:
+          shell: npm publish
+      npm.generate.debug.raw:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: debug
+          raw: raw
+        inherit:
+          - npm.generate
+      npm.generate.release.raw:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: release
+          raw: raw
+        inherit:
+          - npm.generate
+      npm.generate.debug.compiled:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: debug
+          raw: compiled
+        inherit:
+          - npm.generate
+      npm.generate.release.compiled:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: release
+          raw: compiled
+        inherit:
+          - npm.generate
+      clean.out.debug.raw.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.raw.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.compiled.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.raw.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.raw.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.compiled.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.raw.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.raw.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.compiled.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.raw.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.raw.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.compiled.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.npm:
+        opts:
+          filePath: 'path::out.*=1'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      tst.proto:
+        opts:
+          shell: 'tst {path::proto}'
+        criterion:
+          content: proto
+      tst.debug:
+        opts:
+          shell: 'tst {path::out.*=1}'
+        criterion:
+          content: prime
+          debug: debug
+      tst.release:
+        opts:
+          shell: 'tst {path::out.*=1}'
+        criterion:
+          content: prime
+          debug: release
+      reflect.proto.debug.raw:
+        opts:
+          filePath: 'reflector::reflect.proto.debug.raw'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: raw
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.release.raw:
+        opts:
+          filePath: 'reflector::reflect.proto.release.raw'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: raw
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.debug.compiled:
+        opts:
+          filePath: 'reflector::reflect.proto.debug.compiled'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: compiled
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.release.compiled:
+        opts:
+          filePath: 'reflector::reflect.proto.release.compiled'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: compiled
+          content: prime
+        inherit:
+          - files.reflect
+      transpile.proto.raw:
+        opts:
+          entry: 'path::entry.proto.no.tests'
+          filePath: 'reflector::transpile.proto.raw'
+        criterion:
+          raw: raw
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.no.tests.compiled.debug:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          filePath: 'reflector::transpile.proto.no.tests.compiled.debug'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.no.tests.compiled.release:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          filePath: 'reflector::transpile.proto.no.tests.compiled.release'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.only.tests.compiled.debug:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          external.before: '{path::out.*=1}/Main.s'
+          filePath: 'reflector::transpile.proto.only.tests.compiled.debug'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.only.tests.compiled.release:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          external.before: '{path::out.*=1}/Main.s'
+          filePath: 'reflector::transpile.proto.only.tests.compiled.release'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+    build:
+      proto.export:
+        steps:
+          - 'step::proto.export'
+        criterion:
+          content: proto
+          export: 1
+      doc.export:
+        steps:
+          - 'step::doc.export'
+        criterion:
+          content: doc
+          export: 1
+      npm.export:
+        steps:
+          - 'step::npm.publish'
+        criterion:
+          content: npm
+          export: 1
+      export:
+        steps:
+          - 'build::proto.export'
+        criterion:
+          default: 1
+          export: 1
+      debug:
+        steps:
+          - 'step::clean.out*=2'
+          - reflect.proto.*=1
+        criterion:
+          default: 1
+          debug: debug
+          raw: raw
+          content: prime
+      compiled.debug:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.no.tests*=1
+          - transpile.proto.only.tests*=1
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+      raw.release:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.raw
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+      release:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.no.tests*=1
+          - transpile.proto.only.tests*=1
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+      npm:
+        steps:
+          - npm.generate.*=1
+        criterion:
+          debug: debug
+          raw: raw
+          content: npm
+      all:
+        steps:
+          - 'build::debug'
+          - 'build::compiled.debug'
+          - 'build::raw.release'
+          - 'build::release'
+          - 'build::npm'
+    consistency:
+      ../.module/wFilesBasic/will.yml: *ref_93
+      ../.module/wFilesBasic/out/wFilesBasic.out.will.yml: *ref_94
+  ../.module/wFilesBasic/out/wFilesBasic.out:
+    about:
+      name: wFilesBasic
+      org: noorg
+      description: >-
+        Collection of basic classes to abstract files systems and partly good
+        defined API for general algorithms on files.
+      enabled: 1
+      version: 0.3.0
+      license: MIT
+      npm.name: wfilesbasic
+      author: Kostiantyn Wandalen <wanalen@01.school>
+      keywords:
+        - wTools
+        - wFiles
+        - file
+        - standardized abstract interface
+      contributors:
+        - Kostiantyn Wandalen <wanalen@01.school>
+        - Volodymyr M. <volodymyr.migdal@gmail.com>
+        - Ihor O. <iostashvxi@gmail.com>
+        - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
+      interpreters:
+        - njs >= 10.0.0
+        - chrome >= 60.0.0
+        - firefox >= 60.0.0
+      npm.scripts:
+        test: wtest .run proto/**
+        test2: >-
+          wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
+          routine : linkHardSyncRunner
+        test3: >-
+          wtest .run proto/**/wtools/amid/file.test/Provider.HardDrive.test.ss
+          routine : linkHardAsyncRunner
+        docgen: wdocgen .build proto
+    path:
+      module.willfiles:
+        criterion:
+          predefined: 1
+        path: wFilesBasic.out.will.yml
+      module.common:
+        criterion:
+          predefined: 1
+        path: wFilesBasic.out
+      module.original.willfiles:
+        criterion:
+          predefined: 1
+        path: ../will.yml
+      module.peer.willfiles:
+        criterion:
+          predefined: 1
+        path: ../will.yml
+      module.peer.in:
+        criterion:
+          predefined: 1
+        path: ..
+      download:
+        criterion:
+          predefined: 1
+        path: ..
+      repository:
+        path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+      origins:
+        path:
+          - 'git+https:///github.com/Wandalen/wFilesBasic.git'
+          - 'npm:///wFilesBasic'
+      bugtracker:
+        path: 'https:///github.com/Wandalen/wFilesBasic/issues'
+      in:
+        path: .
+      out:
+        path: .
+      temp:
+        path:
+          - 'path::out'
+          - ../package-lock.json
+          - ../package.json
+          - ../node_modules
+      proto:
+        path: ../proto
+      export:
+        path: '{path::proto}/**'
+      doc:
+        path: ../doc
+      out.raw.debug:
+        criterion:
+          debug: debug
+          raw: raw
+          content: prime
+        path: '{path::out}/debug'
+      out.compiled.debug:
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+        path: '{path::out}/compiled.debug'
+      out.raw.release:
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+        path: '{path::out}/raw.release'
+      out.compiled.release:
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+        path: '{path::out}/release'
+      entry.proto.no.tests:
+        criterion:
+          tests: no.tests
+        path: ../proto/wtools/amid/l4_files/entry/Basic.s
+      entry.proto.only.tests:
+        criterion:
+          tests: only.tests
+        path: ../proto/**/*.test.s
+      entry.out.raw.debug.debug:
+        criterion:
+          debug: debug
+          raw: raw
+          content: prime
+        path: '{path::out.*=1}/source/wtools/amid/l4_files/entry/Basic.s'
+      entry.out.raw.debug.release:
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+        path: '{path::out.*=1}/source/wtools/amid/l4_files/entry/Basic.s'
+      entry.out.compiled.debug.debug:
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+        path: '{path::out.*=}/source/Index.s'
+      entry.out.compiled.debug.release:
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+        path: '{path::out.*=}/source/Index.s'
+      npm.proto.entry:
+        path:
+          - ../proto/wtools/amid/l4_files/entry/Basic.s
+          - ../proto/node_modules/wfilesbasic
+      exported.dir.proto.export:
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+        path: ../proto
+      exported.files.proto.export:
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+        path:
+          - ../proto
+          - ../proto/Integration.test.ss
+          - ../proto/node_modules
+          - ../proto/node_modules/Tools
+          - ../proto/node_modules/wfilesbasic
+          - ../proto/wtools
+          - ../proto/wtools/amid
+          - ../proto/wtools/amid/l4_files
+          - ../proto/wtools/amid/l4_files/entry
+          - ../proto/wtools/amid/l4_files/entry/Basic.s
+          - ../proto/wtools/amid/l4_files/entry/Extract.s
+          - ../proto/wtools/amid/l4_files/entry/HardDrive.ss
+          - ../proto/wtools/amid/l4_files/include
+          - ../proto/wtools/amid/l4_files/include/Basic.s
+          - ../proto/wtools/amid/l4_files/include/Extract.s
+          - ../proto/wtools/amid/l4_files/include/HardDrive.ss
+          - ../proto/wtools/amid/l4_files/include/Mid.s
+          - ../proto/wtools/amid/l4_files/include/MixinConfig.s
+          - ../proto/wtools/amid/l4_files/include/MixinFind.s
+          - ../proto/wtools/amid/l4_files/include/MixinSecondary.s
+          - ../proto/wtools/amid/l4_files/include/MixinTemp.s
+          - ../proto/wtools/amid/l4_files/include/Providers.s
+          - ../proto/wtools/amid/l4_files/l1
+          - ../proto/wtools/amid/l4_files/l1/Namespace.s
+          - ../proto/wtools/amid/l4_files/l2
+          - ../proto/wtools/amid/l4_files/l2/Encoder.s
+          - ../proto/wtools/amid/l4_files/l2/Encoders.s
+          - ../proto/wtools/amid/l4_files/l2/Linker.s
+          - ../proto/wtools/amid/l4_files/l2/RecordContext.s
+          - ../proto/wtools/amid/l4_files/l3
+          - ../proto/wtools/amid/l4_files/l3/Path.s
+          - ../proto/wtools/amid/l4_files/l3/Path.ss
+          - ../proto/wtools/amid/l4_files/l3/Record.s
+          - ../proto/wtools/amid/l4_files/l3/RecordFactory.s
+          - ../proto/wtools/amid/l4_files/l3/RecordFilter.s
+          - ../proto/wtools/amid/l4_files/l3/StatClass.s
+          - ../proto/wtools/amid/l4_files/l3/StatNamespace.s
+          - ../proto/wtools/amid/l4_files/l4
+          - ../proto/wtools/amid/l4_files/l4/Abstract.s
+          - ../proto/wtools/amid/l4_files/l4/Carriage.s
+          - ../proto/wtools/amid/l4_files/l4/Carrier.s
+          - ../proto/wtools/amid/l4_files/l5
+          - ../proto/wtools/amid/l4_files/l5/Partial.s
+          - ../proto/wtools/amid/l4_files/l6
+          - ../proto/wtools/amid/l4_files/l6/FindMixin.s
+          - ../proto/wtools/amid/l4_files/l6/System.s
+          - ../proto/wtools/amid/l4_files/l7
+          - ../proto/wtools/amid/l4_files/l7/ConfigMixin.s
+          - ../proto/wtools/amid/l4_files/l7/SecondaryMixin.s
+          - ../proto/wtools/amid/l4_files/l7/TempMixin.s
+          - ../proto/wtools/amid/l4_files/l7_provider
+          - ../proto/wtools/amid/l4_files/l7_provider/Extract.s
+          - ../proto/wtools/amid/l4_files/l7_provider/HardDrive.ss
+          - ../proto/wtools/amid/l4_files.test
+          - ../proto/wtools/amid/l4_files.test/aFileProvider.test.s
+          - ../proto/wtools/amid/l4_files.test/aFileProviderSystemDefault.test.s
+          - ../proto/wtools/amid/l4_files.test/aFilesFind.test.s
+          - ../proto/wtools/amid/l4_files.test/Extract.html
+          - ../proto/wtools/amid/l4_files.test/Extract.test.s
+          - ../proto/wtools/amid/l4_files.test/FilesFind.Extract.test.s
+          - ../proto/wtools/amid/l4_files.test/FilesFind.HardDrive.test.ss
+          - ../proto/wtools/amid/l4_files.test/FilesGraph.test.s
+          - ../proto/wtools/amid/l4_files.test/HardDrive.test.ss
+          - ../proto/wtools/amid/l4_files.test/Path.test.ss
+          - ../proto/wtools/amid/l4_files.test/Record.test.s
+          - ../proto/wtools/amid/l4_files.test/RecordFilter.test.s
+          - ../proto/wtools/amid/l4_files.test/Secondary.test.s
+          - ../proto/wtools/amid/l4_files.test/Secondary.test.ss
+          - ../proto/wtools/amid/l4_files.test/SystemDefaultExtract.test.s
+          - ../proto/wtools/amid/l4_files.test/SystemDefaultHardDrive.test.ss
+    submodule:
+      wTools:
+        path: 'npm:///wTools'
+        autoExporting: 0
+        enabled: 0
+      wuribasic:
+        path: 'npm:///wuribasic'
+        autoExporting: 0
+        enabled: 0
+      wweburibasic:
+        path: 'npm:///wweburibasic'
+        autoExporting: 0
+        enabled: 0
+      wselector:
+        path: 'npm:///wselector'
+        autoExporting: 0
+        enabled: 0
+      wRegexpObject:
+        path: 'npm:///wRegexpObject'
+        autoExporting: 0
+        enabled: 0
+      wfieldsstack:
+        path: 'npm:///wfieldsstack'
+        autoExporting: 0
+        enabled: 0
+      wprocess:
+        path: 'npm:///wprocess'
+        autoExporting: 0
+        enabled: 0
+      wintrospectorbasic:
+        path: 'npm:///wintrospectorbasic'
+        autoExporting: 0
+        enabled: 0
+      wverbal:
+        path: 'npm:///wverbal'
+        autoExporting: 0
+        enabled: 0
+      wLogger:
+        path: 'npm:///wLogger'
+        autoExporting: 0
+        enabled: 0
+      proper-lockfile:
+        path: 'npm:///proper-lockfile#4.1.1'
+        autoExporting: 0
+        enabled: 0
+      wFiles:
+        path: 'hd://..'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      eslint:
+        path: 'npm:///eslint#7.1.0'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+      wTesting:
+        path: 'npm:///wTesting'
+        autoExporting: 0
+        enabled: 0
+        criterion:
+          development: 1
+    reflector:
+      reflect.proto.debug.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: raw
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.release.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: raw
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.debug.compiled:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: compiled
+          content: prime
+        inherit:
+          - predefined.*
+      reflect.proto.release.compiled:
+        src:
+          filePath:
+            'path::proto': '{path::out.*=1}/source'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: compiled
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.raw:
+        src:
+          filePath:
+            'path::proto': '{path::out.raw.release}'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          raw: raw
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.no.tests.compiled.debug:
+        src:
+          filePath:
+            '**.test*': false
+            '**.test/**': false
+            'path::proto': '{path::out.*=1}/Main.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.no.tests.compiled.release:
+        src:
+          filePath:
+            '**.test*': false
+            '**.test/**': false
+            'path::proto': '{path::out.*=1}/Main.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.only.tests.compiled.debug:
+        src:
+          filePath:
+            '**.test*': true
+            'path::proto': '{path::out.*=1}/Tests.test.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - predefined.*
+      transpile.proto.only.tests.compiled.release:
+        src:
+          filePath:
+            '**.test*': true
+            'path::proto': '{path::out.*=1}/Tests.test.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - predefined.*
+      exported.proto.export:
+        src:
+          filePath:
+            '**': ''
+          prefixPath: ../proto
+        mandatory: 1
+        dstRewritingOnlyPreserving: 1
+        linkingAction: hardLinkMaybe
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+      exported.files.proto.export:
+        src:
+          filePath:
+            'path::exported.files.proto.export': ''
+          basePath: .
+          prefixPath: 'path::exported.dir.proto.export'
+          recursive: 0
+        recursive: 0
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+    step:
+      proto.export:
+        opts:
+          export: 'path::export'
+          tar: 0
+        criterion:
+          content: proto
+        inherit:
+          - module.export
+      doc.export:
+        opts:
+          export: 'path::doc'
+          tar: 0
+        criterion:
+          content: doc
+        inherit:
+          - module.export
+      npm.export:
+        opts:
+          export: out.npm
+          tar: 0
+        criterion:
+          content: npm
+        inherit:
+          - module.export
+      npm.publish:
+        opts:
+          shell: npm publish
+      npm.generate.debug.raw:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: debug
+          raw: raw
+        inherit:
+          - npm.generate
+      npm.generate.release.raw:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: release
+          raw: raw
+        inherit:
+          - npm.generate
+      npm.generate.debug.compiled:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: debug
+          raw: compiled
+        inherit:
+          - npm.generate
+      npm.generate.release.compiled:
+        opts:
+          entryPath: 'path::entry.out.*=1'
+          packagePath: '{path::out.*=1}/package.json'
+          filesPath: '{path::out.*=1}/source/**'
+        criterion:
+          debug: release
+          raw: compiled
+        inherit:
+          - npm.generate
+      clean.out.debug.raw.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.raw.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.compiled.no.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: no.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.raw.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.raw.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.release.compiled.only.tests.prime:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: only.tests
+          content: prime
+        inherit:
+          - files.delete
+      clean.out.debug.raw.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.raw.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.compiled.no.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.raw.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: raw
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.raw.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: raw
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.debug.compiled.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.release.compiled.only.tests.npm:
+        opts:
+          filePath: '{path::out.*=1}/source'
+        criterion:
+          debug: release
+          raw: compiled
+          tests: only.tests
+          content: npm
+        inherit:
+          - files.delete
+      clean.out.npm:
+        opts:
+          filePath: 'path::out.*=1'
+        criterion:
+          debug: debug
+          raw: compiled
+          tests: no.tests
+          content: npm
+        inherit:
+          - files.delete
+      tst.proto:
+        opts:
+          shell: 'tst {path::proto}'
+        criterion:
+          content: proto
+      tst.debug:
+        opts:
+          shell: 'tst {path::out.*=1}'
+        criterion:
+          content: prime
+          debug: debug
+      tst.release:
+        opts:
+          shell: 'tst {path::out.*=1}'
+        criterion:
+          content: prime
+          debug: release
+      reflect.proto.debug.raw:
+        opts:
+          filePath: 'reflector::reflect.proto.debug.raw'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: raw
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.release.raw:
+        opts:
+          filePath: 'reflector::reflect.proto.release.raw'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: raw
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.debug.compiled:
+        opts:
+          filePath: 'reflector::reflect.proto.debug.compiled'
+        criterion:
+          tests: no.tests
+          debug: debug
+          raw: compiled
+          content: prime
+        inherit:
+          - files.reflect
+      reflect.proto.release.compiled:
+        opts:
+          filePath: 'reflector::reflect.proto.release.compiled'
+        criterion:
+          tests: no.tests
+          debug: release
+          raw: compiled
+          content: prime
+        inherit:
+          - files.reflect
+      transpile.proto.raw:
+        opts:
+          entry: 'path::entry.proto.no.tests'
+          filePath: 'reflector::transpile.proto.raw'
+        criterion:
+          raw: raw
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.no.tests.compiled.debug:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          filePath: 'reflector::transpile.proto.no.tests.compiled.debug'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.no.tests.compiled.release:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          filePath: 'reflector::transpile.proto.no.tests.compiled.release'
+        criterion:
+          tests: no.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.only.tests.compiled.debug:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          external.before: '{path::out.*=1}/Main.s'
+          filePath: 'reflector::transpile.proto.only.tests.compiled.debug'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: debug
+          content: prime
+        inherit:
+          - files.transpile
+      transpile.proto.only.tests.compiled.release:
+        opts:
+          entry: 'path::entry.proto.*=1'
+          external.before: '{path::out.*=1}/Main.s'
+          filePath: 'reflector::transpile.proto.only.tests.compiled.release'
+        criterion:
+          tests: only.tests
+          raw: compiled
+          debug: release
+          content: prime
+        inherit:
+          - files.transpile
+      exported.proto.export:
+        opts:
+          filePath: 'reflector::exported.proto.export'
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+        inherit:
+          - files.reflect
+      exported.files.proto.export:
+        opts:
+          filePath: 'reflector::exported.files.proto.export'
+        criterion:
+          generated: 1
+          content: proto
+          export: 1
+        inherit:
+          - files.reflect
+    build:
+      proto.export:
+        steps:
+          - 'step::proto.export'
+        criterion:
+          content: proto
+          export: 1
+      doc.export:
+        steps:
+          - 'step::doc.export'
+        criterion:
+          content: doc
+          export: 1
+      npm.export:
+        steps:
+          - 'step::npm.publish'
+        criterion:
+          content: npm
+          export: 1
+      export:
+        steps:
+          - 'build::proto.export'
+        criterion:
+          default: 1
+          export: 1
+      debug:
+        steps:
+          - 'step::clean.out*=2'
+          - reflect.proto.*=1
+        criterion:
+          default: 1
+          debug: debug
+          raw: raw
+          content: prime
+      compiled.debug:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.no.tests*=1
+          - transpile.proto.only.tests*=1
+        criterion:
+          debug: debug
+          raw: compiled
+          content: prime
+      raw.release:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.raw
+        criterion:
+          debug: release
+          raw: raw
+          content: prime
+      release:
+        steps:
+          - 'step::clean.out*=2'
+          - transpile.proto.no.tests*=1
+          - transpile.proto.only.tests*=1
+        criterion:
+          debug: release
+          raw: compiled
+          content: prime
+      npm:
+        steps:
+          - npm.generate.*=1
+        criterion:
+          debug: debug
+          raw: raw
+          content: npm
+      all:
+        steps:
+          - 'build::debug'
+          - 'build::compiled.debug'
+          - 'build::raw.release'
+          - 'build::release'
+          - 'build::npm'
+    exported:
+      proto.export:
+        version: 0.3.0
+        recursive: 0
+        withIntegrated: 2
+        tar: 0
+        exportedReflector: 'reflector::exported.proto.export'
+        exportedFilesReflector: 'reflector::exported.files.proto.export'
+        exportedDirPath: 'path::exported.dir.proto.export'
+        exportedFilesPath: 'path::exported.files.proto.export'
+        criterion:
+          content: proto
+          export: 1
+    consistency:
+      ../.module/wFilesBasic/out/wFilesBasic.out.will.yml:
+        hash: a4be15ddbeabbf1684319951b6739c71
+        size: 44158
+      ../.module/wFilesBasic/will.yml:
+        hash: 0bbe20d4f3d4c1b98effe336facfbcc0
+        size: 7595
   ../.module/wFilesArchive/:
     about:
       name: wFilesArchive
@@ -71470,8 +72105,8 @@ module:
           - 'build::release'
           - 'build::npm'
     consistency:
-      ../.module/wFilesArchive/will.yml: *ref_93
-      ../.module/wFilesArchive/out/wFilesArchive.out.will.yml: *ref_94
+      ../.module/wFilesArchive/will.yml: *ref_95
+      ../.module/wFilesArchive/out/wFilesArchive.out.will.yml: *ref_96
   ../.module/wFilesArchive/out/wFilesArchive.out:
     about:
       name: wFilesArchive
@@ -73045,8 +73680,8 @@ module:
           - 'build::release'
           - 'build::npm'
     consistency:
-      ../.module/wStateStorage/will.yml: *ref_95
-      ../.module/wStateStorage/out/wStateStorage.out.will.yml: *ref_96
+      ../.module/wStateStorage/will.yml: *ref_97
+      ../.module/wStateStorage/out/wStateStorage.out.will.yml: *ref_98
   ../.module/wStateStorage/out/wStateStorage.out:
     about:
       name: wStateStorage
@@ -74564,8 +75199,8 @@ module:
           - 'build::release'
           - 'build::npm'
     consistency:
-      ../.module/wRegexpObject/will.yml: *ref_97
-      ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: *ref_98
+      ../.module/wRegexpObject/will.yml: *ref_99
+      ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: *ref_100
   ../.module/wRegexpObject/out/wRegexpObject.out:
     about:
       name: wRegexpObject
@@ -76077,8 +76712,8 @@ module:
           - 'build::release'
           - 'build::npm'
     consistency:
-      ../.module/wVerbal/will.yml: *ref_99
-      ../.module/wVerbal/out/wVerbal.out.will.yml: *ref_100
+      ../.module/wVerbal/will.yml: *ref_101
+      ../.module/wVerbal/out/wVerbal.out.will.yml: *ref_102
   ../.module/wVerbal/out/wVerbal.out:
     about:
       name: wVerbal
