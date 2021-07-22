@@ -362,9 +362,9 @@ submodule:
   wUriBasic:
     path: 'git+https:///github.com/Wandalen/wUriBasic.git'
     enabled: 1
-  wtools_:
-    path: 'git+https:///github.com/Wandalen/wtools_.git'
-    enabled: 1
+  # wtools_:
+  #   path: 'git+https:///github.com/Wandalen/wtools_.git'
+  #   enabled: 1
   wResolverExtra:
     path: 'git+https:///github.com/Wandalen/wResolverExtra.git'
     enabled: 1
