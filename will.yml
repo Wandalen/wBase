@@ -437,26 +437,11 @@ submodule:
   wColor256:
     path: 'git+https:///github.com/Wandalen/wColor256.git'
     enabled: 1
-  wGdf:
-    path: 'git+https:///github.com/Wandalen/wGdf.git'
-    enabled: 1
-  wNpmTools:
-    path: 'git+https:///github.com/Wandalen/wNpmTools.git'
-    enabled: 1
-  wGitTools:
-    path: 'git+https:///github.com/Wandalen/wGitTools.git'
-    enabled: 1
-  wHttp:
-    path: 'git+https:///github.com/Wandalen/wHttp.git'
-    enabled: 1
-  wFiles:
-    path: 'git+https:///github.com/Wandalen/wFiles.git'
-    enabled: 1
   wFilesBasic:
     path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
     enabled: 1
-  wFilesArchive:
-    path: 'git+https:///github.com/Wandalen/wFilesArchive.git'
+  wGdf:
+    path: 'git+https:///github.com/Wandalen/wGdf.git'
     enabled: 1
   wStateStorage:
     path: 'git+https:///github.com/Wandalen/wStateStorage.git'
