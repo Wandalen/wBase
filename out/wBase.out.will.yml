@@ -2316,8 +2316,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -2329,8 +2329,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -2342,7 +2342,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -2354,7 +2354,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -2885,7 +2885,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wTools.git/'
       origins:
@@ -4043,12 +4043,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wTools/out/wTools.out.will.yml:
-        hash: f1d877f3181d511327660bf7bbb86ec9
-        size: 60238
-      ../.module/wTools/will.yml:
-        hash: 49d60e99d766568ac75be89f019d9d99
-        size: 7048
+      ../.module/wTools/out/wTools.out.will.yml: *ref_6
+      ../.module/wTools/will.yml: *ref_5
   ../.module/wPathBasic/:
     about:
       name: wPathBasic
@@ -4280,8 +4276,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -4293,8 +4289,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -4306,7 +4302,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -4318,7 +4314,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -4813,7 +4809,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https://../github.com/Wandalen/wPathBasic.git'
       origins:
@@ -5571,12 +5567,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wPathBasic/out/wPathBasic.out.will.yml:
-        hash: 61137a40fab0b643d5df924c4ff7b7c6
-        size: 39317
-      ../.module/wPathBasic/will.yml:
-        hash: 8a488ed804fc07447ec74d4e1bf69ba5
-        size: 6981
+      ../.module/wPathBasic/out/wPathBasic.out.will.yml: *ref_8
+      ../.module/wPathBasic/will.yml: *ref_7
   ../.module/wTraverser/:
     about:
       name: wTraverser
@@ -5797,8 +5789,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -5810,8 +5802,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -5823,7 +5815,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -5835,7 +5827,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -6322,7 +6314,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wTraverser.git'
       origins:
@@ -7072,12 +7064,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wTraverser/out/wTraverser.out.will.yml:
-        hash: 1d419a7e74eb8692e9d88b9d80de9453
-        size: 38763
-      ../.module/wTraverser/will.yml:
-        hash: 3e7b5e726d3d7653a6442d0b3618cae8
-        size: 6745
+      ../.module/wTraverser/out/wTraverser.out.will.yml: *ref_10
+      ../.module/wTraverser/will.yml: *ref_9
   ../.module/wProcedure/:
     about:
       name: wProcedure
@@ -7301,8 +7289,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -7314,8 +7302,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -7327,7 +7315,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -7339,7 +7327,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -7825,7 +7813,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wProcedure.git'
       origins:
@@ -8583,12 +8571,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wProcedure/out/wProcedure.out.will.yml:
-        hash: e3d0537aa28eba6311e93d26c83558d2
-        size: 39160
-      ../.module/wProcedure/will.yml:
-        hash: 428288a3282cf8a61c9056d682d4325f
-        size: 6791
+      ../.module/wProcedure/out/wProcedure.out.will.yml: *ref_12
+      ../.module/wProcedure/will.yml: *ref_11
   ../.module/wResolver/:
     about:
       name: wResolver
@@ -8806,8 +8790,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -8819,8 +8803,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -8832,7 +8816,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -8844,7 +8828,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -9328,7 +9312,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wResolver.git'
       origins:
@@ -10078,12 +10062,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wResolver/out/wResolver.out.will.yml:
-        hash: f0b32421519a31afe3f81ca3e1caf81e
-        size: 38273
-      ../.module/wResolver/will.yml:
-        hash: f35b2c6910adaf11ed83d3ff029b069b
-        size: 6510
+      ../.module/wResolver/out/wResolver.out.will.yml: *ref_14
+      ../.module/wResolver/will.yml: *ref_13
   ../.module/wStringer/:
     about:
       name: wStringer
@@ -10299,8 +10279,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -10312,8 +10292,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -10325,7 +10305,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -10337,7 +10317,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -10823,7 +10803,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wStringer.git'
       origins:
@@ -11584,12 +11564,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wStringer/out/wStringer.out.will.yml:
-        hash: 16832b69ec38e5cc06cf009f36f47d1c
-        size: 39320
-      ../.module/wStringer/will.yml:
-        hash: bcd94d332a591c39b1c68043c92aa84f
-        size: 6627
+      ../.module/wStringer/out/wStringer.out.will.yml: *ref_16
+      ../.module/wStringer/will.yml: *ref_15
   ../.module/wPathTools/:
     about:
       name: wPathTools
@@ -11823,8 +11799,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -11836,8 +11812,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -11849,7 +11825,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -11861,7 +11837,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -12353,7 +12329,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wPathTools.git'
       origins:
@@ -13113,12 +13089,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wPathTools/out/wPathTools.out.will.yml:
-        hash: 4efc6937c5fa725b33a99d9240ce0080
-        size: 39189
-      ../.module/wPathTools/will.yml:
-        hash: 523c5c1fcd6d013ebb36b07a5cbd1d07
-        size: 6908
+      ../.module/wPathTools/out/wPathTools.out.will.yml: *ref_18
+      ../.module/wPathTools/will.yml: *ref_17
   ../.module/wPath/:
     about:
       name: wPath
@@ -13343,8 +13315,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -13356,8 +13328,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -13369,7 +13341,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -13381,7 +13353,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -13872,7 +13844,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wPath.git'
       origins:
@@ -14620,12 +14592,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wPath/out/wPath.out.will.yml:
-        hash: dc59e171bfb8736cd0f58d5bd3a0734f
-        size: 38540
-      ../.module/wPath/will.yml:
-        hash: c7882e4b15f848b1fdc49753c4bc1641
-        size: 6708
+      ../.module/wPath/out/wPath.out.will.yml: *ref_20
+      ../.module/wPath/will.yml: *ref_19
   ../.module/wCloner/:
     about:
       name: wCloner
@@ -14848,8 +14816,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -14861,8 +14829,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -14874,7 +14842,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -14886,7 +14854,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -15375,7 +15343,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wCloner.git'
       origins:
@@ -16125,12 +16093,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wCloner/out/wCloner.out.will.yml:
-        hash: 7274214b12c0f1f2676a6f57953749e2
-        size: 38567
-      ../.module/wCloner/will.yml:
-        hash: 49a8acf44d05c62a8722e5f351d1edd1
-        size: 6681
+      ../.module/wCloner/out/wCloner.out.will.yml: *ref_22
+      ../.module/wCloner/will.yml: *ref_21
   ../.module/wInstancing/:
     about:
       name: wInstancing
@@ -16352,8 +16316,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -16365,8 +16329,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -16378,7 +16342,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -16390,7 +16354,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -16880,7 +16844,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wInstancing.git'
       origins:
@@ -17628,12 +17592,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wInstancing/out/wInstancing.out.will.yml:
-        hash: 5c6e73efe474c6066622fe07cf871811
-        size: 38857
-      ../.module/wInstancing/will.yml:
-        hash: b255624a8c817ae223d6127b6da34126
-        size: 6812
+      ../.module/wInstancing/out/wInstancing.out.will.yml: *ref_24
+      ../.module/wInstancing/will.yml: *ref_23
   ../.module/wLooker/:
     about:
       name: wLooker
@@ -17856,8 +17816,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -17869,8 +17829,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -17882,7 +17842,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -17894,7 +17854,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -18381,7 +18341,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wLooker.git'
       origins:
@@ -19133,12 +19093,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wLooker/out/wLooker.out.will.yml:
-        hash: c8c11286290ce6d83a904e0cd19ce675
-        size: 38753
-      ../.module/wLooker/will.yml:
-        hash: 75efa1e2b91a1b155a0962ec991c51ac
-        size: 6747
+      ../.module/wLooker/out/wLooker.out.will.yml: *ref_26
+      ../.module/wLooker/will.yml: *ref_25
   ../.module/wEqualer/:
     about:
       name: wEqualer
@@ -19362,8 +19318,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -19375,8 +19331,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -19388,7 +19344,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -19400,7 +19356,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -19886,7 +19842,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wEqualer.git'
       origins:
@@ -20640,12 +20596,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wEqualer/out/wEqualer.out.will.yml:
-        hash: 320040076a71c8f0042bae04f4603c02
-        size: 38805
-      ../.module/wEqualer/will.yml:
-        hash: b7af2e6be9330a09b53a2af46b05d2cd
-        size: 6747
+      ../.module/wEqualer/out/wEqualer.out.will.yml: *ref_28
+      ../.module/wEqualer/will.yml: *ref_27
   ../.module/wLogger/:
     about:
       name: wLogger
@@ -20898,8 +20850,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -20911,8 +20863,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -20924,7 +20876,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -20936,7 +20888,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -21433,7 +21385,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wLogger.git'
       origins:
@@ -22243,12 +22195,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wLogger/out/wLogger.out.will.yml:
-        hash: 27c4327ee2784f4f64b2435da25f0db5
-        size: 42967
-      ../.module/wLogger/will.yml:
-        hash: c59f01f8de0557698d197415ae8f6bea
-        size: 7550
+      ../.module/wLogger/out/wLogger.out.will.yml: *ref_30
+      ../.module/wLogger/will.yml: *ref_29
   ../.module/wUriBasic/:
     about:
       name: wUriBasic
@@ -22482,8 +22430,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -22495,8 +22443,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -22508,7 +22456,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -22520,7 +22468,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -23012,7 +22960,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wUriBasic.git'
       origins:
@@ -23776,12 +23724,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wUriBasic/out/wUriBasic.out.will.yml:
-        hash: d3a282396d5e6c884848e61489f1a5e2
-        size: 39436
-      ../.module/wUriBasic/will.yml:
-        hash: e65f463da9642b46f0abbac1a4b3f6e9
-        size: 6930
+      ../.module/wUriBasic/out/wUriBasic.out.will.yml: *ref_32
+      ../.module/wUriBasic/will.yml: *ref_31
   ../.module/wResolverExtra/:
     about:
       name: wResolverExtra
@@ -24001,8 +23945,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -24014,8 +23958,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -24027,7 +23971,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -24039,7 +23983,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -24525,7 +24469,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wResolverExtra.git'
       origins:
@@ -25275,12 +25219,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wResolverExtra/out/wResolverExtra.out.will.yml:
-        hash: 1827e1c1aca8371567a8a07fa31d48d3
-        size: 38755
-      ../.module/wResolverExtra/will.yml:
-        hash: a37c6e9fc1678902ab893b58f4877933
-        size: 6725
+      ../.module/wResolverExtra/out/wResolverExtra.out.will.yml: *ref_34
+      ../.module/wResolverExtra/will.yml: *ref_33
   ../.module/wStringsExtra/:
     about:
       name: wStringsExtra
@@ -25512,8 +25452,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -25525,8 +25465,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -25538,7 +25478,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -25550,7 +25490,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -26036,7 +25976,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wStringsExtra.git'
       origins:
@@ -26800,12 +26740,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wStringsExtra/out/wStringsExtra.out.will.yml:
-        hash: 1e8009518ceef108815a22fb38daccf7
-        size: 39305
-      ../.module/wStringsExtra/will.yml:
-        hash: 4f95a2257ad24d2fcf779550a12fc585
-        size: 6866
+      ../.module/wStringsExtra/out/wStringsExtra.out.will.yml: *ref_36
+      ../.module/wStringsExtra/will.yml: *ref_35
   ../.module/wProcessWatcher/:
     about:
       name: wProcessWatcher
@@ -27042,8 +26978,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -27055,8 +26991,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -27068,7 +27004,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -27080,7 +27016,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -27571,7 +27507,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wProcessWatcher.git'
       origins:
@@ -28331,12 +28267,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wProcessWatcher/out/wProcessWatcher.out.will.yml:
-        hash: 705d7d9f72215caa28df4b1c87f5cd98
-        size: 39679
-      ../.module/wProcessWatcher/will.yml:
-        hash: 1c525196fd2ebc1c57681706b2a7955c
-        size: 7130
+      ../.module/wProcessWatcher/out/wProcessWatcher.out.will.yml: *ref_38
+      ../.module/wProcessWatcher/will.yml: *ref_37
   ../.module/wBlueprint/:
     about:
       name: wBlueprint
@@ -28537,8 +28469,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -28550,8 +28482,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -28563,7 +28495,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -28575,7 +28507,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -29062,7 +28994,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wBlueprint.git'
       origins:
@@ -29811,12 +29743,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wBlueprint/out/wBlueprint.out.will.yml:
-        hash: da2b26a285dc2cb823ed9118f9491316
-        size: 39021
-      ../.module/wBlueprint/will.yml:
-        hash: 0f779f0998d59b84259e875db4f32ee6
-        size: 6434
+      ../.module/wBlueprint/out/wBlueprint.out.will.yml: *ref_40
+      ../.module/wBlueprint/will.yml: *ref_39
   ../.module/wUri/:
     about:
       name: wUri
@@ -30041,8 +29969,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -30054,8 +29982,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -30067,7 +29995,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -30079,7 +30007,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -30570,7 +30498,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wUri.git'
       origins:
@@ -31320,12 +31248,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wUri/out/wUri.out.will.yml:
-        hash: 305c7a734142f304d008fa3515ac33a7
-        size: 38568
-      ../.module/wUri/will.yml:
-        hash: 76cd08848177f2ad4944dee431d594e7
-        size: 6688
+      ../.module/wUri/out/wUri.out.will.yml: *ref_42
+      ../.module/wUri/will.yml: *ref_41
   ../.module/wEventHandler/:
     about:
       name: wEventHandler
@@ -31546,8 +31470,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -31559,8 +31483,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -31572,7 +31496,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -31584,7 +31508,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -32077,7 +32001,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wEventHandler.git'
       origins:
@@ -32821,12 +32745,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wEventHandler/out/wEventHandler.out.will.yml:
-        hash: b44caa2e95697f7a4911c69b3c84f55c
-        size: 39442
-      ../.module/wEventHandler/will.yml:
-        hash: c3d67beb602b07c4c8afbe6472cca0b7
-        size: 7081
+      ../.module/wEventHandler/out/wEventHandler.out.will.yml: *ref_44
+      ../.module/wEventHandler/will.yml: *ref_43
   ../.module/wArraySorted/:
     about:
       name: wArraySorted
@@ -33052,8 +32972,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -33065,8 +32985,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -33078,7 +32998,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -33090,7 +33010,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -33586,7 +33506,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wArraySorted.git'
       origins:
@@ -34332,12 +34252,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wArraySorted/out/wArraySorted.out.will.yml:
-        hash: 59e514663b6f9a71c8186df0746e1969
-        size: 39011
-      ../.module/wArraySorted/will.yml:
-        hash: b309e9b6a4079e3dffcf449a4538fd38
-        size: 6958
+      ../.module/wArraySorted/out/wArraySorted.out.will.yml: *ref_46
+      ../.module/wArraySorted/will.yml: *ref_45
   ../.module/wProto/:
     about:
       name: wProto
@@ -34564,8 +34480,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -34577,8 +34493,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -34590,7 +34506,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -34602,7 +34518,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -35095,7 +35011,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wProto.git'
       origins:
@@ -35859,12 +35775,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wProto/out/wProto.out.will.yml:
-        hash: cec842753c7269e548967f3ba5d992b7
-        size: 39581
-      ../.module/wProto/will.yml:
-        hash: 11a01149b61dd0f29c61280c178c2b0f
-        size: 6823
+      ../.module/wProto/out/wProto.out.will.yml: *ref_48
+      ../.module/wProto/will.yml: *ref_47
   ../.module/wWebUriBasic/:
     about:
       name: wWebUriBasic
@@ -36086,8 +35998,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -36099,8 +36011,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -36112,7 +36024,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -36124,7 +36036,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -36612,7 +36524,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wWebUriBasic.git'
       origins:
@@ -37362,12 +37274,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wWebUriBasic/out/wWebUriBasic.out.will.yml:
-        hash: 6b066987608ef8585267ee349d5476db
-        size: 39039
-      ../.module/wWebUriBasic/will.yml:
-        hash: e4aeba8f06ba27c38e86586a4043b2e8
-        size: 6883
+      ../.module/wWebUriBasic/out/wWebUriBasic.out.will.yml: *ref_50
+      ../.module/wWebUriBasic/will.yml: *ref_49
   ../.module/wFieldsStack/:
     about:
       name: wFieldsStack
@@ -37593,8 +37501,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -37606,8 +37514,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -37619,7 +37527,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -37631,7 +37539,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -38119,7 +38027,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wFieldsStack.git'
       origins:
@@ -38873,12 +38781,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wFieldsStack/out/wFieldsStack.out.will.yml:
-        hash: 3322eb7746d7a6c6f6f2b700cc789c7e
-        size: 39337
-      ../.module/wFieldsStack/will.yml:
-        hash: 4ea44cc2ba15133dfbf993ea1860ee12
-        size: 6967
+      ../.module/wFieldsStack/out/wFieldsStack.out.will.yml: *ref_52
+      ../.module/wFieldsStack/will.yml: *ref_51
   ../.module/wReplicator/:
     about:
       name: wReplicator
@@ -39097,8 +39001,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -39110,8 +39014,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -39123,7 +39027,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -39135,7 +39039,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -39620,7 +39524,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wReplicator.git'
       origins:
@@ -40370,12 +40274,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wReplicator/out/wReplicator.out.will.yml:
-        hash: 89af481d943de09127973e7ff8835a7b
-        size: 38471
-      ../.module/wReplicator/will.yml:
-        hash: d4931b9d4a7d40a03bd2e96dba994992
-        size: 6602
+      ../.module/wReplicator/out/wReplicator.out.will.yml: *ref_54
+      ../.module/wReplicator/will.yml: *ref_53
   ../.module/wProcess/:
     about:
       name: wProcess
@@ -40631,8 +40531,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -40644,8 +40544,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -40657,7 +40557,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -40669,7 +40569,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -41161,7 +41061,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wProcess.git'
       origins:
@@ -41962,12 +41862,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wProcess/out/wProcess.out.will.yml:
-        hash: 8e73bf7148b3d771dbfed7bfb865f659
-        size: 41916
-      ../.module/wProcess/will.yml:
-        hash: fec98460f0e37023ee51f8eff2b349a8
-        size: 7482
+      ../.module/wProcess/out/wProcess.out.will.yml: *ref_56
+      ../.module/wProcess/will.yml: *ref_55
   ../.module/wCopyable/:
     about:
       name: wCopyable
@@ -42211,8 +42107,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -42224,8 +42120,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -42237,7 +42133,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -42249,7 +42145,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -42743,7 +42639,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wCopyable.git'
       origins:
@@ -43509,12 +43405,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wCopyable/out/wCopyable.out.will.yml:
-        hash: 1704f6264274ab9cc29bdbcc88965ba2
-        size: 39407
-      ../.module/wCopyable/will.yml:
-        hash: 70720b7cb27d0ca1a25fc5766a7ece1b
-        size: 6992
+      ../.module/wCopyable/out/wCopyable.out.will.yml: *ref_58
+      ../.module/wCopyable/will.yml: *ref_57
   ../.module/wSelector/:
     about:
       name: wSelector
@@ -43741,8 +43633,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -43754,8 +43646,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -43767,7 +43659,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -43779,7 +43671,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -44264,7 +44156,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wSelector.git'
       origins:
@@ -45022,12 +44914,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wSelector/out/wSelector.out.will.yml:
-        hash: 78b1d8c0497e9d1a673c019e16919923
-        size: 38893
-      ../.module/wSelector/will.yml:
-        hash: a64c381d4df9ef1976fc016333b1efea
-        size: 6747
+      ../.module/wSelector/out/wSelector.out.will.yml: *ref_60
+      ../.module/wSelector/will.yml: *ref_59
   ../.module/wLookerExtra/:
     about:
       name: wLookerExtra
@@ -45248,8 +45136,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -45261,8 +45149,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -45274,7 +45162,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -45286,7 +45174,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -45773,7 +45661,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wLookerExtra.git'
       origins:
@@ -46523,12 +46411,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wLookerExtra/out/wLookerExtra.out.will.yml:
-        hash: 23d6b0b2711a2c9c1ecbc1033a2f8cbb
-        size: 38540
-      ../.module/wLookerExtra/will.yml:
-        hash: dfed509df58362db98c423c5617ba925
-        size: 6665
+      ../.module/wLookerExtra/out/wLookerExtra.out.will.yml: *ref_62
+      ../.module/wLookerExtra/will.yml: *ref_61
   ../.module/wAppBasic/:
     about:
       name: wProcess
@@ -46784,8 +46668,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -46797,8 +46681,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -46810,7 +46694,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -46822,7 +46706,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -47314,7 +47198,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wProcess.git'
       origins:
@@ -48115,12 +47999,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wAppBasic/out/wProcess.out.will.yml:
-        hash: 8e73bf7148b3d771dbfed7bfb865f659
-        size: 41916
-      ../.module/wAppBasic/will.yml:
-        hash: fec98460f0e37023ee51f8eff2b349a8
-        size: 7482
+      ../.module/wAppBasic/out/wProcess.out.will.yml: *ref_64
+      ../.module/wAppBasic/will.yml: *ref_63
   ../.module/wNjsCppBasic/:
     about:
       name: wNjsCppBasic
@@ -48330,8 +48210,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -48343,8 +48223,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -48356,7 +48236,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -48368,7 +48248,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -48865,7 +48745,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wNjsCppBasic.git'
       origins:
@@ -49728,9 +49608,7 @@ module:
           export: 1
     consistency:
       ../.module/wNjsCppBasic/out/wNjsCppBasic.out.will.yml: *ref_66
-      ../.module/wNjsCppBasic/will.yml:
-        hash: 831bb3c3ca2f2265db15e5ceb9ee3037
-        size: 6581
+      ../.module/wNjsCppBasic/will.yml: *ref_65
   ../.module/wArraySparse/:
     about:
       name: wArraySparse
@@ -49947,8 +49825,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -49960,8 +49838,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -49973,7 +49851,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -49985,7 +49863,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -50472,7 +50350,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wArraySparse.git'
       origins:
@@ -51218,12 +51096,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wArraySparse/out/wArraySparse.out.will.yml:
-        hash: ca308e19d756a3eec2413e3802a431a0
-        size: 38755
-      ../.module/wArraySparse/will.yml:
-        hash: ec27d2d7b546235595309f9e5fe76b2e
-        size: 6772
+      ../.module/wArraySparse/out/wArraySparse.out.will.yml: *ref_68
+      ../.module/wArraySparse/will.yml: *ref_67
   ../.module/wSelectorExtra/:
     about:
       name: wSelectorExtra
@@ -51441,8 +51315,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -51454,8 +51328,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -51467,7 +51341,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -51479,7 +51353,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -51963,7 +51837,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wSelectorExtra.git'
       origins:
@@ -52713,12 +52587,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wSelectorExtra/out/wSelectorExtra.out.will.yml:
-        hash: 14118475e87f98f2896411c5744eee8d
-        size: 38537
-      ../.module/wSelectorExtra/will.yml:
-        hash: 6875fa593bbcf9795f70602669681e08
-        size: 6628
+      ../.module/wSelectorExtra/out/wSelectorExtra.out.will.yml: *ref_70
+      ../.module/wSelectorExtra/will.yml: *ref_69
   ../.module/wEntityBasic/:
     about:
       name: wEntityBasic
@@ -52937,8 +52807,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -52950,8 +52820,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -52963,7 +52833,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -52975,7 +52845,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -53457,7 +53327,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wEntityBasic.git'
       origins:
@@ -54210,12 +54080,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wEntityBasic/out/wEntityBasic.out.will.yml:
-        hash: 244c15f756d87747e6419d1af9fed021
-        size: 38478
-      ../.module/wEntityBasic/will.yml:
-        hash: f784fccecd5e30d3c969c79227fdbed0
-        size: 6608
+      ../.module/wEntityBasic/out/wEntityBasic.out.will.yml: *ref_72
+      ../.module/wEntityBasic/will.yml: *ref_71
   ../.module/wConsequence/:
     about:
       name: wConsequence
@@ -54470,8 +54336,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -54483,8 +54349,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -54496,7 +54362,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -54508,7 +54374,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -55015,7 +54881,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wConsequence.git'
       origins:
@@ -55785,12 +55651,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wConsequence/out/wConsequence.out.will.yml:
-        hash: 9eaa9a7bf3495d8dcae4fc747e16d6a7
-        size: 41978
-      ../.module/wConsequence/will.yml:
-        hash: 01a4f4e179627b3b2769ccea23760eac
-        size: 8058
+      ../.module/wConsequence/out/wConsequence.out.will.yml: *ref_74
+      ../.module/wConsequence/will.yml: *ref_73
   ../.module/wIntrospectorBasic/:
     about:
       name: wIntrospectorBasic
@@ -56016,8 +55878,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -56029,8 +55891,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -56042,7 +55904,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -56054,7 +55916,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -56538,7 +56400,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wIntrospectorBasic.git'
       origins:
@@ -57303,12 +57165,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml:
-        hash: c8bb07f5f4a9eff0cc42eb259822a116
-        size: 39498
-      ../.module/wIntrospectorBasic/will.yml:
-        hash: 94f625359a654d174534c9ef9c46f812
-        size: 6774
+      ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml: *ref_76
+      ../.module/wIntrospectorBasic/will.yml: *ref_75
   ../.module/wColor/:
     about:
       name: wColor
@@ -57536,8 +57394,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -57549,8 +57407,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -57562,7 +57420,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -57574,7 +57432,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -58072,7 +57930,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wColor.git'
       origins:
@@ -58846,12 +58704,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wColor/out/wColor.out.will.yml:
-        hash: 909685a3cf4b25a7af448d17fc4c773c
-        size: 40663
-      ../.module/wColor/will.yml:
-        hash: 0b7571a1b00a791cd6239a7356ef7313
-        size: 7030
+      ../.module/wColor/out/wColor.out.will.yml: *ref_78
+      ../.module/wColor/will.yml: *ref_77
   ../.module/wColor256/:
     about:
       name: wColor256
@@ -59078,8 +58932,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -59091,8 +58945,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -59104,7 +58958,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -59116,7 +58970,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -59615,7 +59469,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wColor.git'
       origins:
@@ -60364,12 +60218,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wColor256/out/wColor256.out.will.yml:
-        hash: b5280e6aa5a42f9b3bd7acac52793036
-        size: 39493
-      ../.module/wColor256/will.yml:
-        hash: 99742cc3b7be183d275358f4fd4e2f1b
-        size: 7065
+      ../.module/wColor256/out/wColor256.out.will.yml: *ref_80
+      ../.module/wColor256/will.yml: *ref_79
   ../.module/wFilesBasic/:
     about:
       name: wFilesBasic
@@ -60635,8 +60485,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -60648,8 +60498,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -60661,7 +60511,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -60673,7 +60523,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -61169,7 +61019,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
       origins:
@@ -62012,12 +61862,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wFilesBasic/out/wFilesBasic.out.will.yml:
-        hash: a4be15ddbeabbf1684319951b6739c71
-        size: 44158
-      ../.module/wFilesBasic/will.yml:
-        hash: 0bbe20d4f3d4c1b98effe336facfbcc0
-        size: 7595
+      ../.module/wFilesBasic/out/wFilesBasic.out.will.yml: *ref_82
+      ../.module/wFilesBasic/will.yml: *ref_81
   ../.module/wGdf/:
     about:
       name: wGdf
@@ -62277,8 +62123,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -62290,8 +62136,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -62303,7 +62149,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -62315,7 +62161,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -62804,7 +62650,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wGdf.git'
       origins:
@@ -63623,12 +63469,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wGdf/out/wGdf.out.will.yml:
-        hash: 76a8b19feebbc2ea657a5554b9bb4ed7
-        size: 42536
-      ../.module/wGdf/will.yml:
-        hash: f57ea7f55d17bb641af3b9ef673e6b4a
-        size: 7477
+      ../.module/wGdf/out/wGdf.out.will.yml: *ref_84
+      ../.module/wGdf/will.yml: *ref_83
   ../.module/wStateStorage/:
     about:
       name: wStateStorage
@@ -63855,8 +63697,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -63868,8 +63710,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -63881,7 +63723,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -63893,7 +63735,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -64381,7 +64223,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wStateStorage.git'
       origins:
@@ -65136,12 +64978,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wStateStorage/out/wStateStorage.out.will.yml:
-        hash: d4114d13fe04898e34245ca617ebd0f0
-        size: 39386
-      ../.module/wStateStorage/will.yml:
-        hash: 99f66eb7ef60917639a984cbea94450b
-        size: 6990
+      ../.module/wStateStorage/out/wStateStorage.out.will.yml: *ref_86
+      ../.module/wStateStorage/will.yml: *ref_85
   ../.module/wRegexpObject/:
     about:
       name: wRegexpObject
@@ -65374,8 +65212,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -65387,8 +65225,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -65400,7 +65238,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -65412,7 +65250,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -65911,7 +65749,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wRegexpObject.git'
       origins:
@@ -66662,12 +66500,8 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wRegexpObject/out/wRegexpObject.out.will.yml:
-        hash: 44b99b8019dadd9a864ad254831e52f6
-        size: 39486
-      ../.module/wRegexpObject/will.yml:
-        hash: 9707816f61463baa357b15d9a18363e7
-        size: 7138
+      ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: *ref_88
+      ../.module/wRegexpObject/will.yml: *ref_87
   ../.module/wVerbal/:
     about:
       name: wVerbal
@@ -66887,8 +66721,8 @@ module:
       transpile.proto.no.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -66900,8 +66734,8 @@ module:
       transpile.proto.no.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 0
-            '**.test/**': 0
+            '**.test*': false
+            '**.test/**': false
             'path::proto': '{path::out.*=1}/Main.s'
         criterion:
           tests: no.tests
@@ -66913,7 +66747,7 @@ module:
       transpile.proto.only.tests.compiled.debug:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -66925,7 +66759,7 @@ module:
       transpile.proto.only.tests.compiled.release:
         src:
           filePath:
-            '**.test*': 1
+            '**.test*': true
             'path::proto': '{path::out.*=1}/Tests.test.s'
         criterion:
           tests: only.tests
@@ -67411,7 +67245,7 @@ module:
       download:
         criterion:
           predefined: 1
-        path: ..
+        path: .
       repository:
         path: 'git+https:///github.com/Wandalen/wVerbal.git'
       origins:
@@ -68161,9 +67995,5 @@ module:
           content: proto
           export: 1
     consistency:
-      ../.module/wVerbal/out/wVerbal.out.will.yml:
-        hash: 878ffae0ec86f9ad7e95800315687261
-        size: 38645
-      ../.module/wVerbal/will.yml:
-        hash: 860cdd30455975029cbb1b35ddbe1af4
-        size: 6700
+      ../.module/wVerbal/out/wVerbal.out.will.yml: *ref_90
+      ../.module/wVerbal/will.yml: *ref_89
