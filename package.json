@@ -1,6 +1,6 @@
 {
   "name": "wbase",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Aggregates other base modules in single module.",
   "author": "Kostiantyn Wandalen <wanalen@01.school>",
   "license": "MIT",
@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "wTesting": "delta",
+    "wTesting": "",
     "eslint": "7.1.0"
   },
   "keywords": [
