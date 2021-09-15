@@ -356,9 +356,6 @@ submodule:
   wEqualer:
     path: 'git+https:///github.com/Wandalen/wEqualer.git'
     enabled: 1
-  wLogger:
-    path: 'git+https:///github.com/Wandalen/wLogger.git'
-    enabled: 1
   wUriBasic:
     path: 'git+https:///github.com/Wandalen/wUriBasic.git'
     enabled: 1
@@ -425,11 +422,17 @@ submodule:
   wEntityBasic:
     path: 'git+https:///github.com/Wandalen/wEntityBasic.git'
     enabled: 1
-  wConsequence:
-    path: 'git+https:///github.com/Wandalen/wConsequence.git'
-    enabled: 1
   wIntrospectorBasic:
     path: 'git+https:///github.com/Wandalen/wIntrospectorBasic.git'
+    enabled: 1
+  wIntrospectorExtra:
+    path: 'git+https:///github.com/Wandalen/wIntrospectorExtra.git'
+    enabled: 1
+  wLogger:
+    path: 'git+https:///github.com/Wandalen/wLogger.git'
+    enabled: 1
+  wConsequence:
+    path: 'git+https:///github.com/Wandalen/wConsequence.git'
     enabled: 1
   wColor:
     path: 'git+https:///github.com/Wandalen/wColor.git'
@@ -437,8 +440,32 @@ submodule:
   wColor256:
     path: 'git+https:///github.com/Wandalen/wColor256.git'
     enabled: 1
+  wRemote:
+    path: 'git+https:///github.com/Wandalen/wRemote.git'
+    enabled: 1
   wFilesBasic:
     path: 'git+https:///github.com/Wandalen/wFilesBasic.git'
+    enabled: 1
+  wFilesHttp:
+    path: 'git+https:///github.com/Wandalen/wFilesHttp.git'
+    enabled: 1
+  wHttp:
+    path: 'git+https:///github.com/Wandalen/wHttp.git'
+    enabled: 1
+  wFilesGit:
+    path: 'git+https:///github.com/Wandalen/wFilesGit.git'
+    enabled: 1
+  wGitTools:
+    path: 'git+https:///github.com/Wandalen/wGitTools.git'
+    enabled: 1
+  wFilesNpm:
+    path: 'git+https:///github.com/Wandalen/wFilesNpm.git'
+    enabled: 1
+  wNpmTools:
+    path: 'git+https:///github.com/Wandalen/wNpmTools.git'
+    enabled: 1
+  wFiles:
+    path: 'git+https:///github.com/Wandalen/wFiles.git'
     enabled: 1
   wGdf:
     path: 'git+https:///github.com/Wandalen/wGdf.git'
