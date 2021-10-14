@@ -54280,7 +54280,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -55004,7 +55004,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -71178,7 +71178,7 @@ module:
         autoExporting: 0
         enabled: 0
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -71898,7 +71898,7 @@ module:
         autoExporting: 0
         enabled: 0
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
