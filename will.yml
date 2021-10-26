@@ -368,6 +368,9 @@ submodule:
   wStringsExtra:
     path: 'git+https:///github.com/Wandalen/wStringsExtra.git'
     enabled: 1
+  wProcess:
+    path: 'git+https:///github.com/Wandalen/wProcess.git'
+    enabled: 1
   wProcessWatcher:
     path: 'git+https:///github.com/Wandalen/wProcessWatcher.git'
     enabled: 1
@@ -395,9 +398,6 @@ submodule:
   wReplicator:
     path: 'git+https:///github.com/Wandalen/wReplicator.git'
     enabled: 1
-  wProcess:
-    path: 'git+https:///github.com/Wandalen/wProcess.git'
-    enabled: 1
   wCopyable:
     path: 'git+https:///github.com/Wandalen/wCopyable.git'
     enabled: 1
@@ -406,9 +406,6 @@ submodule:
     enabled: 1
   wLookerExtra:
     path: 'git+https:///github.com/Wandalen/wLookerExtra.git'
-    enabled: 1
-  wAppBasic:
-    path: 'git+https:///github.com/Wandalen/wAppBasic.git'
     enabled: 1
   wNjsCppBasic:
     path: 'git+https:///github.com/Wandalen/wNjsCppBasic.git'
@@ -454,6 +451,9 @@ submodule:
     enabled: 1
   wFilesGit:
     path: 'git+https:///github.com/Wandalen/wFilesGit.git'
+    enabled: 1
+  wGitPath:
+    path: 'git+https:///github.com/Wandalen/wGitPath.git'
     enabled: 1
   wGitTools:
     path: 'git+https:///github.com/Wandalen/wGitTools.git'
