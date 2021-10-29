@@ -3,327 +3,327 @@ root:
   - wBase.out
 consistency:
   ../will.yml: &ref_0
-    hash: c3f68f9d1183e2c803edec66721157a5
-    size: 11821
+    hash: 0694ba07dd90a6dda9762d74604c067a
+    size: 11301
   ../.module/wTools/will.yml: &ref_5
-    hash: 4221d58fbb8742c63ca32b69e5737cc9
-    size: 12220
+    hash: ae07b9e8ea04811320e5d1b68318304f
+    size: 7177
   ../.module/wTools/out/wTools.out.will.yml: &ref_6
-    hash: eba33065578f58c42e619716e7071fe6
-    size: 88634
+    hash: 06971b8cec1901b1d910b1de02f23031
+    size: 59513
   ../.module/wPathBasic/will.yml: &ref_7
-    hash: 8a488ed804fc07447ec74d4e1bf69ba5
-    size: 6981
+    hash: c23b0d040db2158257cc6fdd6c5437b8
+    size: 6840
   ../.module/wPathBasic/out/wPathBasic.out.will.yml: &ref_8
-    hash: 61137a40fab0b643d5df924c4ff7b7c6
-    size: 39317
+    hash: 8b34809eca56aacb4f6e189e18372a66
+    size: 38939
   ../.module/wTraverser/will.yml: &ref_9
-    hash: 3e7b5e726d3d7653a6442d0b3618cae8
-    size: 6745
+    hash: 3ea724ae4179b1e51295e2d3b70cecb0
+    size: 6604
   ../.module/wTraverser/out/wTraverser.out.will.yml: &ref_10
-    hash: 1d419a7e74eb8692e9d88b9d80de9453
-    size: 38763
+    hash: 45dfd555f7c9a8fcd59a2dab6d1b366c
+    size: 38385
   ../.module/wProcedure/will.yml: &ref_11
-    hash: 428288a3282cf8a61c9056d682d4325f
-    size: 6791
+    hash: 1f5f8f7e2d32ce1b1f929b64f76dcd72
+    size: 6650
   ../.module/wProcedure/out/wProcedure.out.will.yml: &ref_12
-    hash: e3d0537aa28eba6311e93d26c83558d2
-    size: 39160
+    hash: 3d2994b6be9791489cb71af1b77e57b3
+    size: 38782
   ../.module/wResolver/will.yml: &ref_13
-    hash: f35b2c6910adaf11ed83d3ff029b069b
-    size: 6510
+    hash: 12eb1b55cffd3604e4bdc489ceeb7bfd
+    size: 6369
   ../.module/wResolver/out/wResolver.out.will.yml: &ref_14
-    hash: f0b32421519a31afe3f81ca3e1caf81e
-    size: 38273
+    hash: 70c4182ce09431733625d230bb5f8f0b
+    size: 37895
   ../.module/wStringer/will.yml: &ref_15
-    hash: bcd94d332a591c39b1c68043c92aa84f
-    size: 6627
+    hash: 6bce465768a42f5b0b54a5ede22af9c0
+    size: 6486
   ../.module/wStringer/out/wStringer.out.will.yml: &ref_16
-    hash: 16832b69ec38e5cc06cf009f36f47d1c
-    size: 39320
+    hash: 32ed75146d456d333bc936335d66b5d6
+    size: 38942
   ../.module/wPathTools/will.yml: &ref_17
-    hash: 523c5c1fcd6d013ebb36b07a5cbd1d07
-    size: 6908
+    hash: 54b379078fdf75edfabf8ec45071abd5
+    size: 6767
   ../.module/wPathTools/out/wPathTools.out.will.yml: &ref_18
-    hash: 4efc6937c5fa725b33a99d9240ce0080
-    size: 39189
+    hash: 12d8d7bbd2d00414cceb00252eca251d
+    size: 38811
   ../.module/wPath/will.yml: &ref_19
-    hash: c7882e4b15f848b1fdc49753c4bc1641
-    size: 6708
+    hash: 72127d4003b9c7bfc87b1e46e811e806
+    size: 6567
   ../.module/wPath/out/wPath.out.will.yml: &ref_20
-    hash: dc59e171bfb8736cd0f58d5bd3a0734f
-    size: 38540
+    hash: 34c32c1845a135646ad1710f02f9fc00
+    size: 38162
   ../.module/wCloner/will.yml: &ref_21
-    hash: 49a8acf44d05c62a8722e5f351d1edd1
-    size: 6681
+    hash: c854116670614836fb0c5912547df459
+    size: 6540
   ../.module/wCloner/out/wCloner.out.will.yml: &ref_22
-    hash: 7274214b12c0f1f2676a6f57953749e2
-    size: 38567
+    hash: c3686c91d9ccdd552d12ec9b67e7bb42
+    size: 38189
   ../.module/wInstancing/will.yml: &ref_23
-    hash: b255624a8c817ae223d6127b6da34126
-    size: 6812
+    hash: 114641f1a71d6bba06790cafd5b1f464
+    size: 6671
   ../.module/wInstancing/out/wInstancing.out.will.yml: &ref_24
-    hash: 5c6e73efe474c6066622fe07cf871811
-    size: 38857
+    hash: 952a24e58a145ef7224deb24c2e39d8d
+    size: 38479
   ../.module/wLooker/will.yml: &ref_25
-    hash: 75efa1e2b91a1b155a0962ec991c51ac
-    size: 6747
+    hash: 997823153542e2b3e3271bc8512745bf
+    size: 6606
   ../.module/wLooker/out/wLooker.out.will.yml: &ref_26
-    hash: c8c11286290ce6d83a904e0cd19ce675
-    size: 38753
+    hash: 550931c75854a1f21c131ac1539ea8a5
+    size: 38375
   ../.module/wEqualer/will.yml: &ref_27
-    hash: b7af2e6be9330a09b53a2af46b05d2cd
-    size: 6747
+    hash: 51a13f18cf73903ec558e3ffc2dbd540
+    size: 6606
   ../.module/wEqualer/out/wEqualer.out.will.yml: &ref_28
-    hash: 320040076a71c8f0042bae04f4603c02
-    size: 38805
+    hash: 46e3d3289db6c01e48b9181421204877
+    size: 38427
   ../.module/wUriBasic/will.yml: &ref_29
-    hash: e65f463da9642b46f0abbac1a4b3f6e9
-    size: 6930
+    hash: 2c1885573b0a6e9168b122792e4dc678
+    size: 6789
   ../.module/wUriBasic/out/wUriBasic.out.will.yml: &ref_30
-    hash: d3a282396d5e6c884848e61489f1a5e2
-    size: 39436
+    hash: 40bfe35e7218ac1882420e18ffe599ae
+    size: 39058
   ../.module/wResolverExtra/will.yml: &ref_31
-    hash: a37c6e9fc1678902ab893b58f4877933
-    size: 6725
+    hash: ba20042e09efa38bc4f2c4d71ef332fa
+    size: 6584
   ../.module/wResolverExtra/out/wResolverExtra.out.will.yml: &ref_32
-    hash: 1827e1c1aca8371567a8a07fa31d48d3
-    size: 38755
+    hash: bb562bd47b0f1fe6b867f338a313ecaa
+    size: 38377
   ../.module/wStringsExtra/will.yml: &ref_33
-    hash: 4f95a2257ad24d2fcf779550a12fc585
-    size: 6866
+    hash: 44ce3dd6bff39b319b27804da678a40c
+    size: 6725
   ../.module/wStringsExtra/out/wStringsExtra.out.will.yml: &ref_34
-    hash: 1e8009518ceef108815a22fb38daccf7
-    size: 39305
+    hash: 94dec17b464893156223f27e4dea1357
+    size: 38927
   ../.module/wProcess/will.yml: &ref_35
-    hash: 29073fcfece6db55e907fc89b939d695
-    size: 7475
+    hash: 9680dd41e4e4b7544809588135c199ee
+    size: 7335
   ../.module/wProcess/out/wProcess.out.will.yml: &ref_36
-    hash: 1985ee4bb02d358ed7124b523afea9c8
-    size: 42004
+    hash: b6710ef5d2a5791ebcad3f4767823b42
+    size: 41628
   ../.module/wProcessWatcher/will.yml: &ref_37
-    hash: 1c525196fd2ebc1c57681706b2a7955c
-    size: 7130
+    hash: b8efb5ed8939a6010dfd76131de922ed
+    size: 6989
   ../.module/wProcessWatcher/out/wProcessWatcher.out.will.yml: &ref_38
-    hash: 705d7d9f72215caa28df4b1c87f5cd98
-    size: 39679
+    hash: 012b189f271071ae175526ce393ccf5e
+    size: 39301
   ../.module/wBlueprint/will.yml: &ref_39
-    hash: 0f779f0998d59b84259e875db4f32ee6
-    size: 6434
+    hash: 380e52e9d4bbf6d165abd514737c6f59
+    size: 6293
   ../.module/wBlueprint/out/wBlueprint.out.will.yml: &ref_40
-    hash: da2b26a285dc2cb823ed9118f9491316
-    size: 39021
+    hash: 7fc4476a3f3b6c67c8a015aec8b92c5b
+    size: 38643
   ../.module/wUri/will.yml: &ref_41
-    hash: 76cd08848177f2ad4944dee431d594e7
-    size: 6688
+    hash: 76302068b73be1becc0162c8ca8caa3c
+    size: 6547
   ../.module/wUri/out/wUri.out.will.yml: &ref_42
-    hash: 305c7a734142f304d008fa3515ac33a7
-    size: 38568
+    hash: 94e79ec5b5aa416e57671b84567b4c59
+    size: 38190
   ../.module/wEventHandler/will.yml: &ref_43
-    hash: c3d67beb602b07c4c8afbe6472cca0b7
-    size: 7081
+    hash: 372c5b8423f77609b7f5075e51353e8b
+    size: 6940
   ../.module/wEventHandler/out/wEventHandler.out.will.yml: &ref_44
-    hash: b44caa2e95697f7a4911c69b3c84f55c
-    size: 39442
+    hash: 7a1622c5fbe029d2d6b00c8e699d0326
+    size: 39064
   ../.module/wArraySorted/will.yml: &ref_45
-    hash: b309e9b6a4079e3dffcf449a4538fd38
-    size: 6958
+    hash: 9572aed0c226399a82a7f9d0f608450e
+    size: 6817
   ../.module/wArraySorted/out/wArraySorted.out.will.yml: &ref_46
-    hash: 59e514663b6f9a71c8186df0746e1969
-    size: 39011
+    hash: 09715a67c266e54621d242e299092641
+    size: 38633
   ../.module/wProto/will.yml: &ref_47
-    hash: 11a01149b61dd0f29c61280c178c2b0f
-    size: 6823
+    hash: 825709267b6d9b4f270c401cd163e34a
+    size: 6682
   ../.module/wProto/out/wProto.out.will.yml: &ref_48
-    hash: cec842753c7269e548967f3ba5d992b7
-    size: 39581
+    hash: f872b71c0815c4aae80fc9a4a4f73f60
+    size: 39203
   ../.module/wWebUriBasic/will.yml: &ref_49
-    hash: e4aeba8f06ba27c38e86586a4043b2e8
-    size: 6883
+    hash: ef22f0b4ba17aa00a0e0ae860c92e9ae
+    size: 6742
   ../.module/wWebUriBasic/out/wWebUriBasic.out.will.yml: &ref_50
-    hash: 6b066987608ef8585267ee349d5476db
-    size: 39039
+    hash: 0bf09ebec084d91b7e3ef639f33b40e1
+    size: 38661
   ../.module/wFieldsStack/will.yml: &ref_51
-    hash: 4ea44cc2ba15133dfbf993ea1860ee12
-    size: 6967
+    hash: 0ab851863f134a95cf729d71b3729ecb
+    size: 6826
   ../.module/wFieldsStack/out/wFieldsStack.out.will.yml: &ref_52
-    hash: 3322eb7746d7a6c6f6f2b700cc789c7e
-    size: 39337
+    hash: 67ea434a12fd804340aac0cc94a2e39a
+    size: 38959
   ../.module/wReplicator/will.yml: &ref_53
-    hash: d4931b9d4a7d40a03bd2e96dba994992
-    size: 6602
+    hash: 6b2adac396fee33bd1fa82d2895d669d
+    size: 6461
   ../.module/wReplicator/out/wReplicator.out.will.yml: &ref_54
-    hash: 89af481d943de09127973e7ff8835a7b
-    size: 38471
+    hash: 7262bf96cb78476d839fb052123c7fc4
+    size: 38093
   ../.module/wCopyable/will.yml: &ref_55
-    hash: 70720b7cb27d0ca1a25fc5766a7ece1b
-    size: 6992
+    hash: c2f250524e82573567287f3599fb7c84
+    size: 6851
   ../.module/wCopyable/out/wCopyable.out.will.yml: &ref_56
-    hash: 1704f6264274ab9cc29bdbcc88965ba2
-    size: 39407
+    hash: e358ca18e425a7e54782fba504b4c6a4
+    size: 39029
   ../.module/wSelector/will.yml: &ref_57
-    hash: a64c381d4df9ef1976fc016333b1efea
-    size: 6747
+    hash: f6a57806040972613d30fb042b7603e6
+    size: 6606
   ../.module/wSelector/out/wSelector.out.will.yml: &ref_58
-    hash: 78b1d8c0497e9d1a673c019e16919923
-    size: 38893
+    hash: 378706e04a4d731a929204b498a21cb1
+    size: 38515
   ../.module/wLookerExtra/will.yml: &ref_59
-    hash: dfed509df58362db98c423c5617ba925
-    size: 6665
+    hash: 62e730e303cbb2c490e9a55f964be500
+    size: 6524
   ../.module/wLookerExtra/out/wLookerExtra.out.will.yml: &ref_60
-    hash: 23d6b0b2711a2c9c1ecbc1033a2f8cbb
-    size: 38540
+    hash: 745035dd2499de1bb229b4ef5b094757
+    size: 38162
   ../.module/wNjsCppBasic/will.yml: &ref_61
-    hash: 831bb3c3ca2f2265db15e5ceb9ee3037
-    size: 6581
+    hash: a574c87b6ebecb327bacd8cb3201735c
+    size: 6440
   ../.module/wNjsCppBasic/out/wNjsCppBasic.out.will.yml: &ref_62
-    hash: 53f8b6c40d2023a4e3b792932bd58576
-    size: 38199
+    hash: fd095f716da527bf6a7b83f2c2d3de79
+    size: 37821
   ../.module/wArraySparse/will.yml: &ref_63
-    hash: ec27d2d7b546235595309f9e5fe76b2e
-    size: 6772
+    hash: b6967c0bb272e79335da720eb1727455
+    size: 6631
   ../.module/wArraySparse/out/wArraySparse.out.will.yml: &ref_64
-    hash: ca308e19d756a3eec2413e3802a431a0
-    size: 38755
+    hash: 36a8612cb56763ddc11a683c1e4f8934
+    size: 38377
   ../.module/wSelectorExtra/will.yml: &ref_65
-    hash: 6875fa593bbcf9795f70602669681e08
-    size: 6628
+    hash: 701a77425d1e3045e8ece4d9c1313dce
+    size: 6487
   ../.module/wSelectorExtra/out/wSelectorExtra.out.will.yml: &ref_66
-    hash: 14118475e87f98f2896411c5744eee8d
-    size: 38537
+    hash: d9962d68cd04784e3aaf1f62fe70a63c
+    size: 38159
   ../.module/wEntityBasic/will.yml: &ref_67
-    hash: f784fccecd5e30d3c969c79227fdbed0
-    size: 6608
+    hash: 230648756a83f13585b7c25ca540e063
+    size: 6465
   ../.module/wEntityBasic/out/wEntityBasic.out.will.yml: &ref_68
-    hash: 244c15f756d87747e6419d1af9fed021
-    size: 38478
+    hash: 811b5933b8c69189c75cffb1b75c8c78
+    size: 38100
   ../.module/wIntrospectorBasic/will.yml: &ref_69
-    hash: 4a7beb9db4bc29128451ce71488cd6b0
-    size: 6684
+    hash: 451b283a22735d87e3c3236c9f84362c
+    size: 6544
   ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml: &ref_70
-    hash: 5a46c4cdb483d251dc56b70d06984255
-    size: 39094
+    hash: 2b8a284a097c405044e7c0990f3c29b3
+    size: 38718
   ../.module/wIntrospectorExtra/will.yml: &ref_71
-    hash: 1f1d0687683de4fcde37a4ad0a71043b
-    size: 6757
+    hash: 0048573b7ae39412cddc65ff9c361cb7
+    size: 6628
   ../.module/wIntrospectorExtra/out/wIntrospectorExtra.out.will.yml: &ref_72
-    hash: 1d109db9abfefce1b55a4f125ee94fa8
-    size: 39245
+    hash: 206acc3ca7ece443df792b25b512c851
+    size: 38869
   ../.module/wLogger/will.yml: &ref_73
-    hash: f63c74aa63d2d078337303b9128dd9ca
-    size: 7463
+    hash: 4495a1b059c0ff7753604189bc271292
+    size: 7322
   ../.module/wLogger/out/wLogger.out.will.yml: &ref_74
-    hash: 73e2998b492b86ed92184df7c1f3bff6
-    size: 42703
+    hash: 3acbde3339a95f6bed88cb48ce123b61
+    size: 42325
   ../.module/wConsequence/will.yml: &ref_75
-    hash: 01a4f4e179627b3b2769ccea23760eac
-    size: 8058
+    hash: ecd15e951b50bb301c6c3d3848a627bd
+    size: 7917
   ../.module/wConsequence/out/wConsequence.out.will.yml: &ref_76
-    hash: 9eaa9a7bf3495d8dcae4fc747e16d6a7
-    size: 41978
+    hash: b657be60f72953793721777f48469720
+    size: 41600
   ../.module/wColor/will.yml: &ref_77
-    hash: 0b7571a1b00a791cd6239a7356ef7313
-    size: 7030
+    hash: 682bc151282dbb783d4ccaa67b1f9d25
+    size: 6889
   ../.module/wColor/out/wColor.out.will.yml: &ref_78
-    hash: 909685a3cf4b25a7af448d17fc4c773c
-    size: 40663
+    hash: c03a0f59200b674b79bab00fc2dc61bd
+    size: 40285
   ../.module/wColor256/will.yml: &ref_79
-    hash: 99742cc3b7be183d275358f4fd4e2f1b
-    size: 7065
+    hash: 386426ae918cb9bb85c1f26cabe71abd
+    size: 6924
   ../.module/wColor256/out/wColor256.out.will.yml: &ref_80
-    hash: b5280e6aa5a42f9b3bd7acac52793036
-    size: 39493
+    hash: 85c4a1c04159fe245d67b2856f3177da
+    size: 39115
   ../.module/wRemote/will.yml: &ref_81
-    hash: 14a2fb9a810d297984b94f391fa6f6ee
-    size: 6549
+    hash: 6896e36518b840c1033a1826901445a9
+    size: 6410
   ../.module/wRemote/out/wRemote.out.will.yml: &ref_82
-    hash: b42fb18f0bfbf3990cf382b8090700ad
-    size: 39709
+    hash: 6e0a2bac341a88ac26221ec104cb9248
+    size: 39331
   ../.module/wFilesBasic/will.yml: &ref_83
-    hash: 33fa3f8963d1e68c1b0831e4f641d288
-    size: 7570
+    hash: f62b73c45b48999b5aeb37b6a21dd48a
+    size: 7429
   ../.module/wFilesBasic/out/wFilesBasic.out.will.yml: &ref_84
-    hash: a448af279b57cb3cbec040cf6e9c3da3
-    size: 44091
+    hash: 48f182402b29cfc86c88f7be0f1c7073
+    size: 43713
   ../.module/wFilesHttp/will.yml: &ref_85
-    hash: 1cc5d99d8caa3bc4b637a790db93dc04
-    size: 6564
+    hash: 651a5bc159b22e28f51676189221bbf5
+    size: 6425
   ../.module/wFilesHttp/out/wFilesHttp.out.will.yml: &ref_86
-    hash: e73f66783b00063826c5eda7a91783e8
-    size: 38251
+    hash: 596b88ddc3564264347012007eab8dca
+    size: 37873
   ../.module/wHttp/will.yml: &ref_87
-    hash: 3593d34e7ff062f4553f506815d576ca
-    size: 6432
+    hash: 4c5cc2f6b65dab372cbaf6bc0dee7021
+    size: 6291
   ../.module/wHttp/out/wHttp.out.will.yml: &ref_88
-    hash: 02124163247a5fdf0afee1e25b26f5c4
-    size: 38347
+    hash: 1c188768f4b9dde82a943802814a42a0
+    size: 37969
   ../.module/wFilesGit/will.yml: &ref_89
-    hash: 71701014bc3faa53ed6fafb67a44efd3
-    size: 6649
+    hash: 37e04007851e5c2db752eddce6b1ddf5
+    size: 6510
   ../.module/wFilesGit/out/wFilesGit.out.will.yml: &ref_90
-    hash: 2eb1df224a059979772ffb3797d7954a
-    size: 38468
+    hash: 9bb056c3d54053d85ed0d783f5a4601f
+    size: 38090
   ../.module/wGitPath/will.yml: &ref_91
-    hash: 6be20b29effc843eabe67124c28ee243
-    size: 7114
+    hash: 6e44d3d2e78d6b0b82e966496b55a229
+    size: 6992
   ../.module/wGitPath/out/wGitPath.out.will.yml: &ref_92
-    hash: 08074e2377edd5354319a01d9016e065
-    size: 40187
+    hash: 9019f0117e37fe018c5b56aad030cbef
+    size: 39809
   ../.module/wGitTools/will.yml: &ref_93
-    hash: 713f54f38e4c15c46fbb66fc2fa29352
-    size: 6883
+    hash: ecfe9a071de01414eb01511828ee2317
+    size: 6856
   ../.module/wGitTools/out/wGitTools.out.will.yml: &ref_94
-    hash: 53d139339b7abf8935a44efc408303c8
-    size: 40610
+    hash: 2667a42fb71f718182106e7502eb404b
+    size: 40039
   ../.module/wFilesNpm/will.yml: &ref_95
-    hash: 13f847ba6a8663cc823ea37f075d92a9
-    size: 6608
+    hash: 72cea34905da36dcf58dd7e702068308
+    size: 6478
   ../.module/wFilesNpm/out/wFilesNpm.out.will.yml: &ref_96
-    hash: 013222e52c88272f9677cc7dcf18deca
-    size: 38549
+    hash: 8a1f248399f339e03d33ea1d0a99408a
+    size: 38173
   ../.module/wNpmTools/will.yml: &ref_97
-    hash: f1077ae6d55bb84dc14a51c6cb30058d
-    size: 6568
+    hash: 0d4fa9aa1207dec2557ef00a5722bef9
+    size: 6427
   ../.module/wNpmTools/out/wNpmTools.out.will.yml: &ref_98
-    hash: 5b7fe6dd18c9f08b6f70f8ff5d7f0c54
-    size: 40450
+    hash: 4a6d70601043461657d438eb0c11fc0e
+    size: 40072
   ../.module/wFiles/will.yml: &ref_99
-    hash: 3c39f4be531778b85758b8eea7607caa
-    size: 8253
+    hash: b21e41011b05ca7d4aee1c051b19f5be
+    size: 8114
   ../.module/wFiles/out/wFiles.out.will.yml: &ref_100
-    hash: 371c3f71363c22bf4019ae289b629a23
-    size: 43283
+    hash: fed4cae2aaec078d2b5b7b6f2627a579
+    size: 42905
   ../.module/wGdf/will.yml: &ref_101
-    hash: f57ea7f55d17bb641af3b9ef673e6b4a
-    size: 7477
+    hash: abc0d5cfa96a6e11ca38db1cd22642c6
+    size: 7336
   ../.module/wGdf/out/wGdf.out.will.yml: &ref_102
-    hash: 76a8b19feebbc2ea657a5554b9bb4ed7
-    size: 42536
+    hash: fad0ba0af0051fdea2beb01d5fe3b865
+    size: 42158
   ../.module/wStateStorage/will.yml: &ref_103
-    hash: 99f66eb7ef60917639a984cbea94450b
-    size: 6990
+    hash: 7bad3233e34a2aaa2caaeaf136eee216
+    size: 6849
   ../.module/wStateStorage/out/wStateStorage.out.will.yml: &ref_104
-    hash: d4114d13fe04898e34245ca617ebd0f0
-    size: 39386
+    hash: e449acacb45db89a65c9e11b45673d95
+    size: 39008
   ../.module/wRegexpObject/will.yml: &ref_105
-    hash: 9707816f61463baa357b15d9a18363e7
-    size: 7138
+    hash: 555e5fd6fdaf2739355b23657b92d1fa
+    size: 6997
   ../.module/wRegexpObject/out/wRegexpObject.out.will.yml: &ref_106
-    hash: 44b99b8019dadd9a864ad254831e52f6
-    size: 39486
+    hash: fa8c578580ef7016a35b94f883307b04
+    size: 39108
   ../.module/wVerbal/will.yml: &ref_107
-    hash: 860cdd30455975029cbb1b35ddbe1af4
-    size: 6700
+    hash: 738b48b14f86c81287dffe05e0a21f50
+    size: 6559
   ../.module/wVerbal/out/wVerbal.out.will.yml: &ref_108
-    hash: 878ffae0ec86f9ad7e95800315687261
-    size: 38645
+    hash: 0a6496427d2d2b180bfc6f462af4aafa
+    size: 38267
 module:
   wBase.out:
     about:
       name: wBase
       org: noorg
       description: Aggregates other base modules in single module.
-      enabled: 1
+      enabled: 0
       version: 0.1.0
       license: MIT
       npm.name: wbase
@@ -867,9 +867,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -1240,12 +1237,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -1321,7 +1312,7 @@ module:
       name: wBase
       org: noorg
       description: Aggregates other base modules in single module.
-      enabled: 1
+      enabled: 0
       version: 0.1.0
       license: MIT
       npm.name: wbase
@@ -1788,9 +1779,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -2161,12 +2149,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -2224,18 +2206,18 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: c3f68f9d1183e2c803edec66721157a5
-        size: 11821
+        hash: 0694ba07dd90a6dda9762d74604c067a
+        size: 11301
   ../.module/wTools/:
     about:
       name: wTools
       org: noorg
       description: >-
         Collection of general purpose tools for solving problems. Fundamentally
-        extend the language without spoiling namespace, so may be used solely or
-        in conjunction with another module of such kind.
+        extend the language without spoiling, so may be used solely or in
+        conjunction with another module of such kind.
       enabled: 1
-      version: 0.9.0
+      version: 0.9.3
       license: MIT
       npm.name: wTools
       author: Kostiantyn Wandalen <wanalen@01.school>
@@ -2304,6 +2286,7 @@ module:
           - package-lock.json
           - package.json
           - node_modules
+          - target
       proto:
         path: proto
       export:
@@ -2332,63 +2315,6 @@ module:
         path: '{path::out}/release.test'
       out.release.min:
         path: '{path::out}/release.min'
-      out.raw.debug:
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        path: '{path::out}/debug'
-      out.compiled.debug:
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        path: '{path::out}/compiled.debug'
-      out.raw.release:
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        path: '{path::out}/raw.release'
-      out.compiled.release:
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        path: '{path::out}/release'
-      entry.proto.no.tests:
-        criterion:
-          tests: no.tests
-          content: proto
-        path: 'proto/{path::entry}'
-      entry.proto.only.tests:
-        criterion:
-          tests: only.tests
-        path: proto/**/*.test.*
-      entry.out.raw.debug:
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        path: '{path::out.*=1}/source/{path::entry}'
-      entry.out.raw.release:
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        path: '{path::out.*=1}/source/{path::entry}'
-      entry.out.compiled.debug:
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        path: '{path::out.*=}/source/Index.s'
-      entry.out.compiled.release:
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
           - proto/wtools/abase/l1/Include.s
@@ -2400,14 +2326,8 @@ module:
         enabled: 0
         criterion:
           development: 1
-      wTools:
-        path: 'hd://.'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
     reflector:
-      transpile.reflect.proto.debug:
+      transpile.reflect.proto.debug.no.tests:
         src:
           filePath:
             '**.test*': 0
@@ -2418,7 +2338,7 @@ module:
           tests: no.tests
         inherit:
           - predefined.*
-      transpile.reflect.proto.release:
+      transpile.reflect.proto.release.no.tests:
         src:
           filePath:
             '**.test*': 0
@@ -2427,6 +2347,28 @@ module:
         criterion:
           debug: release
           tests: no.tests
+        inherit:
+          - predefined.*
+      transpile.reflect.proto.debug.only.tests:
+        src:
+          filePath:
+            '**.test*': 0
+            '**.test/**': 0
+            '{path::proto}/**': '{path::out.build.*=1}/Main.s'
+        criterion:
+          debug: debug
+          tests: only.tests
+        inherit:
+          - predefined.*
+      transpile.reflect.proto.release.only.tests:
+        src:
+          filePath:
+            '**.test*': 0
+            '**.test/**': 0
+            '{path::proto}/**': '{path::out.build.*=1}/Main.s'
+        criterion:
+          debug: release
+          tests: only.tests
         inherit:
           - predefined.*
       transpile.reflect.release.min:
@@ -2502,120 +2444,20 @@ module:
           filePath:
             '{path::in}/License': '{path::out.release.min}/License'
             '{path::in}/Readme.md': '{path::out.release.min}/Readme.md'
-      reflect.compiled.debug.files:
+      reflect.compiled.debug:
         src:
           filePath:
             '{path::out.build.debug.no.test}/Main.s': '{path::out.build.debug.only.test}/Main.s'
+        criterion:
+          debug: debug
         inherit:
           - predefined.*
-      reflect.compiled.release.files:
+      reflect.compiled.release:
         src:
           filePath:
             '{path::out.build.release.no.test}/Main.s': '{path::out.build.release.only.test}/Main.s'
-        inherit:
-          - predefined.*
-      reflect.proto.debug.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
         criterion:
-          tests: no.tests
-          debug: debug
-          raw: raw
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.release.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-        criterion:
-          tests: no.tests
           debug: release
-          raw: raw
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.debug.compiled:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-        criterion:
-          tests: no.tests
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.release.compiled:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-        criterion:
-          tests: no.tests
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.raw.release}'
-        criterion:
-          raw: raw
-          debug: release
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.no.tests.compiled.debug:
-        src:
-          filePath:
-            '**.test*': 0
-            '**.test/**': 0
-            'path::proto': '{path::out.*=1}/Main.s'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.no.tests.compiled.release:
-        src:
-          filePath:
-            '**.test*': 0
-            '**.test/**': 0
-            'path::proto': '{path::out.*=1}/Main.s'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.only.tests.compiled.debug:
-        src:
-          filePath:
-            '**.test*': 1
-            'path::proto': '{path::out.*=1}/Tests.test.s'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.only.tests.compiled.release:
-        src:
-          filePath:
-            '**.test*': 1
-            'path::proto': '{path::out.*=1}/Tests.test.s'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: release
-          content: prime
         inherit:
           - predefined.*
     step:
@@ -2834,279 +2676,39 @@ module:
           content: proto
         inherit:
           - module.export
-      doc.export:
-        opts:
-          export: 'path::doc'
-          tar: 0
-        criterion:
-          content: doc
+      publish.npm:
         inherit:
-          - module.export
-      npm.export:
+          - npm.publish
+      transpile.reflect.proto.debug.no.tests:
         opts:
-          export: out.npm
-          tar: 0
-        criterion:
-          content: npm
-        inherit:
-          - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
-      npm.generate.debug.raw:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.release.raw:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.debug.compiled:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.release.compiled:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.proto:
-        opts:
-          entryPath: 'path::entry.proto.no.tests'
-          packagePath: package.json
-          filesPath: '{path::proto}/**'
-        criterion:
-          content: proto
-        inherit:
-          - npm.generate
-      clean.out.debug.raw.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.raw.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.compiled.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.raw.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.raw.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.compiled.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.raw.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.raw.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.compiled.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.raw.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.raw.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.compiled.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.npm:
-        opts:
-          filePath: 'path::out.*=1'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      tst.proto:
-        opts:
-          shell: 'tst {path::proto}'
-        criterion:
-          content: proto
-      tst.debug:
-        opts:
-          shell: 'tst {path::out.*=1}'
-        criterion:
-          content: prime
-          debug: debug
-      tst.release:
-        opts:
-          shell: 'tst {path::out.*=1}'
-        criterion:
-          content: prime
-          debug: release
-      transpile.reflect.proto.debug:
-        opts:
-          filePath: 'reflector::transpile.reflect.proto.debug'
+          filePath: 'reflector::transpile.reflect.proto.debug.no.tests'
         criterion:
           debug: debug
           tests: no.tests
         inherit:
           - files.reflect
-      transpile.reflect.proto.release:
+      transpile.reflect.proto.release.no.tests:
         opts:
-          filePath: 'reflector::transpile.reflect.proto.release'
+          filePath: 'reflector::transpile.reflect.proto.release.no.tests'
         criterion:
           debug: release
           tests: no.tests
+        inherit:
+          - files.reflect
+      transpile.reflect.proto.debug.only.tests:
+        opts:
+          filePath: 'reflector::transpile.reflect.proto.debug.only.tests'
+        criterion:
+          debug: debug
+          tests: only.tests
+        inherit:
+          - files.reflect
+      transpile.reflect.proto.release.only.tests:
+        opts:
+          filePath: 'reflector::transpile.reflect.proto.release.only.tests'
+        criterion:
+          debug: release
+          tests: only.tests
         inherit:
           - files.reflect
       transpile.reflect.release.min:
@@ -3167,113 +2769,28 @@ module:
           filePath: 'reflector::reflect.release.min.files'
         inherit:
           - files.reflect
-      reflect.compiled.debug.files:
+      reflect.compiled.debug:
         opts:
-          filePath: 'reflector::reflect.compiled.debug.files'
-        inherit:
-          - files.reflect
-      reflect.compiled.release.files:
-        opts:
-          filePath: 'reflector::reflect.compiled.release.files'
-        inherit:
-          - files.reflect
-      reflect.proto.debug.raw:
-        opts:
-          filePath: 'reflector::reflect.proto.debug.raw'
+          filePath: 'reflector::reflect.compiled.debug'
         criterion:
-          tests: no.tests
           debug: debug
-          raw: raw
-          content: prime
         inherit:
           - files.reflect
-      reflect.proto.release.raw:
+      reflect.compiled.release:
         opts:
-          filePath: 'reflector::reflect.proto.release.raw'
+          filePath: 'reflector::reflect.compiled.release'
         criterion:
-          tests: no.tests
           debug: release
-          raw: raw
-          content: prime
         inherit:
           - files.reflect
-      reflect.proto.debug.compiled:
-        opts:
-          filePath: 'reflector::reflect.proto.debug.compiled'
-        criterion:
-          tests: no.tests
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - files.reflect
-      reflect.proto.release.compiled:
-        opts:
-          filePath: 'reflector::reflect.proto.release.compiled'
-        criterion:
-          tests: no.tests
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - files.reflect
-      transpile.proto.raw:
-        opts:
-          entry: 'path::entry.proto.no.tests'
-          filePath: 'reflector::transpile.proto.raw'
-        criterion:
-          raw: raw
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.no.tests.compiled.debug:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          filePath: 'reflector::transpile.proto.no.tests.compiled.debug'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.no.tests.compiled.release:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          filePath: 'reflector::transpile.proto.no.tests.compiled.release'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.only.tests.compiled.debug:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          external.before: '{path::out.*=1}/Main.s'
-          filePath: 'reflector::transpile.proto.only.tests.compiled.debug'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.only.tests.compiled.release:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          external.before: '{path::out.*=1}/Main.s'
-          filePath: 'reflector::transpile.proto.only.tests.compiled.release'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
     build:
+      publish.npm:
+        steps:
+          - publish.npm
+        criterion:
+          default: 1
+          publish: 1
+          bump: patch
       build.debug:
         steps:
           - 'step::clean.build.out.*=1'
@@ -3324,95 +2841,12 @@ module:
         criterion:
           content: proto
           export: 1
-      doc.export:
-        steps:
-          - 'step::doc.export'
-        criterion:
-          content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
         criterion:
           default: 1
           export: 1
-      debug:
-        steps:
-          - 'step::clean.out*=2'
-          - reflect.proto.*=1
-        criterion:
-          default: 1
-          debug: debug
-          raw: raw
-          content: prime
-      compiled.debug:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.no.tests*=1
-          - transpile.proto.only.tests*=1
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-      raw.release:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.raw
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-      release:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.no.tests*=1
-          - transpile.proto.only.tests*=1
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-      npm.debug.raw:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: debug
-          raw: raw
-      npm.release.raw:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: release
-          raw: raw
-      npm.debug.compiled:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: debug
-          raw: compiled
-      npm.release.compiled:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: release
-          raw: compiled
-      npm.proto:
-        steps:
-          - npm.generate.proto
-        criterion:
-          conent: proto
-      all:
-        steps:
-          - 'build::debug'
-          - 'build::compiled.debug'
-          - 'build::raw.release'
-          - 'build::release'
-          - 'build::npm.*=5'
     consistency:
       ../.module/wTools/will.yml: *ref_5
       ../.module/wTools/out/wTools.out.will.yml: *ref_6
@@ -3422,10 +2856,10 @@ module:
       org: noorg
       description: >-
         Collection of general purpose tools for solving problems. Fundamentally
-        extend the language without spoiling namespace, so may be used solely or
-        in conjunction with another module of such kind.
+        extend the language without spoiling, so may be used solely or in
+        conjunction with another module of such kind.
       enabled: 1
-      version: 0.9.0
+      version: 0.9.3
       license: MIT
       npm.name: wTools
       author: Kostiantyn Wandalen <wanalen@01.school>
@@ -3494,6 +2928,7 @@ module:
           - ../package-lock.json
           - ../package.json
           - ../node_modules
+          - ../target
       proto:
         path: ../proto
       export:
@@ -3522,63 +2957,6 @@ module:
         path: '{path::out}/release.test'
       out.release.min:
         path: '{path::out}/release.min'
-      out.raw.debug:
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        path: '{path::out}/debug'
-      out.compiled.debug:
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        path: '{path::out}/compiled.debug'
-      out.raw.release:
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        path: '{path::out}/raw.release'
-      out.compiled.release:
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        path: '{path::out}/release'
-      entry.proto.no.tests:
-        criterion:
-          tests: no.tests
-          content: proto
-        path: '../proto/{path::entry}'
-      entry.proto.only.tests:
-        criterion:
-          tests: only.tests
-        path: ../proto/**/*.test.*
-      entry.out.raw.debug:
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        path: '{path::out.*=1}/source/{path::entry}'
-      entry.out.raw.release:
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        path: '{path::out.*=1}/source/{path::entry}'
-      entry.out.compiled.debug:
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        path: '{path::out.*=}/source/Index.s'
-      entry.out.compiled.release:
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
           - ../proto/wtools/abase/l1/Include.s
@@ -4000,14 +3378,8 @@ module:
         enabled: 0
         criterion:
           development: 1
-      wTools:
-        path: 'hd://..'
-        autoExporting: 0
-        enabled: 0
-        criterion:
-          development: 1
     reflector:
-      transpile.reflect.proto.debug:
+      transpile.reflect.proto.debug.no.tests:
         src:
           filePath:
             '**.test*': false
@@ -4021,7 +3393,7 @@ module:
           tests: no.tests
         inherit:
           - predefined.*
-      transpile.reflect.proto.release:
+      transpile.reflect.proto.release.no.tests:
         src:
           filePath:
             '**.test*': false
@@ -4033,6 +3405,34 @@ module:
         criterion:
           debug: release
           tests: no.tests
+        inherit:
+          - predefined.*
+      transpile.reflect.proto.debug.only.tests:
+        src:
+          filePath:
+            '**.test*': false
+            '**.test/**': false
+            '{path::proto}/**': '{path::out.build.*=1}/Main.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          debug: debug
+          tests: only.tests
+        inherit:
+          - predefined.*
+      transpile.reflect.proto.release.only.tests:
+        src:
+          filePath:
+            '**.test*': false
+            '**.test/**': false
+            '{path::proto}/**': '{path::out.build.*=1}/Main.s'
+          prefixPath: ''
+        dst:
+          prefixPath: ''
+        criterion:
+          debug: release
+          tests: only.tests
         inherit:
           - predefined.*
       transpile.reflect.release.min:
@@ -4132,153 +3532,26 @@ module:
           prefixPath: ''
         dst:
           prefixPath: ''
-      reflect.compiled.debug.files:
+      reflect.compiled.debug:
         src:
           filePath:
             '{path::out.build.debug.no.test}/Main.s': '{path::out.build.debug.only.test}/Main.s'
           prefixPath: ''
         dst:
           prefixPath: ''
+        criterion:
+          debug: debug
         inherit:
           - predefined.*
-      reflect.compiled.release.files:
+      reflect.compiled.release:
         src:
           filePath:
             '{path::out.build.release.no.test}/Main.s': '{path::out.build.release.only.test}/Main.s'
           prefixPath: ''
         dst:
           prefixPath: ''
-        inherit:
-          - predefined.*
-      reflect.proto.debug.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
         criterion:
-          tests: no.tests
-          debug: debug
-          raw: raw
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.release.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: no.tests
           debug: release
-          raw: raw
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.debug.compiled:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: no.tests
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - predefined.*
-      reflect.proto.release.compiled:
-        src:
-          filePath:
-            'path::proto': '{path::out.*=1}/source'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: no.tests
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.raw:
-        src:
-          filePath:
-            'path::proto': '{path::out.raw.release}'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          raw: raw
-          debug: release
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.no.tests.compiled.debug:
-        src:
-          filePath:
-            '**.test*': false
-            '**.test/**': false
-            'path::proto': '{path::out.*=1}/Main.s'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.no.tests.compiled.release:
-        src:
-          filePath:
-            '**.test*': false
-            '**.test/**': false
-            'path::proto': '{path::out.*=1}/Main.s'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.only.tests.compiled.debug:
-        src:
-          filePath:
-            '**.test*': true
-            'path::proto': '{path::out.*=1}/Tests.test.s'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - predefined.*
-      transpile.proto.only.tests.compiled.release:
-        src:
-          filePath:
-            '**.test*': true
-            'path::proto': '{path::out.*=1}/Tests.test.s'
-          prefixPath: ''
-        dst:
-          prefixPath: ''
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: release
-          content: prime
         inherit:
           - predefined.*
       exported.proto.export:
@@ -4521,279 +3794,39 @@ module:
           content: proto
         inherit:
           - module.export
-      doc.export:
-        opts:
-          export: 'path::doc'
-          tar: 0
-        criterion:
-          content: doc
+      publish.npm:
         inherit:
-          - module.export
-      npm.export:
+          - npm.publish
+      transpile.reflect.proto.debug.no.tests:
         opts:
-          export: out.npm
-          tar: 0
-        criterion:
-          content: npm
-        inherit:
-          - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
-      npm.generate.debug.raw:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: debug
-          raw: raw
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.release.raw:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.debug.compiled:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.release.compiled:
-        opts:
-          entryPath: 'path::entry.out.*=1'
-          packagePath: '{path::out.*=1}/package.json'
-          filesPath: '{path::out.*=1}/source/**'
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - npm.generate
-      npm.generate.proto:
-        opts:
-          entryPath: 'path::entry.proto.no.tests'
-          packagePath: package.json
-          filesPath: '{path::proto}/**'
-        criterion:
-          content: proto
-        inherit:
-          - npm.generate
-      clean.out.debug.raw.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.raw.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.compiled.no.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: no.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.raw.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.raw.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.release.compiled.only.tests.prime:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: only.tests
-          content: prime
-        inherit:
-          - files.delete
-      clean.out.debug.raw.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.raw.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.compiled.no.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.raw.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: raw
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.raw.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: raw
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.debug.compiled.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.release.compiled.only.tests.npm:
-        opts:
-          filePath: '{path::out.*=1}/source'
-        criterion:
-          debug: release
-          raw: compiled
-          tests: only.tests
-          content: npm
-        inherit:
-          - files.delete
-      clean.out.npm:
-        opts:
-          filePath: 'path::out.*=1'
-        criterion:
-          debug: debug
-          raw: compiled
-          tests: no.tests
-          content: npm
-        inherit:
-          - files.delete
-      tst.proto:
-        opts:
-          shell: 'tst {path::proto}'
-        criterion:
-          content: proto
-      tst.debug:
-        opts:
-          shell: 'tst {path::out.*=1}'
-        criterion:
-          content: prime
-          debug: debug
-      tst.release:
-        opts:
-          shell: 'tst {path::out.*=1}'
-        criterion:
-          content: prime
-          debug: release
-      transpile.reflect.proto.debug:
-        opts:
-          filePath: 'reflector::transpile.reflect.proto.debug'
+          filePath: 'reflector::transpile.reflect.proto.debug.no.tests'
         criterion:
           debug: debug
           tests: no.tests
         inherit:
           - files.reflect
-      transpile.reflect.proto.release:
+      transpile.reflect.proto.release.no.tests:
         opts:
-          filePath: 'reflector::transpile.reflect.proto.release'
+          filePath: 'reflector::transpile.reflect.proto.release.no.tests'
         criterion:
           debug: release
           tests: no.tests
+        inherit:
+          - files.reflect
+      transpile.reflect.proto.debug.only.tests:
+        opts:
+          filePath: 'reflector::transpile.reflect.proto.debug.only.tests'
+        criterion:
+          debug: debug
+          tests: only.tests
+        inherit:
+          - files.reflect
+      transpile.reflect.proto.release.only.tests:
+        opts:
+          filePath: 'reflector::transpile.reflect.proto.release.only.tests'
+        criterion:
+          debug: release
+          tests: only.tests
         inherit:
           - files.reflect
       transpile.reflect.release.min:
@@ -4854,112 +3887,20 @@ module:
           filePath: 'reflector::reflect.release.min.files'
         inherit:
           - files.reflect
-      reflect.compiled.debug.files:
+      reflect.compiled.debug:
         opts:
-          filePath: 'reflector::reflect.compiled.debug.files'
-        inherit:
-          - files.reflect
-      reflect.compiled.release.files:
-        opts:
-          filePath: 'reflector::reflect.compiled.release.files'
-        inherit:
-          - files.reflect
-      reflect.proto.debug.raw:
-        opts:
-          filePath: 'reflector::reflect.proto.debug.raw'
+          filePath: 'reflector::reflect.compiled.debug'
         criterion:
-          tests: no.tests
           debug: debug
-          raw: raw
-          content: prime
         inherit:
           - files.reflect
-      reflect.proto.release.raw:
+      reflect.compiled.release:
         opts:
-          filePath: 'reflector::reflect.proto.release.raw'
+          filePath: 'reflector::reflect.compiled.release'
         criterion:
-          tests: no.tests
           debug: release
-          raw: raw
-          content: prime
         inherit:
           - files.reflect
-      reflect.proto.debug.compiled:
-        opts:
-          filePath: 'reflector::reflect.proto.debug.compiled'
-        criterion:
-          tests: no.tests
-          debug: debug
-          raw: compiled
-          content: prime
-        inherit:
-          - files.reflect
-      reflect.proto.release.compiled:
-        opts:
-          filePath: 'reflector::reflect.proto.release.compiled'
-        criterion:
-          tests: no.tests
-          debug: release
-          raw: compiled
-          content: prime
-        inherit:
-          - files.reflect
-      transpile.proto.raw:
-        opts:
-          entry: 'path::entry.proto.no.tests'
-          filePath: 'reflector::transpile.proto.raw'
-        criterion:
-          raw: raw
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.no.tests.compiled.debug:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          filePath: 'reflector::transpile.proto.no.tests.compiled.debug'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.no.tests.compiled.release:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          filePath: 'reflector::transpile.proto.no.tests.compiled.release'
-        criterion:
-          tests: no.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.only.tests.compiled.debug:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          external.before: '{path::out.*=1}/Main.s'
-          filePath: 'reflector::transpile.proto.only.tests.compiled.debug'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: debug
-          content: prime
-        inherit:
-          - files.transpile
-      transpile.proto.only.tests.compiled.release:
-        opts:
-          entry: 'path::entry.proto.*=1'
-          external.before: '{path::out.*=1}/Main.s'
-          filePath: 'reflector::transpile.proto.only.tests.compiled.release'
-        criterion:
-          tests: only.tests
-          raw: compiled
-          debug: release
-          content: prime
-        inherit:
-          - files.transpile
       exported.proto.export:
         opts:
           filePath: 'reflector::exported.proto.export'
@@ -4979,6 +3920,13 @@ module:
         inherit:
           - files.reflect
     build:
+      publish.npm:
+        steps:
+          - publish.npm
+        criterion:
+          default: 1
+          publish: 1
+          bump: patch
       build.debug:
         steps:
           - 'step::clean.build.out.*=1'
@@ -5029,98 +3977,15 @@ module:
         criterion:
           content: proto
           export: 1
-      doc.export:
-        steps:
-          - 'step::doc.export'
-        criterion:
-          content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
         criterion:
           default: 1
           export: 1
-      debug:
-        steps:
-          - 'step::clean.out*=2'
-          - reflect.proto.*=1
-        criterion:
-          default: 1
-          debug: debug
-          raw: raw
-          content: prime
-      compiled.debug:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.no.tests*=1
-          - transpile.proto.only.tests*=1
-        criterion:
-          debug: debug
-          raw: compiled
-          content: prime
-      raw.release:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.raw
-        criterion:
-          debug: release
-          raw: raw
-          content: prime
-      release:
-        steps:
-          - 'step::clean.out*=2'
-          - transpile.proto.no.tests*=1
-          - transpile.proto.only.tests*=1
-        criterion:
-          debug: release
-          raw: compiled
-          content: prime
-      npm.debug.raw:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: debug
-          raw: raw
-      npm.release.raw:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: release
-          raw: raw
-      npm.debug.compiled:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: debug
-          raw: compiled
-      npm.release.compiled:
-        steps:
-          - npm.generate.*=1
-        criterion:
-          debug: release
-          raw: compiled
-      npm.proto:
-        steps:
-          - npm.generate.proto
-        criterion:
-          conent: proto
-      all:
-        steps:
-          - 'build::debug'
-          - 'build::compiled.debug'
-          - 'build::raw.release'
-          - 'build::release'
-          - 'build::npm.*=5'
     exported:
       proto.export:
-        version: 0.9.0
+        version: 0.9.3
         recursive: 0
         withIntegrated: 2
         tar: 0
@@ -5133,11 +3998,11 @@ module:
           export: 1
     consistency:
       ../.module/wTools/out/wTools.out.will.yml:
-        hash: eba33065578f58c42e619716e7071fe6
-        size: 88634
+        hash: 06971b8cec1901b1d910b1de02f23031
+        size: 59513
       ../.module/wTools/will.yml:
-        hash: 4221d58fbb8742c63ca32b69e5737cc9
-        size: 12220
+        hash: ae07b9e8ea04811320e5d1b68318304f
+        size: 7177
   ../.module/wPathBasic/:
     about:
       name: wPathBasic
@@ -5441,9 +4306,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -5779,12 +4641,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -6228,9 +5084,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -6585,12 +5438,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -6661,11 +5508,11 @@ module:
           export: 1
     consistency:
       ../.module/wPathBasic/out/wPathBasic.out.will.yml:
-        hash: 61137a40fab0b643d5df924c4ff7b7c6
-        size: 39317
+        hash: 8b34809eca56aacb4f6e189e18372a66
+        size: 38939
       ../.module/wPathBasic/will.yml:
-        hash: 8a488ed804fc07447ec74d4e1bf69ba5
-        size: 6981
+        hash: c23b0d040db2158257cc6fdd6c5437b8
+        size: 6840
   ../.module/wTraverser/:
     about:
       name: wTraverser
@@ -6958,9 +5805,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -7296,12 +6140,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -7729,9 +6567,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -8086,12 +6921,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -8162,11 +6991,11 @@ module:
           export: 1
     consistency:
       ../.module/wTraverser/out/wTraverser.out.will.yml:
-        hash: 1d419a7e74eb8692e9d88b9d80de9453
-        size: 38763
+        hash: 45dfd555f7c9a8fcd59a2dab6d1b366c
+        size: 38385
       ../.module/wTraverser/will.yml:
-        hash: 3e7b5e726d3d7653a6442d0b3618cae8
-        size: 6745
+        hash: 3ea724ae4179b1e51295e2d3b70cecb0
+        size: 6604
   ../.module/wProcedure/:
     about:
       name: wProcedure
@@ -8462,9 +7291,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -8800,12 +7626,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -9240,9 +8060,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -9597,12 +8414,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -9673,11 +8484,11 @@ module:
           export: 1
     consistency:
       ../.module/wProcedure/out/wProcedure.out.will.yml:
-        hash: e3d0537aa28eba6311e93d26c83558d2
-        size: 39160
+        hash: 3d2994b6be9791489cb71af1b77e57b3
+        size: 38782
       ../.module/wProcedure/will.yml:
-        hash: 428288a3282cf8a61c9056d682d4325f
-        size: 6791
+        hash: 1f5f8f7e2d32ce1b1f929b64f76dcd72
+        size: 6650
   ../.module/wResolver/:
     about:
       name: wResolver
@@ -9967,9 +8778,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -10305,12 +9113,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -10735,9 +9537,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -11092,12 +9891,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -11168,11 +9961,11 @@ module:
           export: 1
     consistency:
       ../.module/wResolver/out/wResolver.out.will.yml:
-        hash: f0b32421519a31afe3f81ca3e1caf81e
-        size: 38273
+        hash: 70c4182ce09431733625d230bb5f8f0b
+        size: 37895
       ../.module/wResolver/will.yml:
-        hash: f35b2c6910adaf11ed83d3ff029b069b
-        size: 6510
+        hash: 12eb1b55cffd3604e4bdc489ceeb7bfd
+        size: 6369
   ../.module/wStringer/:
     about:
       name: wStringer
@@ -11460,9 +10253,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -11798,12 +10588,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -12241,9 +11025,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -12598,12 +11379,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -12674,11 +11449,11 @@ module:
           export: 1
     consistency:
       ../.module/wStringer/out/wStringer.out.will.yml:
-        hash: 16832b69ec38e5cc06cf009f36f47d1c
-        size: 39320
+        hash: 32ed75146d456d333bc936335d66b5d6
+        size: 38942
       ../.module/wStringer/will.yml:
-        hash: bcd94d332a591c39b1c68043c92aa84f
-        size: 6627
+        hash: 6bce465768a42f5b0b54a5ede22af9c0
+        size: 6486
   ../.module/wPathTools/:
     about:
       name: wPathTools
@@ -12984,9 +11759,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -13322,12 +12094,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -13770,9 +12536,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -14127,12 +12890,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -14203,11 +12960,11 @@ module:
           export: 1
     consistency:
       ../.module/wPathTools/out/wPathTools.out.will.yml:
-        hash: 4efc6937c5fa725b33a99d9240ce0080
-        size: 39189
+        hash: 12d8d7bbd2d00414cceb00252eca251d
+        size: 38811
       ../.module/wPathTools/will.yml:
-        hash: 523c5c1fcd6d013ebb36b07a5cbd1d07
-        size: 6908
+        hash: 54b379078fdf75edfabf8ec45071abd5
+        size: 6767
   ../.module/wPath/:
     about:
       name: wPath
@@ -14504,9 +13261,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -14842,12 +13596,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -15277,9 +14025,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -15634,12 +14379,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -15710,11 +14449,11 @@ module:
           export: 1
     consistency:
       ../.module/wPath/out/wPath.out.will.yml:
-        hash: dc59e171bfb8736cd0f58d5bd3a0734f
-        size: 38540
+        hash: 34c32c1845a135646ad1710f02f9fc00
+        size: 38162
       ../.module/wPath/will.yml:
-        hash: c7882e4b15f848b1fdc49753c4bc1641
-        size: 6708
+        hash: 72127d4003b9c7bfc87b1e46e811e806
+        size: 6567
   ../.module/wCloner/:
     about:
       name: wCloner
@@ -16009,9 +14748,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -16347,12 +15083,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -16782,9 +15512,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -17139,12 +15866,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -17215,11 +15936,11 @@ module:
           export: 1
     consistency:
       ../.module/wCloner/out/wCloner.out.will.yml:
-        hash: 7274214b12c0f1f2676a6f57953749e2
-        size: 38567
+        hash: c3686c91d9ccdd552d12ec9b67e7bb42
+        size: 38189
       ../.module/wCloner/will.yml:
-        hash: 49a8acf44d05c62a8722e5f351d1edd1
-        size: 6681
+        hash: c854116670614836fb0c5912547df459
+        size: 6540
   ../.module/wInstancing/:
     about:
       name: wInstancing
@@ -17513,9 +16234,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -17851,12 +16569,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -18285,9 +16997,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -18642,12 +17351,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -18718,11 +17421,11 @@ module:
           export: 1
     consistency:
       ../.module/wInstancing/out/wInstancing.out.will.yml:
-        hash: 5c6e73efe474c6066622fe07cf871811
-        size: 38857
+        hash: 952a24e58a145ef7224deb24c2e39d8d
+        size: 38479
       ../.module/wInstancing/will.yml:
-        hash: b255624a8c817ae223d6127b6da34126
-        size: 6812
+        hash: 114641f1a71d6bba06790cafd5b1f464
+        size: 6671
   ../.module/wLooker/:
     about:
       name: wLooker
@@ -19017,9 +17720,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -19355,12 +18055,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -19790,9 +18484,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -20147,12 +18838,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -20223,11 +18908,11 @@ module:
           export: 1
     consistency:
       ../.module/wLooker/out/wLooker.out.will.yml:
-        hash: c8c11286290ce6d83a904e0cd19ce675
-        size: 38753
+        hash: 550931c75854a1f21c131ac1539ea8a5
+        size: 38375
       ../.module/wLooker/will.yml:
-        hash: 75efa1e2b91a1b155a0962ec991c51ac
-        size: 6747
+        hash: 997823153542e2b3e3271bc8512745bf
+        size: 6606
   ../.module/wEqualer/:
     about:
       name: wEqualer
@@ -20523,9 +19208,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -20861,12 +19543,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -21297,9 +19973,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -21654,12 +20327,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -21730,11 +20397,11 @@ module:
           export: 1
     consistency:
       ../.module/wEqualer/out/wEqualer.out.will.yml:
-        hash: 320040076a71c8f0042bae04f4603c02
-        size: 38805
+        hash: 46e3d3289db6c01e48b9181421204877
+        size: 38427
       ../.module/wEqualer/will.yml:
-        hash: b7af2e6be9330a09b53a2af46b05d2cd
-        size: 6747
+        hash: 51a13f18cf73903ec558e3ffc2dbd540
+        size: 6606
   ../.module/wUriBasic/:
     about:
       name: wUriBasic
@@ -22040,9 +20707,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -22378,12 +21042,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -22830,9 +21488,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -23187,12 +21842,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -23263,11 +21912,11 @@ module:
           export: 1
     consistency:
       ../.module/wUriBasic/out/wUriBasic.out.will.yml:
-        hash: d3a282396d5e6c884848e61489f1a5e2
-        size: 39436
+        hash: 40bfe35e7218ac1882420e18ffe599ae
+        size: 39058
       ../.module/wUriBasic/will.yml:
-        hash: e65f463da9642b46f0abbac1a4b3f6e9
-        size: 6930
+        hash: 2c1885573b0a6e9168b122792e4dc678
+        size: 6789
   ../.module/wResolverExtra/:
     about:
       name: wResolverExtra
@@ -23559,9 +22208,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -23897,12 +22543,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -24329,9 +22969,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -24686,12 +23323,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -24762,11 +23393,11 @@ module:
           export: 1
     consistency:
       ../.module/wResolverExtra/out/wResolverExtra.out.will.yml:
-        hash: 1827e1c1aca8371567a8a07fa31d48d3
-        size: 38755
+        hash: bb562bd47b0f1fe6b867f338a313ecaa
+        size: 38377
       ../.module/wResolverExtra/will.yml:
-        hash: a37c6e9fc1678902ab893b58f4877933
-        size: 6725
+        hash: ba20042e09efa38bc4f2c4d71ef332fa
+        size: 6584
   ../.module/wStringsExtra/:
     about:
       name: wStringsExtra
@@ -25070,9 +23701,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -25408,12 +24036,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -25854,9 +24476,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -26211,12 +24830,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -26287,11 +24900,11 @@ module:
           export: 1
     consistency:
       ../.module/wStringsExtra/out/wStringsExtra.out.will.yml:
-        hash: 1e8009518ceef108815a22fb38daccf7
-        size: 39305
+        hash: 94dec17b464893156223f27e4dea1357
+        size: 38927
       ../.module/wStringsExtra/will.yml:
-        hash: 4f95a2257ad24d2fcf779550a12fc585
-        size: 6866
+        hash: 44ce3dd6bff39b319b27804da678a40c
+        size: 6725
   ../.module/wProcess/:
     about:
       name: wProcess
@@ -26482,7 +25095,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -26617,9 +25230,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -26955,12 +25565,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -27258,7 +25862,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -27444,9 +26048,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -27801,12 +26402,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -27877,11 +26472,11 @@ module:
           export: 1
     consistency:
       ../.module/wProcess/out/wProcess.out.will.yml:
-        hash: 1985ee4bb02d358ed7124b523afea9c8
-        size: 42004
+        hash: b6710ef5d2a5791ebcad3f4767823b42
+        size: 41628
       ../.module/wProcess/will.yml:
-        hash: 29073fcfece6db55e907fc89b939d695
-        size: 7475
+        hash: 9680dd41e4e4b7544809588135c199ee
+        size: 7335
   ../.module/wProcessWatcher/:
     about:
       name: wProcessWatcher
@@ -28190,9 +26785,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -28528,12 +27120,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -28975,9 +27561,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -29332,12 +27915,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -29408,11 +27985,11 @@ module:
           export: 1
     consistency:
       ../.module/wProcessWatcher/out/wProcessWatcher.out.will.yml:
-        hash: 705d7d9f72215caa28df4b1c87f5cd98
-        size: 39679
+        hash: 012b189f271071ae175526ce393ccf5e
+        size: 39301
       ../.module/wProcessWatcher/will.yml:
-        hash: 1c525196fd2ebc1c57681706b2a7955c
-        size: 7130
+        hash: b8efb5ed8939a6010dfd76131de922ed
+        size: 6989
   ../.module/wBlueprint/:
     about:
       name: wBlueprint
@@ -29685,9 +28262,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -30023,12 +28597,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -30455,9 +29023,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -30812,12 +29377,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -30888,11 +29447,11 @@ module:
           export: 1
     consistency:
       ../.module/wBlueprint/out/wBlueprint.out.will.yml:
-        hash: da2b26a285dc2cb823ed9118f9491316
-        size: 39021
+        hash: 7fc4476a3f3b6c67c8a015aec8b92c5b
+        size: 38643
       ../.module/wBlueprint/will.yml:
-        hash: 0f779f0998d59b84259e875db4f32ee6
-        size: 6434
+        hash: 380e52e9d4bbf6d165abd514737c6f59
+        size: 6293
   ../.module/wUri/:
     about:
       name: wUri
@@ -31189,9 +29748,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -31527,12 +30083,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -31964,9 +30514,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -32321,12 +30868,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -32397,11 +30938,11 @@ module:
           export: 1
     consistency:
       ../.module/wUri/out/wUri.out.will.yml:
-        hash: 305c7a734142f304d008fa3515ac33a7
-        size: 38568
+        hash: 94e79ec5b5aa416e57671b84567b4c59
+        size: 38190
       ../.module/wUri/will.yml:
-        hash: 76cd08848177f2ad4944dee431d594e7
-        size: 6688
+        hash: 76302068b73be1becc0162c8ca8caa3c
+        size: 6547
   ../.module/wEventHandler/:
     about:
       name: wEventHandler
@@ -32694,9 +31235,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -33032,12 +31570,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -33465,9 +31997,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -33822,12 +32351,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -33898,11 +32421,11 @@ module:
           export: 1
     consistency:
       ../.module/wEventHandler/out/wEventHandler.out.will.yml:
-        hash: b44caa2e95697f7a4911c69b3c84f55c
-        size: 39442
+        hash: 7a1622c5fbe029d2d6b00c8e699d0326
+        size: 39064
       ../.module/wEventHandler/will.yml:
-        hash: c3d67beb602b07c4c8afbe6472cca0b7
-        size: 7081
+        hash: 372c5b8423f77609b7f5075e51353e8b
+        size: 6940
   ../.module/wArraySorted/:
     about:
       name: wArraySorted
@@ -34200,9 +32723,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -34538,12 +33058,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -34976,9 +33490,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -35333,12 +33844,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -35409,11 +33914,11 @@ module:
           export: 1
     consistency:
       ../.module/wArraySorted/out/wArraySorted.out.will.yml:
-        hash: 59e514663b6f9a71c8186df0746e1969
-        size: 39011
+        hash: 09715a67c266e54621d242e299092641
+        size: 38633
       ../.module/wArraySorted/will.yml:
-        hash: b309e9b6a4079e3dffcf449a4538fd38
-        size: 6958
+        hash: 9572aed0c226399a82a7f9d0f608450e
+        size: 6817
   ../.module/wProto/:
     about:
       name: wProto
@@ -35712,9 +34217,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -36050,12 +34552,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -36503,9 +34999,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -36860,12 +35353,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -36936,11 +35423,11 @@ module:
           export: 1
     consistency:
       ../.module/wProto/out/wProto.out.will.yml:
-        hash: cec842753c7269e548967f3ba5d992b7
-        size: 39581
+        hash: f872b71c0815c4aae80fc9a4a4f73f60
+        size: 39203
       ../.module/wProto/will.yml:
-        hash: 11a01149b61dd0f29c61280c178c2b0f
-        size: 6823
+        hash: 825709267b6d9b4f270c401cd163e34a
+        size: 6682
   ../.module/wWebUriBasic/:
     about:
       name: wWebUriBasic
@@ -37234,9 +35721,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -37572,12 +36056,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -38006,9 +36484,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -38363,12 +36838,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -38439,11 +36908,11 @@ module:
           export: 1
     consistency:
       ../.module/wWebUriBasic/out/wWebUriBasic.out.will.yml:
-        hash: 6b066987608ef8585267ee349d5476db
-        size: 39039
+        hash: 0bf09ebec084d91b7e3ef639f33b40e1
+        size: 38661
       ../.module/wWebUriBasic/will.yml:
-        hash: e4aeba8f06ba27c38e86586a4043b2e8
-        size: 6883
+        hash: ef22f0b4ba17aa00a0e0ae860c92e9ae
+        size: 6742
   ../.module/wFieldsStack/:
     about:
       name: wFieldsStack
@@ -38741,9 +37210,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -39079,12 +37545,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -39517,9 +37977,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -39874,12 +38331,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -39950,11 +38401,11 @@ module:
           export: 1
     consistency:
       ../.module/wFieldsStack/out/wFieldsStack.out.will.yml:
-        hash: 3322eb7746d7a6c6f6f2b700cc789c7e
-        size: 39337
+        hash: 67ea434a12fd804340aac0cc94a2e39a
+        size: 38959
       ../.module/wFieldsStack/will.yml:
-        hash: 4ea44cc2ba15133dfbf993ea1860ee12
-        size: 6967
+        hash: 0ab851863f134a95cf729d71b3729ecb
+        size: 6826
   ../.module/wReplicator/:
     about:
       name: wReplicator
@@ -40245,9 +38696,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -40583,12 +39031,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -41014,9 +39456,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -41371,12 +39810,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -41447,11 +39880,11 @@ module:
           export: 1
     consistency:
       ../.module/wReplicator/out/wReplicator.out.will.yml:
-        hash: 89af481d943de09127973e7ff8835a7b
-        size: 38471
+        hash: 7262bf96cb78476d839fb052123c7fc4
+        size: 38093
       ../.module/wReplicator/will.yml:
-        hash: d4931b9d4a7d40a03bd2e96dba994992
-        size: 6602
+        hash: 6b2adac396fee33bd1fa82d2895d669d
+        size: 6461
   ../.module/wCopyable/:
     about:
       name: wCopyable
@@ -41767,9 +40200,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -42105,12 +40535,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -42561,9 +40985,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -42918,12 +41339,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -42994,11 +41409,11 @@ module:
           export: 1
     consistency:
       ../.module/wCopyable/out/wCopyable.out.will.yml:
-        hash: 1704f6264274ab9cc29bdbcc88965ba2
-        size: 39407
+        hash: e358ca18e425a7e54782fba504b4c6a4
+        size: 39029
       ../.module/wCopyable/will.yml:
-        hash: 70720b7cb27d0ca1a25fc5766a7ece1b
-        size: 6992
+        hash: c2f250524e82573567287f3599fb7c84
+        size: 6851
   ../.module/wSelector/:
     about:
       name: wSelector
@@ -43297,9 +41712,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -43635,12 +42047,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -44074,9 +42480,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -44431,12 +42834,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -44507,11 +42904,11 @@ module:
           export: 1
     consistency:
       ../.module/wSelector/out/wSelector.out.will.yml:
-        hash: 78b1d8c0497e9d1a673c019e16919923
-        size: 38893
+        hash: 378706e04a4d731a929204b498a21cb1
+        size: 38515
       ../.module/wSelector/will.yml:
-        hash: a64c381d4df9ef1976fc016333b1efea
-        size: 6747
+        hash: f6a57806040972613d30fb042b7603e6
+        size: 6606
   ../.module/wLookerExtra/:
     about:
       name: wLookerExtra
@@ -44804,9 +43201,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -45142,12 +43536,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -45575,9 +43963,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -45932,12 +44317,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -46008,11 +44387,11 @@ module:
           export: 1
     consistency:
       ../.module/wLookerExtra/out/wLookerExtra.out.will.yml:
-        hash: 23d6b0b2711a2c9c1ecbc1033a2f8cbb
-        size: 38540
+        hash: 745035dd2499de1bb229b4ef5b094757
+        size: 38162
       ../.module/wLookerExtra/will.yml:
-        hash: dfed509df58362db98c423c5617ba925
-        size: 6665
+        hash: 62e730e303cbb2c490e9a55f964be500
+        size: 6524
   ../.module/wNjsCppBasic/:
     about:
       name: wNjsCppBasic
@@ -46302,9 +44681,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -46646,12 +45022,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -47150,9 +45520,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -47531,12 +45898,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -47621,8 +45982,8 @@ module:
     consistency:
       ../.module/wNjsCppBasic/out/wNjsCppBasic.out.will.yml: *ref_62
       ../.module/wNjsCppBasic/will.yml:
-        hash: 831bb3c3ca2f2265db15e5ceb9ee3037
-        size: 6581
+        hash: a574c87b6ebecb327bacd8cb3201735c
+        size: 6440
   ../.module/wArraySparse/:
     about:
       name: wArraySparse
@@ -47911,9 +46272,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -48249,12 +46607,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -48678,9 +47030,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -49035,12 +47384,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -49111,11 +47454,11 @@ module:
           export: 1
     consistency:
       ../.module/wArraySparse/out/wArraySparse.out.will.yml:
-        hash: ca308e19d756a3eec2413e3802a431a0
-        size: 38755
+        hash: 36a8612cb56763ddc11a683c1e4f8934
+        size: 38377
       ../.module/wArraySparse/will.yml:
-        hash: ec27d2d7b546235595309f9e5fe76b2e
-        size: 6772
+        hash: b6967c0bb272e79335da720eb1727455
+        size: 6631
   ../.module/wSelectorExtra/:
     about:
       name: wSelectorExtra
@@ -49405,9 +47748,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -49743,12 +48083,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -50173,9 +48507,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -50530,12 +48861,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -50606,11 +48931,11 @@ module:
           export: 1
     consistency:
       ../.module/wSelectorExtra/out/wSelectorExtra.out.will.yml:
-        hash: 14118475e87f98f2896411c5744eee8d
-        size: 38537
+        hash: d9962d68cd04784e3aaf1f62fe70a63c
+        size: 38159
       ../.module/wSelectorExtra/will.yml:
-        hash: 6875fa593bbcf9795f70602669681e08
-        size: 6628
+        hash: 701a77425d1e3045e8ece4d9c1313dce
+        size: 6487
   ../.module/wEntityBasic/:
     about:
       name: wEntityBasic
@@ -50901,9 +49226,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -51239,12 +49561,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -51670,9 +49986,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -52027,12 +50340,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -52103,11 +50410,11 @@ module:
           export: 1
     consistency:
       ../.module/wEntityBasic/out/wEntityBasic.out.will.yml:
-        hash: 244c15f756d87747e6419d1af9fed021
-        size: 38478
+        hash: 811b5933b8c69189c75cffb1b75c8c78
+        size: 38100
       ../.module/wEntityBasic/will.yml:
-        hash: f784fccecd5e30d3c969c79227fdbed0
-        size: 6608
+        hash: 230648756a83f13585b7c25ca540e063
+        size: 6465
   ../.module/wIntrospectorBasic/:
     about:
       name: wIntrospectorBasic
@@ -52264,7 +50571,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -52399,9 +50706,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -52737,12 +51041,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -52988,7 +51286,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -53174,9 +51472,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -53531,12 +51826,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -53607,11 +51896,11 @@ module:
           export: 1
     consistency:
       ../.module/wIntrospectorBasic/out/wIntrospectorBasic.out.will.yml:
-        hash: 5a46c4cdb483d251dc56b70d06984255
-        size: 39094
+        hash: 2b8a284a097c405044e7c0990f3c29b3
+        size: 38718
       ../.module/wIntrospectorBasic/will.yml:
-        hash: 4a7beb9db4bc29128451ce71488cd6b0
-        size: 6684
+        hash: 451b283a22735d87e3c3236c9f84362c
+        size: 6544
   ../.module/wIntrospectorExtra/:
     about:
       name: wIntrospectorExtra
@@ -53769,7 +52058,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -53904,9 +52193,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -54242,12 +52528,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -54493,7 +52773,7 @@ module:
         criterion:
           development: 1
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -54679,9 +52959,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -55036,12 +53313,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -55112,11 +53383,11 @@ module:
           export: 1
     consistency:
       ../.module/wIntrospectorExtra/out/wIntrospectorExtra.out.will.yml:
-        hash: 1d109db9abfefce1b55a4f125ee94fa8
-        size: 39245
+        hash: 206acc3ca7ece443df792b25b512c851
+        size: 38869
       ../.module/wIntrospectorExtra/will.yml:
-        hash: 1f1d0687683de4fcde37a4ad0a71043b
-        size: 6757
+        hash: 0048573b7ae39412cddc65ff9c361cb7
+        size: 6628
   ../.module/wLogger/:
     about:
       name: wLogger
@@ -55435,9 +53706,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -55773,12 +54041,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -56270,9 +54532,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -56627,12 +54886,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -56703,11 +54956,11 @@ module:
           export: 1
     consistency:
       ../.module/wLogger/out/wLogger.out.will.yml:
-        hash: 73e2998b492b86ed92184df7c1f3bff6
-        size: 42703
+        hash: 3acbde3339a95f6bed88cb48ce123b61
+        size: 42325
       ../.module/wLogger/will.yml:
-        hash: f63c74aa63d2d078337303b9128dd9ca
-        size: 7463
+        hash: 4495a1b059c0ff7753604189bc271292
+        size: 7322
   ../.module/wConsequence/:
     about:
       name: wConsequence
@@ -57034,9 +55287,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -57372,12 +55622,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -57845,9 +56089,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -58202,12 +56443,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -58278,11 +56513,11 @@ module:
           export: 1
     consistency:
       ../.module/wConsequence/out/wConsequence.out.will.yml:
-        hash: 9eaa9a7bf3495d8dcae4fc747e16d6a7
-        size: 41978
+        hash: b657be60f72953793721777f48469720
+        size: 41600
       ../.module/wConsequence/will.yml:
-        hash: 01a4f4e179627b3b2769ccea23760eac
-        size: 8058
+        hash: ecd15e951b50bb301c6c3d3848a627bd
+        size: 7917
   ../.module/wColor/:
     about:
       name: wColor
@@ -58582,9 +56817,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -58920,12 +57152,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -59388,9 +57614,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -59745,12 +57968,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -59821,11 +58038,11 @@ module:
           export: 1
     consistency:
       ../.module/wColor/out/wColor.out.will.yml:
-        hash: 909685a3cf4b25a7af448d17fc4c773c
-        size: 40663
+        hash: c03a0f59200b674b79bab00fc2dc61bd
+        size: 40285
       ../.module/wColor/will.yml:
-        hash: 0b7571a1b00a791cd6239a7356ef7313
-        size: 7030
+        hash: 682bc151282dbb783d4ccaa67b1f9d25
+        size: 6889
   ../.module/wColor256/:
     about:
       name: wColor256
@@ -60124,9 +58341,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -60462,12 +58676,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -60906,9 +59114,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -61263,12 +59468,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -61339,11 +59538,11 @@ module:
           export: 1
     consistency:
       ../.module/wColor256/out/wColor256.out.will.yml:
-        hash: b5280e6aa5a42f9b3bd7acac52793036
-        size: 39493
+        hash: 85c4a1c04159fe245d67b2856f3177da
+        size: 39115
       ../.module/wColor256/will.yml:
-        hash: 99742cc3b7be183d275358f4fd4e2f1b
-        size: 7065
+        hash: 386426ae918cb9bb85c1f26cabe71abd
+        size: 6924
   ../.module/wRemote/:
     about:
       name: wRemote
@@ -61636,9 +59835,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -61974,12 +60170,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -62428,9 +60618,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -62785,12 +60972,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -62861,11 +61042,11 @@ module:
           export: 1
     consistency:
       ../.module/wRemote/out/wRemote.out.will.yml:
-        hash: b42fb18f0bfbf3990cf382b8090700ad
-        size: 39709
+        hash: 6e0a2bac341a88ac26221ec104cb9248
+        size: 39331
       ../.module/wRemote/will.yml:
-        hash: 14a2fb9a810d297984b94f391fa6f6ee
-        size: 6549
+        hash: 6896e36518b840c1033a1826901445a9
+        size: 6410
   ../.module/wFilesBasic/:
     about:
       name: wFilesBasic
@@ -63201,9 +61382,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -63539,12 +61717,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -64072,9 +62244,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -64429,12 +62598,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -64505,11 +62668,11 @@ module:
           export: 1
     consistency:
       ../.module/wFilesBasic/out/wFilesBasic.out.will.yml:
-        hash: a448af279b57cb3cbec040cf6e9c3da3
-        size: 44091
+        hash: 48f182402b29cfc86c88f7be0f1c7073
+        size: 43713
       ../.module/wFilesBasic/will.yml:
-        hash: 33fa3f8963d1e68c1b0831e4f641d288
-        size: 7570
+        hash: f62b73c45b48999b5aeb37b6a21dd48a
+        size: 7429
   ../.module/wFilesHttp/:
     about:
       name: wFilesHttp
@@ -64791,9 +62954,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -65129,12 +63289,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -65555,9 +63709,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -65912,12 +64063,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -65988,11 +64133,11 @@ module:
           export: 1
     consistency:
       ../.module/wFilesHttp/out/wFilesHttp.out.will.yml:
-        hash: e73f66783b00063826c5eda7a91783e8
-        size: 38251
+        hash: 596b88ddc3564264347012007eab8dca
+        size: 37873
       ../.module/wFilesHttp/will.yml:
-        hash: 1cc5d99d8caa3bc4b637a790db93dc04
-        size: 6564
+        hash: 651a5bc159b22e28f51676189221bbf5
+        size: 6425
   ../.module/wHttp/:
     about:
       name: wHttp
@@ -66279,9 +64424,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -66617,12 +64759,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -67050,9 +65186,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -67407,12 +65540,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -67483,11 +65610,11 @@ module:
           export: 1
     consistency:
       ../.module/wHttp/out/wHttp.out.will.yml:
-        hash: 02124163247a5fdf0afee1e25b26f5c4
-        size: 38347
+        hash: 1c188768f4b9dde82a943802814a42a0
+        size: 37969
       ../.module/wHttp/will.yml:
-        hash: 3593d34e7ff062f4553f506815d576ca
-        size: 6432
+        hash: 4c5cc2f6b65dab372cbaf6bc0dee7021
+        size: 6291
   ../.module/wFilesGit/:
     about:
       name: wFilesGit
@@ -67776,9 +65903,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -68114,12 +66238,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -68546,9 +66664,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -68903,12 +67018,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -68979,11 +67088,11 @@ module:
           export: 1
     consistency:
       ../.module/wFilesGit/out/wFilesGit.out.will.yml:
-        hash: 2eb1df224a059979772ffb3797d7954a
-        size: 38468
+        hash: 9bb056c3d54053d85ed0d783f5a4601f
+        size: 38090
       ../.module/wFilesGit/will.yml:
-        hash: 71701014bc3faa53ed6fafb67a44efd3
-        size: 6649
+        hash: 37e04007851e5c2db752eddce6b1ddf5
+        size: 6510
   ../.module/wGitPath/:
     about:
       name: wGitPath
@@ -69299,9 +67408,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -69637,12 +67743,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -70098,9 +68198,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -70455,12 +68552,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -70531,11 +68622,11 @@ module:
           export: 1
     consistency:
       ../.module/wGitPath/out/wGitPath.out.will.yml:
-        hash: 08074e2377edd5354319a01d9016e065
-        size: 40187
+        hash: 9019f0117e37fe018c5b56aad030cbef
+        size: 39809
       ../.module/wGitPath/will.yml:
-        hash: 6be20b29effc843eabe67124c28ee243
-        size: 7114
+        hash: 6e44d3d2e78d6b0b82e966496b55a229
+        size: 6992
   ../.module/wGitTools/:
     about:
       name: wGitTools
@@ -70696,6 +68787,14 @@ module:
         path: 'npm:///wremote'
         autoExporting: 0
         enabled: 0
+      wrepobasic:
+        path: 'npm:///wrepobasic'
+        autoExporting: 0
+        enabled: 0
+      wgitpath:
+        path: 'npm:///wgitpath'
+        autoExporting: 0
+        enabled: 0
       ini:
         path: 'npm:///ini#2.0.0'
         autoExporting: 0
@@ -70846,9 +68945,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -71184,12 +69280,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -71410,19 +69500,9 @@ module:
           - ../proto/wtools/amid/l3/git/l1
           - ../proto/wtools/amid/l3/git/l1/Git.ss
           - ../proto/wtools/amid/l3/git/l1/Md.s
-          - ../proto/wtools/amid/l3/git/l1/Path.ss
-          - ../proto/wtools/amid/l3/git/l1/Repo.s
-          - ../proto/wtools/amid/l3/git/l3_provider
-          - ../proto/wtools/amid/l3/git/l3_provider/Git.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Github.s
-          - ../proto/wtools/amid/l3/git/l3_provider/HardDrive.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Http.s
-          - ../proto/wtools/amid/l3/git/l3_provider/Npm.s
           - ../proto/wtools/amid/l3/git.test
           - ../proto/wtools/amid/l3/git.test/GitTools.test.ss
           - ../proto/wtools/amid/l3/git.test/Md.test.s
-          - ../proto/wtools/amid/l3/git.test/Path.test.ss
-          - ../proto/wtools/amid/l3/git.test/Repo.test.ss
           - ../proto/wtools/amid/l3/git.test/_asset
           - ../proto/wtools/amid/l3/git.test/_asset/basic
           - ../proto/wtools/amid/l3/git.test/_asset/basic/File.txt
@@ -71454,6 +69534,14 @@ module:
         enabled: 0
       wremote:
         path: 'npm:///wremote'
+        autoExporting: 0
+        enabled: 0
+      wrepobasic:
+        path: 'npm:///wrepobasic'
+        autoExporting: 0
+        enabled: 0
+      wgitpath:
+        path: 'npm:///wgitpath'
         autoExporting: 0
         enabled: 0
       ini:
@@ -71657,9 +69745,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -72014,12 +70099,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -72090,11 +70169,11 @@ module:
           export: 1
     consistency:
       ../.module/wGitTools/out/wGitTools.out.will.yml:
-        hash: 53d139339b7abf8935a44efc408303c8
-        size: 40610
+        hash: 2667a42fb71f718182106e7502eb404b
+        size: 40039
       ../.module/wGitTools/will.yml:
-        hash: 713f54f38e4c15c46fbb66fc2fa29352
-        size: 6883
+        hash: ecfe9a071de01414eb01511828ee2317
+        size: 6856
   ../.module/wFilesNpm/:
     about:
       name: wFilesNpm
@@ -72243,7 +70322,7 @@ module:
         autoExporting: 0
         enabled: 0
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -72384,9 +70463,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -72722,12 +70798,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -72963,7 +71033,7 @@ module:
         autoExporting: 0
         enabled: 0
       eslint:
-        path: 'npm:///eslint!7.1.0'
+        path: 'npm:///eslint!7.32.0'
         autoExporting: 0
         enabled: 0
         criterion:
@@ -73155,9 +71225,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -73512,12 +71579,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -73588,11 +71649,11 @@ module:
           export: 1
     consistency:
       ../.module/wFilesNpm/out/wFilesNpm.out.will.yml:
-        hash: 013222e52c88272f9677cc7dcf18deca
-        size: 38549
+        hash: 8a1f248399f339e03d33ea1d0a99408a
+        size: 38173
       ../.module/wFilesNpm/will.yml:
-        hash: 13f847ba6a8663cc823ea37f075d92a9
-        size: 6608
+        hash: 72cea34905da36dcf58dd7e702068308
+        size: 6478
   ../.module/wNpmTools/:
     about:
       name: wNpmTools
@@ -73884,9 +71945,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -74222,12 +72280,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -74691,9 +72743,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -75048,12 +73097,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -75124,11 +73167,11 @@ module:
           export: 1
     consistency:
       ../.module/wNpmTools/out/wNpmTools.out.will.yml:
-        hash: 5b7fe6dd18c9f08b6f70f8ff5d7f0c54
-        size: 40450
+        hash: 4a6d70601043461657d438eb0c11fc0e
+        size: 40072
       ../.module/wNpmTools/will.yml:
-        hash: f1077ae6d55bb84dc14a51c6cb30058d
-        size: 6568
+        hash: 0d4fa9aa1207dec2557ef00a5722bef9
+        size: 6427
   ../.module/wFiles/:
     about:
       name: wFiles
@@ -75452,9 +73495,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -75790,12 +73830,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -76282,9 +74316,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -76639,12 +74670,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -76715,11 +74740,11 @@ module:
           export: 1
     consistency:
       ../.module/wFiles/out/wFiles.out.will.yml:
-        hash: 371c3f71363c22bf4019ae289b629a23
-        size: 43283
+        hash: fed4cae2aaec078d2b5b7b6f2627a579
+        size: 42905
       ../.module/wFiles/will.yml:
-        hash: 3c39f4be531778b85758b8eea7607caa
-        size: 8253
+        hash: b21e41011b05ca7d4aee1c051b19f5be
+        size: 8114
   ../.module/wGdf/:
     about:
       name: wGdf
@@ -77051,9 +75076,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -77389,12 +75411,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -77893,9 +75909,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -78250,12 +76263,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -78326,11 +76333,11 @@ module:
           export: 1
     consistency:
       ../.module/wGdf/out/wGdf.out.will.yml:
-        hash: 76a8b19feebbc2ea657a5554b9bb4ed7
-        size: 42536
+        hash: fad0ba0af0051fdea2beb01d5fe3b865
+        size: 42158
       ../.module/wGdf/will.yml:
-        hash: f57ea7f55d17bb641af3b9ef673e6b4a
-        size: 7477
+        hash: abc0d5cfa96a6e11ca38db1cd22642c6
+        size: 7336
   ../.module/wStateStorage/:
     about:
       name: wStateStorage
@@ -78629,9 +76636,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -78967,12 +76971,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -79406,9 +77404,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -79763,12 +77758,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -79839,11 +77828,11 @@ module:
           export: 1
     consistency:
       ../.module/wStateStorage/out/wStateStorage.out.will.yml:
-        hash: d4114d13fe04898e34245ca617ebd0f0
-        size: 39386
+        hash: e449acacb45db89a65c9e11b45673d95
+        size: 39008
       ../.module/wStateStorage/will.yml:
-        hash: 99f66eb7ef60917639a984cbea94450b
-        size: 6990
+        hash: 7bad3233e34a2aaa2caaeaf136eee216
+        size: 6849
   ../.module/wRegexpObject/:
     about:
       name: wRegexpObject
@@ -80148,9 +78137,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -80486,12 +78472,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -80932,9 +78912,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -81289,12 +79266,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -81365,11 +79336,11 @@ module:
           export: 1
     consistency:
       ../.module/wRegexpObject/out/wRegexpObject.out.will.yml:
-        hash: 44b99b8019dadd9a864ad254831e52f6
-        size: 39486
+        hash: fa8c578580ef7016a35b94f883307b04
+        size: 39108
       ../.module/wRegexpObject/will.yml:
-        hash: 9707816f61463baa357b15d9a18363e7
-        size: 7138
+        hash: 555e5fd6fdaf2739355b23657b92d1fa
+        size: 6997
   ../.module/wVerbal/:
     about:
       name: wVerbal
@@ -81661,9 +79632,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -81999,12 +79967,6 @@ module:
           - 'step::doc.export'
         criterion:
           content: doc
-          export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
           export: 1
       export:
         steps:
@@ -82431,9 +80393,6 @@ module:
           content: npm
         inherit:
           - module.export
-      npm.publish:
-        opts:
-          shell: npm publish
       npm.generate.debug.raw:
         opts:
           entryPath: 'path::entry.out.*=1'
@@ -82788,12 +80747,6 @@ module:
         criterion:
           content: doc
           export: 1
-      npm.export:
-        steps:
-          - 'step::npm.publish'
-        criterion:
-          content: npm
-          export: 1
       export:
         steps:
           - 'build::proto.export'
@@ -82864,8 +80817,8 @@ module:
           export: 1
     consistency:
       ../.module/wVerbal/out/wVerbal.out.will.yml:
-        hash: 878ffae0ec86f9ad7e95800315687261
-        size: 38645
+        hash: 0a6496427d2d2b180bfc6f462af4aafa
+        size: 38267
       ../.module/wVerbal/will.yml:
-        hash: 860cdd30455975029cbb1b35ddbe1af4
-        size: 6700
+        hash: 738b48b14f86c81287dffe05e0a21f50
+        size: 6559
