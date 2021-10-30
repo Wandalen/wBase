@@ -3,7 +3,7 @@ root:
   - wBase.out
 consistency:
   ../will.yml: &ref_0
-    hash: 0694ba07dd90a6dda9762d74604c067a
+    hash: 3112283ca66a4653f5ae0437759f29bf
     size: 11301
   ../.module/wTools/will.yml: &ref_5
     hash: ae07b9e8ea04811320e5d1b68318304f
@@ -323,7 +323,7 @@ module:
       name: wBase
       org: noorg
       description: Aggregates other base modules in single module.
-      enabled: 0
+      enabled: 1
       version: 0.1.0
       license: MIT
       npm.name: wbase
@@ -1312,7 +1312,7 @@ module:
       name: wBase
       org: noorg
       description: Aggregates other base modules in single module.
-      enabled: 0
+      enabled: 1
       version: 0.1.0
       license: MIT
       npm.name: wbase
@@ -2206,7 +2206,7 @@ module:
           - 'build::npm'
     consistency:
       ../will.yml:
-        hash: 0694ba07dd90a6dda9762d74604c067a
+        hash: 3112283ca66a4653f5ae0437759f29bf
         size: 11301
   ../.module/wTools/:
     about:
