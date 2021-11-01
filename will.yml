@@ -315,8 +315,23 @@ submodule:
   wTools:
     path: 'git+https:///github.com/Wandalen/wTools.git'
     enabled: 1
+  wEntityBasic:
+    path: 'git+https:///github.com/Wandalen/wEntityBasic.git'
+    enabled: 1
+  wLooker:
+    path: 'git+https:///github.com/Wandalen/wLooker.git'
+    enabled: 1
   wPathBasic:
     path: 'git+https:///github.com/Wandalen/wPathBasic.git'
+    enabled: 1
+  wBlueprint:
+    path: 'git+https:///github.com/Wandalen/wBlueprint.git'
+    enabled: 1
+  wIntrospectorBasic:
+    path: 'git+https:///github.com/Wandalen/wIntrospectorBasic.git'
+    enabled: 1
+  wIntrospectorExtra:
+    path: 'git+https:///github.com/Wandalen/wIntrospectorExtra.git'
     enabled: 1
   wTraverser:
     path: 'git+https:///github.com/Wandalen/wTraverser.git'
@@ -342,9 +357,6 @@ submodule:
   wInstancing:
     path: 'git+https:///github.com/Wandalen/wInstancing.git'
     enabled: 1
-  wLooker:
-    path: 'git+https:///github.com/Wandalen/wLooker.git'
-    enabled: 1
   wEqualer:
     path: 'git+https:///github.com/Wandalen/wEqualer.git'
     enabled: 1
@@ -362,9 +374,6 @@ submodule:
     enabled: 1
   wProcessWatcher:
     path: 'git+https:///github.com/Wandalen/wProcessWatcher.git'
-    enabled: 1
-  wBlueprint:
-    path: 'git+https:///github.com/Wandalen/wBlueprint.git'
     enabled: 1
   wUri:
     path: 'git+https:///github.com/Wandalen/wUri.git'
@@ -405,15 +414,6 @@ submodule:
   wSelectorExtra:
     path: 'git+https:///github.com/Wandalen/wSelectorExtra.git'
     enabled: 1
-  wEntityBasic:
-    path: 'git+https:///github.com/Wandalen/wEntityBasic.git'
-    enabled: 1
-  wIntrospectorBasic:
-    path: 'git+https:///github.com/Wandalen/wIntrospectorBasic.git'
-    enabled: 1
-  wIntrospectorExtra:
-    path: 'git+https:///github.com/Wandalen/wIntrospectorExtra.git'
-    enabled: 1
   wLogger:
     path: 'git+https:///github.com/Wandalen/wLogger.git'
     enabled: 1
@@ -443,6 +443,9 @@ submodule:
     enabled: 1
   wGitPath:
     path: 'git+https:///github.com/Wandalen/wGitPath.git'
+    enabled: 1
+  wRepoBasic:
+    path: 'git+https:///github.com/Wandalen/wRepoBasic.git'
     enabled: 1
   wGitTools:
     path: 'git+https:///github.com/Wandalen/wGitTools.git'
