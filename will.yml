@@ -2,7 +2,7 @@ about:
   name: wBase
   description: Aggregates other base modules in single module.
   version: 0.1.0
-  enabled: 1
+  enabled: 0
   license: MIT
   npm.name: wbase
   author: Kostiantyn Wandalen <wanalen@01.school>
