@@ -1,6 +1,6 @@
 {
   "name": "wbase",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "description": "Aggregates other base modules in single module.",
   "author": "Kostiantyn Wandalen <wandalen@obox.systems>",
   "license": "MIT",
@@ -27,7 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "wTesting": "gamma",
+    "wTesting": "",
     "eslint": "7.32.0"
   },
   "keywords": [
