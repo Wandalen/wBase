@@ -333,12 +333,12 @@ module:
       version: 0.1.0
       license: MIT
       npm.name: wbase
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords: &ref_1
         - wTools
         - base
       contributors: &ref_2
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters: &ref_3
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -1326,7 +1326,7 @@ module:
       version: 0.1.0
       license: MIT
       npm.name: wbase
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords: *ref_1
       contributors: *ref_2
       interpreters: *ref_3
@@ -2234,7 +2234,7 @@ module:
       version: 0.9.3
       license: MIT
       npm.name: wTools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - base
         - basic
@@ -2245,7 +2245,7 @@ module:
         - wBase
         - generic
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Pablo Garcimartin <pablogarcimartinruiz@gmail.com>
@@ -2910,7 +2910,7 @@ module:
       version: 0.9.3
       license: MIT
       npm.name: wTools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - base
         - basic
@@ -2921,7 +2921,7 @@ module:
         - wBase
         - generic
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Pablo Garcimartin <pablogarcimartinruiz@gmail.com>
@@ -4094,11 +4094,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wentitybasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -4778,11 +4778,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wentitybasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -5578,11 +5578,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wlooker
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -6266,11 +6266,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wlooker
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -7064,7 +7064,7 @@ module:
       version: 0.8.0
       license: MIT
       npm.name: wpathbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -7074,7 +7074,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
         - Artem Bohush <art.bohush@gmail.com>
@@ -7761,7 +7761,7 @@ module:
       version: 0.8.0
       license: MIT
       npm.name: wpathbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -7771,7 +7771,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
         - Artem Bohush <art.bohush@gmail.com>
@@ -8574,12 +8574,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wblueprint
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -9240,12 +9240,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wblueprint
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -10034,11 +10034,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wintrospectorbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -10719,11 +10719,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wintrospectorbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -11518,11 +11518,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wintrospectorextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -12206,11 +12206,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wintrospectorextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -13014,11 +13014,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wtraverser
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -13700,11 +13700,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wtraverser
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -14496,11 +14496,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocedure
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -15185,11 +15185,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocedure
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -15987,11 +15987,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wresolver
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -16670,11 +16670,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wresolver
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -17466,11 +17466,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstringer
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -18147,11 +18147,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstringer
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -18953,7 +18953,7 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wpathtools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -18962,7 +18962,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
@@ -19652,7 +19652,7 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wpathtools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -19661,7 +19661,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
@@ -20465,7 +20465,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wpath
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -20474,7 +20474,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -21155,7 +21155,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wpath
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -21164,7 +21164,7 @@ module:
         - uri
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -21954,14 +21954,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wcloner
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - clone
         - cloner
         - deep clone
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -22642,14 +22642,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wcloner
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - clone
         - cloner
         - deep clone
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -23442,13 +23442,13 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: winstancing
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wInstancing
         - instances
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -24129,13 +24129,13 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: winstancing
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wInstancing
         - instances
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -24926,11 +24926,11 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wequaler
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -25615,11 +25615,11 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wequaler
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -26415,7 +26415,7 @@ module:
       version: 0.7.0
       license: MIT
       npm.name: wuribasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -26424,7 +26424,7 @@ module:
         - URI
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -27114,7 +27114,7 @@ module:
       version: 0.7.0
       license: MIT
       npm.name: wuribasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -27123,7 +27123,7 @@ module:
         - URI
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -27930,11 +27930,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wresolverextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -28615,11 +28615,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wresolverextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -29410,12 +29410,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstringsextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wStringsExtra
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -30107,12 +30107,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstringsextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wStringsExtra
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -30920,14 +30920,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocess
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - exec file
         - shell script
         - run program
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -31639,14 +31639,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocess
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - exec file
         - shell script
         - run program
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -32492,13 +32492,13 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocesswatcher
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - watch
         - child process
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -33194,13 +33194,13 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wprocesswatcher
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - watch
         - child process
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -34003,7 +34003,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wuri
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -34012,7 +34012,7 @@ module:
         - URI
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -34693,7 +34693,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wuri
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wPath
@@ -34702,7 +34702,7 @@ module:
         - URI
         - file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -35500,12 +35500,12 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wEventHandler
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - Events
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -36186,12 +36186,12 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wEventHandler
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - Events
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -36981,7 +36981,7 @@ module:
       npm.directories:
         doc: doc
         main: proto/wtools/abase/l4/ArraySorted.s
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - sorted array
         - wTools
@@ -36991,7 +36991,7 @@ module:
         - search in sorted array
         - sort
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -37672,7 +37672,7 @@ module:
       npm.directories:
         doc: doc
         main: proto/wtools/abase/l4/ArraySorted.s
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - sorted array
         - wTools
@@ -37682,7 +37682,7 @@ module:
         - search in sorted array
         - sort
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -38470,7 +38470,7 @@ module:
       version: 0.4.169
       license: MIT
       npm.name: wProto
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wProto
@@ -38480,7 +38480,7 @@ module:
         - Prototype
         - Incapsulation
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -39162,7 +39162,7 @@ module:
       version: 0.4.169
       license: MIT
       npm.name: wProto
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wProto
@@ -39172,7 +39172,7 @@ module:
         - Prototype
         - Incapsulation
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -39981,11 +39981,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wweburibasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -40668,11 +40668,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wweburibasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -41466,11 +41466,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wfieldsstack
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -42157,11 +42157,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wfieldsstack
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -42956,11 +42956,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wreplicator
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -43640,11 +43640,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wreplicator
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -44434,7 +44434,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wCopyable
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wCopyable
@@ -44447,7 +44447,7 @@ module:
         - init
         - finit
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -45143,7 +45143,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wCopyable
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wCopyable
@@ -45156,7 +45156,7 @@ module:
         - init
         - finit
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -45964,11 +45964,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wselector
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -46656,11 +46656,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wselector
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -47458,14 +47458,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wlookerextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wReplicator
         - wResolver
         - complex data structure
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -48144,14 +48144,14 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wlookerextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wReplicator
         - wResolver
         - complex data structure
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -48940,11 +48940,11 @@ module:
       native: 1
       license: MIT
       npm.name: wbasenodejscpp
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -49630,11 +49630,11 @@ module:
       native: 1
       license: MIT
       npm.name: wbasenodejscpp
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -50536,11 +50536,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: warraysparse
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -51218,11 +51218,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: warraysparse
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -52008,11 +52008,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wselectorextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -52691,11 +52691,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wselectorextra
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -53492,7 +53492,7 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wLogger
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - logger
@@ -53501,7 +53501,7 @@ module:
         - colorful log
         - multilevel log
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -54204,7 +54204,7 @@ module:
       version: 0.6.0
       license: MIT
       npm.name: wLogger
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - logger
@@ -54213,7 +54213,7 @@ module:
         - colorful log
         - multilevel log
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -55072,7 +55072,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wConsequence
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - Callback
@@ -55083,7 +55083,7 @@ module:
         - Async
         - Promise
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
       interpreters:
@@ -55792,7 +55792,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wConsequence
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - Callback
@@ -55803,7 +55803,7 @@ module:
         - Async
         - Promise
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
       interpreters:
@@ -56620,7 +56620,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wColor
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - color
@@ -56632,7 +56632,7 @@ module:
         - rgba
         - hsl
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -57313,7 +57313,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wColor
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - color
@@ -57325,7 +57325,7 @@ module:
         - rgba
         - hsl
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -58146,7 +58146,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wColor256
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - color
@@ -58158,7 +58158,7 @@ module:
         - rgba
         - hsl
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -58838,7 +58838,7 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wColor256
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - color
@@ -58850,7 +58850,7 @@ module:
         - rgba
         - hsl
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -59644,9 +59644,9 @@ module:
         - tools
         - wTools
       license: MIT
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       npm.name: wremote
       npm.scripts:
         test: 'wtest .run "proto/**" rapidity:-1'
@@ -60330,9 +60330,9 @@ module:
         - tools
         - wTools
       license: MIT
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       npm.name: wremote
       npm.scripts:
         test: 'wtest .run "proto/**" rapidity:-1'
@@ -61144,14 +61144,14 @@ module:
       version: 0.3.0
       license: MIT
       npm.name: wfilesbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
         - file
         - standardized abstract interface
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -61873,14 +61873,14 @@ module:
       version: 0.3.0
       license: MIT
       npm.name: wfilesbasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
         - file
         - standardized abstract interface
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -62777,9 +62777,9 @@ module:
         - standardized abstract interface
         - http
       license: MIT
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -63452,9 +63452,9 @@ module:
         - standardized abstract interface
         - http
       license: MIT
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -64233,12 +64233,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: whttp
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -64914,12 +64914,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: whttp
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -65712,7 +65712,7 @@ module:
       version: 0.3.0
       license: MIT
       npm.name: wfilesgit
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
@@ -65720,7 +65720,7 @@ module:
         - standardized abstract interface
         - git
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -66394,7 +66394,7 @@ module:
       version: 0.3.0
       license: MIT
       npm.name: wfilesgit
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
@@ -66402,7 +66402,7 @@ module:
         - standardized abstract interface
         - git
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -67194,12 +67194,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgitpath
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -67903,12 +67903,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgitpath
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -68726,12 +68726,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wrepobasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -69413,12 +69413,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wrepobasic
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -70225,12 +70225,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgittools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -70937,12 +70937,12 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgittools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - graph
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -71772,7 +71772,7 @@ module:
       version: 0.1.0
       license: MIT
       npm.name: wfilesnpm
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - 'wTools,'
         - 'wFilesNpm,'
@@ -71780,7 +71780,7 @@ module:
         - 'read file,'
         - write file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
@@ -72455,7 +72455,7 @@ module:
       version: 0.1.0
       license: MIT
       npm.name: wfilesnpm
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - 'wTools,'
         - 'wFilesNpm,'
@@ -72463,7 +72463,7 @@ module:
         - 'read file,'
         - write file
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
       interpreters:
@@ -73252,12 +73252,12 @@ module:
       version: 0.9.0
       license: MIT
       npm.name: wnpmtools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Artem Bohush <art.bohush@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -73937,12 +73937,12 @@ module:
       version: 0.9.0
       license: MIT
       npm.name: wnpmtools
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - tools
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Artem Bohush <art.bohush@gmail.com>
       interpreters:
         - njs >= 10.0.0
@@ -74788,14 +74788,14 @@ module:
       version: 0.7.0
       license: MIT
       npm.name: wFiles
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
         - file
         - standardized abstract interface
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -75505,14 +75505,14 @@ module:
       version: 0.7.0
       license: MIT
       npm.name: wFiles
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
         - wFiles
         - file
         - standardized abstract interface
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
         - Dmytro Kryvoruchko <dm.vict.kr@gmail.com>
@@ -76350,11 +76350,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgdf
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -77075,11 +77075,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wgdf
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -77942,11 +77942,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstatestorage
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -78634,11 +78634,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wstatestorage
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -79437,7 +79437,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wRegexpObject
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - base
         - basic
@@ -79450,7 +79450,7 @@ module:
         - generic
         - underscore
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
       interpreters:
@@ -80135,7 +80135,7 @@ module:
       version: 0.5.0
       license: MIT
       npm.name: wRegexpObject
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - base
         - basic
@@ -80148,7 +80148,7 @@ module:
         - generic
         - underscore
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
         - Volodymyr M. <volodymyr.migdal@gmail.com>
         - Ihor O. <iostashvxi@gmail.com>
       interpreters:
@@ -80943,11 +80943,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wverbal
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
@@ -81628,11 +81628,11 @@ module:
       version: 0.4.0
       license: MIT
       npm.name: wverbal
-      author: Kostiantyn Wandalen <wanalen@01.school>
+      author: Kostiantyn Wandalen <wandalen@obox.systems>
       keywords:
         - wTools
       contributors:
-        - Kostiantyn Wandalen <wanalen@01.school>
+        - Kostiantyn Wandalen <wandalen@obox.systems>
       interpreters:
         - njs >= 10.0.0
         - chrome >= 60.0.0
