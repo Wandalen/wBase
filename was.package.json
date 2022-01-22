@@ -1,6 +1,6 @@
 {
   "name": "wbase",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "Aggregates other base modules in single module.",
   "author": "Kostiantyn Wandalen <wandalen@obox.systems>",
   "license": "MIT",
